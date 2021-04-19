@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NATUQUEENS -ACADEMY</title>
+    <link rel="shortcut icon" href="https://naturalqueen.com.vn/wp-content/uploads/2019/06/logo.png">
+    <meta name="description" content="Spa and Beauty">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/Content/EcademySpa/assets/fonts/icon-fonts/styles.css">
+    <!-- build:css assets/styles/vendors-min.css -->
+    <link rel="stylesheet" href="~/Content/EcademySpa/assets/styles/plugins.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/EcademySpa/vendors/FancyBox/source/jquery.fancybox.css">
+    <link rel="stylesheet" href="~/Content/EcademySpa/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- endbuild -->
+    <!-- build:css assets/styles/main-min.css -->
+    <link rel="stylesheet" href="~/Content/EcademySpa/assets/styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js vendors/vendors-compressed/modernizr.js -->
+    <script src="~/Content/EcademySpa/vendors/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+    <link href="~/Content/EcademySpa/assets/fonts/icon-fonts/styles.css" rel="stylesheet" />
+    <link href="~/Content/EcademySpa/vendors/FancyBox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+    <link rel="stylesheet" href="~/Content/EcademySpa/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link href="~/Content/EcademySpa/assets/styles/main.css" rel="stylesheet" />
+    <!-- endbuild -->
+    <!-- build:js vendors/vendors-compressed/modernizr.js -->
+    <script src="~/Content/EcademySpa/vendors/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css">
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=1290435587801291&autoLogAppEvents=1" nonce="cmPgTGqX"></script>
+
+    <script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type" : "LocalBusiness",
+        "name" : "NATUQUEENS",
+        "image" : "http://natuqueens.edu.vn/Content/EcademySpa/images/logo.png",
+        "description" : "NATUQUEENS",
+        "url" : "http://natuqueens.edu.vn/home",
+        "brand" : {
+        "@@type" : "Brand",
+        "name" : "NATUQUEENS",
+        "logo" : "http://natuqueens.edu.vn/Content/EcademySpa/images/logo.png",
+        "telephone" : "02862833838"},
+        "address": {
+        "addressLocality": "Ho Chi Minh City, VN",
+        "streetAddress": "61 Bàu Cát 1, phường 14, quận Tân Bình"
+        },
+        "potentialAction": {
+        "@@type": "SearchAction",
+        "target": "http://natuqueens.edu.vn",
+        "query-input": "required name=NATUQUEENS"
+        }
+    </script>
+    @if (ViewBag.Title != null)
+    {
+        <title>@ViewBag.Title </title>
+    }
+    else
+    {
+        <title> Trung Tâm Đào Tạo Spa Chuyên Sâu |natuqueens.edu.vn </title>
+    }
+    <meta name="adx:sections" content="http://natuqueens.edu.vn">
+    @if (ViewBag.Description != null)
+    {
+        <meta name="description" content="@ViewBag.Description">
+        <meta property="og:description" content="@ViewBag.Description">
+
+    }
+    else
+    {
+        <meta name="description" content="Học viện đang là sự lựa chọn ưu tiên của hàng ngàn học viên trong nghành chăm sóc da và spa. Khóa đào tạo Spa – chăm sóc da chuyên nghiệp luôn mang đến cho học viên những kiến thức chuyên sâu nhất.">
+
+    }
+    @if (ViewBag.Image != null)
+    {
+        <meta property="og:image" content="@ViewBag.Image">
+    }
+    else
+    {
+        <meta property="og:image" content="http://natuqueens.edu.vn/Content/EcademySpa/images/logo.png">
+    }
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Trung Tâm Đào Tạo Spa Chuyên Sâu - natuqueens">
+    <meta property="og:url" content="http://natuqueens.edu.vn" ">
+    <meta property="og:site_name" content="natuqueens.edu.vn" ">
+    @{
+        ViewBag.Title = "ĐÀO TẠO THẨM MỸ NATURALQUEEN |natuqueens.edu.vn";
+        ViewBag.Description = "Học Viện Chuyên Đào Tạo Các Chuyên Viên Nghành Thẩm Mỹ Vững Tay Nghề, " +
+             "Uy Tín, Chất Lượng. Các Khóa Phun Xăm, Điêu Khắc Mày, Môi. " +
+             "Học viên được đào tạo đúng như chương trình học.””";
+        ViewBag.Keywords = "Học viện thẩm mỹ Naturalqueen, đào tạo thẩm mỹ Naturalqueen, NATURALQUEEN, Naturalqueen, NaturalQueen, naturalqueen, Natural Queen, natural queen, NATURAL QUEEN";
+    }
+    <style>
+        body {
+            font-family: 'Roboto';
+        }
+
+        .ro-main clearfix {
+            background-color: #DECA9E;
+<<<<<<< .mine
+          width:40px;
+          height:auto;
+          border: 1px solid black;
+          right:30px;
+||||||| .r109
+=======
+            margin-top: -28px;
+>>>>>>> .r111
+        }
+        #ro-backtop.ro-show {
+    display: block;
+   
+   
+}
+        #ro-backtop {
+    transition: all 0.4s;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #444444;
+    position: fixed;
+    display: none;
+    bottom: 50px;
+    right: -97px;
+    background-color: #FFFFFF;
+    z-index: 992;
+    text-align: center;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    outline: none;
+    margin: 120px;
+    
+}
+   
+    </style>
+
+</head>
+
+<body>
+
+    @Html.Action("getHeader", "Home")
+
+
+  
+
+    <div id="ro-main" class="ro-main clearfix">
+        @RenderBody()
+        @Html.Action("getFooter", "Home")
+
+        <div id="ro-backtop">
+            <a href="#">  <i class="icon-up"></i> </a>
+            <a href="#"> <i class="fa fa-facebook"></i></a>
+            <a href="#"> <i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a> 
+            <a href="#"><i class="fa fa-google"></i></a>
+        </div>
+    </div>
+  
+
+
+
+
+
+    <script src="~/Content/EcademySpa/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="~/Content/EcademySpa/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/Content/EcademySpa/vendors/flexslider/jquery.flexslider-min.js"></script>
+    <script src="~/Content/EcademySpa/vendors/jssor-slider/js/jssor.slider.mini.js"></script>
+    <script src="~/Content/EcademySpa/vendors/jquery-ui/ui/minified/datepicker.min.js"></script>
+    <script src="~/Content/EcademySpa/vendors/countdown/jquery.plugin.min.js"></script>
+    <script src="~/Content/EcademySpa/vendors/countdown/jquery.countdown.min.js"></script>
+    <script src="~/Content/EcademySpa/vendors/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+    <script src="~/Content/EcademySpa/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
+    <script src="~/Content/EcademySpa/vendors/jQuery.dotdotdot/src/js/jquery.dotdotdot.min.js"></script>
+    <script src="~/Content/EcademySpa/vendors/elevatezoom-master/jquery.elevatezoom.js"></script>
+    <script src="~/Content/EcademySpa/vendors/FancyBox/source/jquery.fancybox.js"></script>
+    <script src="~/Content/EcademySpa/assets/scripts/main.js"></script>
+    @*<script src="~/Content/EcademySpa/vendors/jquery/dist/jquery.min.js"></script>*@
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js"></script>
+
+    <!-- (Optional) Latest compiled and minified JavaScript translation files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/i18n/defaults-vi_VN.min.js"></script>
+
+    <!-- endbuild -->
+    <script>(function (b, o, i, l, e, r) { b.GoogleAnalyticsObject = l; b[l] || (b[l] = function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date; e = o.createElement(i); r = o.getElementsByTagName(i)[0]; e.src = '../../www.google-analytics.com/analytics.js'; r.parentNode.insertBefore(e, r) }(window, document, 'script', 'ga')); ga('create', 'UA-57387972-1'); ga('send', 'pageview');</script>
+
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('.selectpicker').selectpicker({
+            liveSearch: true,
+            showSubtext: true
+        });
+    });
+</script>
+
+
+<!-- Mirrored from demo.9wpthemes.com/aqua/update-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 Jun 2020 02:19:47 GMT -->
+</html>

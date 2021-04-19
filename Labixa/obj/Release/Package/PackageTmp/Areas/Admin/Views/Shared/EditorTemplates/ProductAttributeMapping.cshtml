@@ -1,0 +1,28 @@
+﻿@using Outsourcing.Core
+@model Outsourcing.Data.Models.ProductAttributeMapping
+@{
+    var template = "";
+    if (Model.ProductAttribute.ControlType == "TextArea")
+    {
+        template = "Ckeditor";
+    }
+    else if (Model.ProductAttribute.ControlType.ToLower().Equals("checkbox"))
+    {
+        template = "CheckBox";
+    }
+}
+<div class="form-group ">
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.ProductId)
+    @Html.HiddenFor(model => model.ProductAttributeId)
+    @Html.HiddenFor(model => model.IsRequired)
+    @Html.HiddenFor(model => model.DisplayOrder)
+
+
+    <label class="col-sm-3 control-label no-padding-right" for="">@Model.ProductAttribute.Description</label>
+    <div class="col-sm-9">
+
+        @Html.EditorFor(model => model.Value, template)
+        @Html.ValidationMessageFor(model => model.Value)
+    </div>
+</div>

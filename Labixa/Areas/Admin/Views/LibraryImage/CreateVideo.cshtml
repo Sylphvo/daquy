@@ -1,0 +1,187 @@
+﻿@{
+    ViewBag.Title = "Thêm video";
+}
+@using Outsourcing.Data.Utils
+@section scripts{
+    <script src="~/Content/ckeditor/ckeditor.js"></script>
+    <script src="~/Content/ckeditor/config.js"></script>
+}
+@section breadcrumb
+{
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            try { ace.settings.check('breadcrumbs', 'fixed') } catch (e) { }
+        </script>
+
+        <ul class="breadcrumb">
+            <li>
+                <i class="icon-home home-icon"></i>
+                <a href="/">Home</a>
+            </li>
+            @if (ViewBag.Type == (int)Enums.LibraryImageType.Video)
+            {
+                <li>
+                    <i class="icon-edit"></i>
+                    <a href="/Admin/LibraryImage?type=@((int)Outsourcing.Data.Utils.Enums.LibraryImageType.Video)">Quản lý video</a>
+                </li>
+                <li class="active">Thêm mới video</li>
+            }
+            @if (ViewBag.Type == (int)Enums.LibraryImageType.Course)
+            {
+                <li>
+                    <i class="icon-edit"></i>
+                    <a href="/Admin/ProductCategory">Quản lý danh mục</a>
+                </li>
+                <li>
+                    <i class="icon-edit"></i>
+                    <a href="/Admin/Product/Detail?id=@ViewBag.CateId">Khóa học</a>
+                </li>
+                <li>
+                    <i class="icon-edit"></i>
+                    <a href="/Admin/LibraryImage/DetailProduct?id=@ViewBag.Id&cateId=@ViewBag.CateId">Chi tiết khóa học</a>
+                </li>
+                <li class="active">Thêm mới video</li>
+            }
+
+        </ul>
+    </div>
+}
+<div class="page-content">
+    <div class="row" style="max-height: 125px">
+        <div class="alert alert-block alert-info">
+            Thêm mới video
+        </div>
+        <div class="type-chooser">
+            @Html.DropDownList("VideoSelector",
+                                     new SelectList(ViewBag.Selector, "Value", "Text", 2),
+                                     "Chọn loại video",
+                                     new { @class = "dropdown-bar", @id = "typeVideo", onchange = "changeType(this)" })
+        </div>
+        <textarea id="iframe" rows="8" cols="50" style="resize:none" hidden onchange="previewIframe(this)">
+
+        </textarea>
+    </div>
+    <div class="row">
+        <div id="finishBtn" style="height:40px;font-size:18px;" class=" btn btn-primary btn-fw btn-lg ml-3" onclick="getFile()">Nhấn để tải video lên</div>
+        <input type="file" hidden style="display:none" id="videoTemp" accept="video/*">
+        @*<img id='img-upload' class="mt-3" />*@
+        <br />
+        <video id="previewVideo" width="560" height="315" controls>
+            <source src="mov_bbb.mp4" id="video_here">
+            Your browser does not support HTML5 video.
+        </video>
+        <div id="previewYoutube">
+
+        </div>
+    </div>
+    <div class="row">
+        <div style="text-align: center;">
+            <div role="button" id="finishBtn" style="height:36px;font-size:18px;" class="btn btn-primary btn-fw btn-lg" onclick="saveResult()">Lưu</div>
+        </div>
+    </div>
+</div>
+<script>
+    function getFile() {
+        $("#videoTemp").click();
+    }
+    var video;
+    function videoPreview(input) {
+        var $source = $('#video_here');
+        $source[0].src = URL.createObjectURL(input.files[0]);
+        $source.parent()[0].load();
+        video = input.files[0];
+    }
+
+    $("#videoTemp").change(function () {
+        videoPreview(this);
+    })
+    function saveResult() {
+
+        var formData = new FormData();
+        var typeVideo = $("#typeVideo").val();
+            //formData.append("files", video);
+        formData.append("type",@ViewBag.Type);
+        if ("@ViewBag.Id"!="") {
+            formData.append("productId",@ViewBag.Id);
+            formData.append("cateId",@ViewBag.CateId);
+        }
+
+        formData.append("typeVideo", typeVideo);
+
+        switch (typeVideo) {
+            case "1":
+                var iframe = $("#iframe").val();
+                formData.append("iframe", JSON.stringify(iframe));
+                $.ajax({
+                    url: "CreateVideo",
+                    method: "POST",
+                    data: formData,
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    success: function (result) {
+
+                        if (result.success == true) {
+                            alert("Lưu kết quả thành công");
+                            window.location.href = result.url;
+                        } else {
+                            alert("Có lỗi xảy ra");
+                        }
+                    }, error: function (data) {
+                    }
+                });
+                break;
+            case "2":
+                if (video === undefined) {
+                    alert("Vui lòng chọn video");
+                    break;
+                }
+                formData.append("files", video);
+                        $.ajax({
+                    url: "CreateVideo",
+                    method: "POST",
+                    data: formData,
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    success: function (result) {
+
+                        if (result.success == true) {
+                            alert("Lưu kết quả thành công");
+                            window.location.href = result.url;
+                        } else {
+                            alert("Có lỗi xảy ra");
+                        }
+                    }, error: function (data) {
+                    }
+                });
+                break;
+            default:
+        }
+
+
+    }
+    function changeType(e) {
+        var changeType = e.value;
+        switch (changeType) {
+            case "1":
+                $("#finishBtn").hide();
+                $("#previewVideo").hide();
+                $("#iframe").val('');
+                $("#iframe").show();
+                break;
+            case "2":
+                $("#finishBtn").show();
+                $("#previewVideo").show();
+                $("#iframe").hide();
+                $("#previewYoutube").empty();
+                break;
+            default:
+        }
+    }
+    function previewIframe(e) {
+        $("#previewYoutube").empty();
+        $("#previewYoutube").append(e.value);
+        //console.log(e.value);
+    }
+</script>

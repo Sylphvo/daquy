@@ -1,0 +1,17 @@
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\Outsourcing.Data.dll.config
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\Outsourcing.Data.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\Outsourcing.Data.pdb
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\EntityFramework.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\PagedList.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\EntityFramework.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\bin\Release\PagedList.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\obj\Release\Outsourcing.Data.csprojResolveAssemblyReference.cache
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\obj\Release\Outsourcing.Data.csproj.CoreCompileInputs.cache
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\obj\Release\Outsourcing.Data.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\obj\Release\Outsourcing.Data.pdb

@@ -1,0 +1,23 @@
+﻿<div class="column2 " style=" border-left: none; background-color: #f4f4f4;">
+
+
+    <div class="column_inner lbx-border lbx-sidebar">
+       
+        <aside>
+            <div id="" class="widget widget_recent_entries abc" style="margin-top:-30px">
+
+                @Html.Raw(@Html.Action("GetSideBarBanner", "Home"))
+
+            </div>
+
+            <div id="recent-posts-4" class="widget widget_recent_entries posts_holder">
+                <h5>Bài post gần đây</h5>		
+                <ul>
+                    @Html.Action("NewPost","Home")
+                </ul>
+            </div>
+
+        </aside>
+    </div>
+
+</div>

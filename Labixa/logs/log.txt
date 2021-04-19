@@ -1,0 +1,455 @@
+INFO  2020-12-30 23:51:19,208 215948ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-30 23:51:20,342 217082ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-30 23:51:54,580 251321ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-30 23:51:55,748 252489ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-30 23:54:59,149 435890ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-30 23:55:00,223 436963ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-30 23:59:37,107 713848ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-30 23:59:38,272 715012ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-31 00:05:37,279 1074020ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-31 00:05:38,960 1075701ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-31 00:12:19,694 1476435ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2020-12-31 00:12:21,403 1478144ms HomeController         MoveNext           - Start get account api dashboard
+DEBUG 2021-03-31 10:03:34,117  4761ms HomeController         MoveNext           - Debug message
+INFO  2021-03-31 10:03:34,158  4802ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202103311003341575/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-03-31 10:03:55,709 26353ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2021-03-31 10:03:57,748 28391ms HomeController         MoveNext           - End api account dashboard
+INFO  2021-03-31 10:07:37,812 248456ms HomeController         MoveNext           - Start get account api dashboard
+INFO  2021-03-31 10:07:39,771 250415ms HomeController         MoveNext           - End api account dashboard
+DEBUG 2021-03-31 10:08:38,465  4028ms HomeController         MoveNext           - Debug message
+INFO  2021-03-31 10:08:38,485  4048ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202103311008384848/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-03-31 10:14:37,270 362833ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202103311014372694/ /ddc53525c9e9f0d9850e8ca66a32c2a8/lennocnha/4184896365558232
+INFO  2021-03-31 10:14:43,257 368820ms CallApiAdminController MoveNext           - Success exchange{"code":2,"message":"Balance is not enough to do transaction"}
+INFO  2021-03-31 10:17:02,562 508125ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202103311017025628/ /ddc53525c9e9f0d9850e8ca66a32c2a8/lennocnha/4184896365558232
+INFO  2021-03-31 10:17:05,612 511175ms CallApiAdminController MoveNext           - Success exchange{"code":2,"message":"Balance is not enough to do transaction"}
+INFO  2021-03-31 10:18:55,666 621228ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202103311018556660/ /ddc53525c9e9f0d9850e8ca66a32c2a8/lennocnha/4184896365558232
+INFO  2021-03-31 10:18:58,811 624373ms CallApiAdminController MoveNext           - Success exchange{"code":2,"message":"Balance is not enough to do transaction"}
+INFO  2021-03-31 10:25:49,179 1034742ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202103311025491799/ /ddc53525c9e9f0d9850e8ca66a32c2a8/lennocnha/4184896365558232
+INFO  2021-03-31 10:25:52,051 1037614ms CallApiAdminController MoveNext           - Success exchange{"code":2,"message":"Balance is not enough to do transaction"}
+INFO  2021-03-31 10:53:51,458 2717021ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202103311053514576/ /ddc53525c9e9f0d9850e8ca66a32c2a8/lennocnha/4184896365558232
+INFO  2021-03-31 10:53:54,628 2720190ms CallApiAdminController MoveNext           - Success exchange{"code":2,"message":"Balance is not enough to do transaction"}
+INFO  2021-03-31 11:10:37,723 3723286ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202103311110377238/ /ddc53525c9e9f0d9850e8ca66a32c2a8/lennocnha/4184896365558232
+INFO  2021-03-31 11:10:40,479 3726042ms CallApiAdminController MoveNext           - Success exchange{"code":2,"message":"Balance is not enough to do transaction"}
+DEBUG 2021-04-03 17:55:30,257  6071ms HomeController         MoveNext           - Debug message
+INFO  2021-04-03 17:55:30,363  6177ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104031755303612/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-03 17:55:31,829  7643ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/3/2021 5:55:31 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 55
+DEBUG 2021-04-03 17:55:52,771 28584ms HomeController         MoveNext           - Debug message
+INFO  2021-04-03 17:55:52,771 28585ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104031755527719/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-03 17:55:53,401 29215ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/3/2021 5:55:53 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 55
+DEBUG 2021-04-06 20:43:30,888  5602ms HomeController         MoveNext           - Debug message
+INFO  2021-04-06 20:43:30,950  5664ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104062043309498/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+DEBUG 2021-04-06 20:43:57,603 32317ms HomeController         MoveNext           - Debug message
+INFO  2021-04-06 20:43:57,605 32319ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104062043576058/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-06 20:44:05,653 40367ms AccountController      Login              - tui là tui
+DEBUG 2021-04-08 11:18:33,776 147496ms HomeController         MoveNext           - Debug message
+INFO  2021-04-08 11:18:33,888 147608ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104081118338875/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-08 11:18:35,309 149029ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/8/2021 11:18:35 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 55
+INFO  2021-04-08 11:18:42,581 156300ms AccountController      Login              - tui là tui
+INFO  2021-04-08 11:18:45,585 159304ms AccountController      Login              - tui là tui
+INFO  2021-04-08 11:18:57,718 171438ms AccountController      MoveNext           - ORUG65DIN4
+DEBUG 2021-04-08 14:21:07,898 109905ms HomeController         MoveNext           - Debug message
+INFO  2021-04-08 14:21:08,022 110029ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104081421080202/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-08 14:21:09,734 111741ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/8/2021 2:21:09 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 55
+INFO  2021-04-08 14:21:13,155 115162ms AccountController      Login              - tui là tui
+INFO  2021-04-08 14:21:16,213 118220ms AccountController      Login              - tui là tui
+INFO  2021-04-08 14:21:33,766 135772ms AccountController      MoveNext           - ORUG65DIN4
+INFO  2021-04-08 14:22:30,434 192441ms HomeController         MoveNext           - Could not convert string to integer: 32f8d1aff9a0408889826407174c92b7. Path '[0].id', line 1, position 41.
+INFO  2021-04-08 14:25:41,820 383826ms HomeController         MoveNext           - Could not convert string to integer: 32f8d1aff9a0408889826407174c92b7. Path '[0].id', line 1, position 41.
+DEBUG 2021-04-08 14:34:38,911  7313ms HomeController         MoveNext           - Debug message
+INFO  2021-04-08 14:34:38,941  7343ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104081434389383/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-08 14:34:40,428  8830ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/8/2021 2:34:40 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 55
+INFO  2021-04-08 14:37:34,623 183025ms HomeController         MoveNext           - Could not convert string to integer: 32f8d1aff9a0408889826407174c92b7. Path '[0].id', line 1, position 41.
+DEBUG 2021-04-08 14:39:31,163  5614ms HomeController         MoveNext           - Debug message
+INFO  2021-04-08 14:39:31,179  5630ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104081439311782/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-08 14:39:32,797  7248ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/8/2021 2:39:32 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 55
+DEBUG 2021-04-08 14:40:03,525  5902ms HomeController         MoveNext           - Debug message
+INFO  2021-04-08 14:40:03,540  5917ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104081440035392/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-08 14:40:05,100  7478ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/8/2021 2:40:05 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 55
+INFO  2021-04-08 14:45:32,023 334401ms HomeController         MoveNext           - Could not convert string to integer: 32f8d1aff9a0408889826407174c92b7. Path '[0].id', line 1, position 41.
+DEBUG 2021-04-09 15:42:19,125 46930ms HomeController         MoveNext           - Debug message
+INFO  2021-04-09 15:42:19,569 47374ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104091542195645/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-09 15:42:21,150 48955ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/9/2021 3:42:21 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 56
+INFO  2021-04-09 15:42:32,425 60230ms AccountController      Login              - tui là tui
+INFO  2021-04-09 15:42:54,672 82476ms AccountController      MoveNext           - ORUG65DIN4
+DEBUG 2021-04-09 15:47:27,807  7664ms HomeController         MoveNext           - Debug message
+INFO  2021-04-09 15:47:27,835  7692ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104091547278326/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-09 15:47:29,514  9371ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/9/2021 3:47:29 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 56
+DEBUG 2021-04-09 15:51:08,540  4751ms HomeController         MoveNext           - Debug message
+INFO  2021-04-09 15:51:08,566  4777ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104091551085644/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-09 15:51:10,069  6280ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/9/2021 3:51:10 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 56
+DEBUG 2021-04-11 11:22:16,533  5714ms HomeController         MoveNext           - Debug message
+INFO  2021-04-11 11:22:16,593  5774ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104111122165911/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-11 11:22:17,910  7091ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/11/2021 11:22:17 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 56
+DEBUG 2021-04-12 08:51:08,012  6324ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 08:51:08,108  6419ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104120851081076/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 08:51:09,459  7770ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 8:51:09 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 56
+DEBUG 2021-04-12 08:51:45,157 43469ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 08:51:45,158 43470ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104120851451588/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 08:51:45,982 44293ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 8:51:45 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 56
+INFO  2021-04-12 08:51:50,579 48890ms AccountController      Login              - tui là tui
+INFO  2021-04-12 08:51:59,410 57722ms AccountController      MoveNext           - ORUG65DIN4
+INFO  2021-04-12 08:58:00,199 418510ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202104120858001950/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 08:58:04,124 422436ms CallApiAdminController MoveNext           - Success exchange{"code":1,"message":"Transaction success"}
+DEBUG 2021-04-12 10:25:52,209 30545ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:25:52,572 30908ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121025525705/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:25:53,851 32187ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:25:53 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 56
+INFO  2021-04-12 10:25:59,411 37747ms AccountController      Login              - tui là tui
+INFO  2021-04-12 10:26:02,335 40671ms AccountController      Login              - tui là tui
+INFO  2021-04-12 10:26:11,529 49865ms AccountController      MoveNext           - ORUG65DIN4
+DEBUG 2021-04-12 10:27:52,892  7307ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:27:52,915  7330ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121027529138/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:27:54,384  8798ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:27:54 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__12.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 56
+DEBUG 2021-04-12 10:33:08,938  5592ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:33:08,957  5611ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121033089551/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:33:10,408  7063ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:33:10 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-12 10:34:41,857 98511ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202104121034418530/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 10:34:42,423 99078ms CallApiAdminController MoveNext           - Success exchange
+INFO  2021-04-12 10:34:46,699 103354ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202104121034466999/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 10:34:47,220 103875ms CallApiAdminController MoveNext           - Success exchange
+DEBUG 2021-04-12 10:36:26,136  5581ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:36:26,153  5598ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121036261521/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:36:27,669  7115ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:36:27 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-12 10:37:14,520 53966ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202104121037145197/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 10:37:15,049 54495ms CallApiAdminController MoveNext           - Success exchange
+DEBUG 2021-04-12 10:38:56,858  5528ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:38:56,876  5546ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121038568759/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:38:58,173  6842ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:38:58 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 10:40:31,603  5212ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:40:31,619  5228ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121040316182/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:40:33,035  6645ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:40:33 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 10:41:27,236  5090ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:41:27,253  5107ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121041272524/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:41:28,739  6592ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:41:28 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-12 10:41:58,035 35889ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202104121041580339/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 10:41:58,565 36419ms CallApiAdminController MoveNext           - Success exchange
+DEBUG 2021-04-12 10:43:23,531  4901ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:43:23,547  4917ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121043235460/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:43:24,704  6074ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:43:24 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-12 10:44:35,032 76402ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202104121044350274/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 10:44:35,585 76956ms CallApiAdminController MoveNext           - Success exchange
+DEBUG 2021-04-12 10:46:07,071  5020ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:46:07,086  5035ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121046070856/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:46:08,302  6251ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:46:08 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-12 10:46:40,740 38689ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202104121046371202/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 10:51:45,235 343184ms CallApiAdminController MoveNext           - Success exchange
+DEBUG 2021-04-12 10:52:05,810  4890ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:52:06,199  5278ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121052061972/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:52:07,531  6610ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:52:07 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-12 10:52:30,971 30051ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202104121052304493/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 10:52:54,244 53324ms CallApiAdminController MoveNext           - Success exchange{"code":1,"message":"Make transaction success"}
+DEBUG 2021-04-12 10:54:31,479  4974ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 10:54:31,497  4992ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121054314965/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 10:54:32,613  6108ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 10:54:32 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-12 10:54:49,395 22890ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202104121054493926/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 10:54:51,836 25330ms CallApiAdminController MoveNext           - Success exchange{"code":1,"message":"Make transaction success"}
+INFO  2021-04-12 10:56:43,647 137141ms HashMD5                Kill_Authorization - User/KillAuth/115.73.214.11/202104121056436472/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 10:56:45,924 139419ms CallApiAdminController MoveNext           - Success exchange{"code":1,"message":"Make transaction success"}
+DEBUG 2021-04-12 11:04:45,144 618639ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 11:04:45,144 618639ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121104451445/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 11:04:46,387 619882ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 11:04:46 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 11:25:15,369  5691ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 11:25:15,432  5755ms HashMD5                HashGameFullList   - Game/FullList/115.73.214.11/202104121125154319/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 11:25:16,867  7190ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 11:25:16 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 12:17:19,647  5632ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 12:17:19,747  5732ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121217197424/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 12:17:21,574  7559ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 12:17:21 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 12:17:43,794 29779ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 12:17:43,794 29779ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121217437947/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 12:17:44,528 30513ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 12:17:44 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 13:07:31,689  5953ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 13:07:31,831  6095ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121307318299/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 13:07:33,104  7368ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 1:07:33 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 13:08:29,710 63973ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 13:08:29,711 63974ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121308297110/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 13:08:33,652 67916ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 1:08:33 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 13:16:08,706  5770ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 13:16:08,723  5787ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121316087227/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 13:16:10,217  7281ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 1:16:10 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 13:17:48,689  4983ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 13:17:48,710  5004ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121317487091/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 13:17:50,075  6369ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 1:17:50 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 13:52:29,886  5052ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 13:52:29,903  5069ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121352299029/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 13:52:33,177  8343ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 1:52:33 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 13:59:26,963  5083ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 13:59:26,980  5100ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121359269788/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 13:59:28,289  6409ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 1:59:28 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 14:04:17,917  4753ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 14:04:17,936  4773ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121404179360/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 14:04:19,306  6142ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 2:04:19 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 14:05:26,160  5027ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 14:05:26,176  5043ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121405261755/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 14:05:28,198  7065ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 2:05:28 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-12 14:06:14,700 53567ms HashMD5                Kill_Authorization - User/KillAuth/23.254.230.24/202104121406146993/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 14:06:46,119 84986ms CallApiAdminController MoveNext           - Success exchange{"code":1,"message":"Transaction is confirming_13aada148cd14954bbff164eb4d7cd0e_2_0_04/12/2021 14:06:23 +00:00_202104121406146993"}
+DEBUG 2021-04-12 14:11:25,156  6791ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 14:11:25,172  6807ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121411251719/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 14:11:26,388  8022ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 2:11:26 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-12 14:11:40,297 21932ms HashMD5                Kill_Authorization - User/KillAuth/23.254.230.24/202104121411402959/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-12 14:11:48,894 30529ms CallApiAdminController MoveNext           - Success exchange{"code":1,"message":"Transaction is confirming_b0ff92b954094a06a1e4872008943e67_2_0_04/12/2021 14:11:45 +00:00_202104121411402959"}
+DEBUG 2021-04-12 14:24:50,647  4738ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 14:24:50,663  4754ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121424506623/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 14:24:52,011  6102ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 2:24:52 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 14:28:29,231  5939ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 14:28:29,260  5968ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121428292598/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 14:28:30,439  7147ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 2:28:30 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 14:36:00,109  4669ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 14:36:00,135  4695ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104121436001342/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 14:36:01,300  5860ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 2:36:01 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-12 20:37:30,493  7960ms HomeController         MoveNext           - Debug message
+INFO  2021-04-12 20:37:30,590  8057ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104122037305897/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-12 20:37:33,294 10761ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/12/2021 8:37:33 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-13 00:41:54,576  5805ms HomeController         MoveNext           - Debug message
+INFO  2021-04-13 00:41:54,716  5945ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104130041547139/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-13 00:41:56,217  7446ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/13/2021 12:41:56 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-13 00:43:06,670 77899ms HomeController         MoveNext           - Debug message
+INFO  2021-04-13 00:43:06,671 77900ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104130043066715/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-13 00:43:07,893 79122ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/13/2021 12:43:07 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-13 00:43:35,969 107198ms HomeController         MoveNext           - Debug message
+INFO  2021-04-13 00:43:35,970 107199ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104130043359703/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-13 00:43:36,777 108006ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/13/2021 12:43:36 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-13 00:43:48,186 119415ms AccountController      Login              - tui là tui
+INFO  2021-04-13 00:43:57,291 128520ms AccountController      MoveNext           - ORUG65DIN4
+DEBUG 2021-04-13 00:46:27,630 278859ms HomeController         MoveNext           - Debug message
+INFO  2021-04-13 00:46:27,631 278860ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104130046276315/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-13 00:46:28,604 279833ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/13/2021 12:46:28 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-13 00:48:30,966 402195ms HashMD5                Kill_Authorization - User/KillAuth/23.254.230.24/202104130048309636/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-13 00:48:41,317 412546ms CallApiAdminController MoveNext           - Success exchange{"code":1,"message":"Transaction is confirming_d43aee18ca5445c6b1ee3e01d40de8d9_2_0_04/13/2021 00:48:34 +00:00_202104130048309636"}
+DEBUG 2021-04-13 00:53:08,405  6723ms HomeController         MoveNext           - Debug message
+INFO  2021-04-13 00:53:08,429  6747ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104130053084264/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-13 00:53:10,055  8373ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/13/2021 12:53:10 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-13 01:00:34,163  4755ms HomeController         MoveNext           - Debug message
+INFO  2021-04-13 01:00:34,180  4772ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104130100341786/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-13 01:00:35,310  5902ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/13/2021 1:00:35 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-13 01:08:18,078 63482ms HashMD5                Kill_Authorization - User/KillAuth/23.254.230.24/202104130108180727/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-13 01:08:23,093 68497ms CallApiAdminController MoveNext           - Success exchange{"code":1,"message":"Transaction is confirming_c72713b5506441f2a8c22f1fa97a5025_2_0_04/13/2021 01:08:22 +00:00_202104130108180727"}
+DEBUG 2021-04-13 01:10:54,325  5700ms HomeController         MoveNext           - Debug message
+INFO  2021-04-13 01:10:54,342  5717ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104130110543419/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-13 01:10:55,503  6877ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/13/2021 1:10:55 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-13 01:26:06,836 918211ms HomeController         MoveNext           - Debug message
+INFO  2021-04-13 01:26:06,836 918211ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104130126068369/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-13 01:26:14,866 926241ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/13/2021 1:26:14 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-13 01:26:35,001 946375ms HashMD5                Kill_Authorization - User/KillAuth/23.254.230.24/202104130126349994/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-13 01:26:39,518 950892ms CallApiAdminController MoveNext           - Success withdraw
+INFO  2021-04-13 01:27:50,412 1021786ms HashMD5                Kill_Authorization - User/KillAuth/23.254.230.24/202104130127504113/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-13 01:27:55,363 1026737ms CallApiAdminController MoveNext           - Success exchange{"code":1,"message":"Make transaction success"}
+DEBUG 2021-04-13 01:32:07,476  5230ms HomeController         MoveNext           - Debug message
+INFO  2021-04-13 01:32:07,491  5246ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104130132074909/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-13 01:32:08,609  6363ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/13/2021 1:32:08 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+DEBUG 2021-04-13 01:35:06,077  5410ms HomeController         MoveNext           - Debug message
+INFO  2021-04-13 01:35:06,093  5426ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104130135060926/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-13 01:35:07,237  6570ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/13/2021 1:35:07 AM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web\Website_bigplayerClub\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-13 01:36:00,737 60070ms HashMD5                Kill_Authorization - User/KillAuth/23.254.230.24/202104130136007357/ /ddc53525c9e9f0d9850e8ca66a32c2a8/thotho/4184896365558232
+INFO  2021-04-13 01:36:03,576 62909ms CallApiAdminController MoveNext           - Success withdraw
+DEBUG 2021-04-18 15:32:40,916  4693ms HomeController         MoveNext           - Debug message
+INFO  2021-04-18 15:32:41,041  4818ms HashMD5                HashGameFullList   - Game/FullList/23.254.230.24/202104181532410409/ddc53525c9e9f0d9850e8ca66a32c2a8/4184896365558232
+INFO  2021-04-18 15:32:42,244  6021ms HomeController         MoveNext           - Error exception action index function load list game fundist _ 4/18/2021 3:32:41 PM: Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: Integer. Path '', line 1, position 2.
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 402
+   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 460
+   at Newtonsoft.Json.Linq.JObject.Parse(String json) in /_/Src/Newtonsoft.Json/Linq/JObject.cs:line 440
+   at Labixa.Controllers.HomeController.<Index>d__13.MoveNext() in D:\SVNN\Web Ðá Qúy\fengshuistone_new\Labixa\Controllers\HomeController.cs:line 57
+INFO  2021-04-18 21:43:15,925 36004ms AccountController      Login              - tui là tui

@@ -1,0 +1,55 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<Outsourcing.Data.Models.Blog>
+
+
+<style>
+    .ro-main {
+        background-color: #DECA9E;
+    }
+</style>
+<div class="ro-section" style="margin-top: 212px;">
+    <div class="container">
+        <div class="row ro-section-mb">
+            <div class="col-xs-12">
+                <h3 class="ro-hr-heading ro-left">Tin Tức</h3>
+
+            </div>
+        </div>
+        <div class="row ro-related-posts">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 col-xs-12">
+                    <div class="ro-relate-posts-item" style="height:650px;">
+                        <a href="#">
+                            <div class="ro-image">
+                                <img src="@item.BlogImage_Default" alt="post image" />
+                            </div>
+                        </a>
+                        <div class="ro-content">
+                            <a href="/newsdetail/@item.Slug" class="ro-title">
+                                <h4>@item.Title</h4>
+                            </a>
+                            <p>Ngày đăng: @item.DateCreated</p>
+                            <p style="height:175px;">@Html.Raw(item.Description) ...<br /></p>
+                            <a href="/newsdetail/@item.Slug" class="ro-title">
+                                <p style="float:right;margin-top:25px;">Xem Thêm</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+            <nav class="text-center ro-section-mb-small">
+                <center>
+                    <br />
+                    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+                    @Html.PagedListPager(Model, page => Url.Action("News", "AcademySpa", new { page }))
+                </center>
+            </nav>
+
+        </div>
+
+    </div>
+</div>
+
+

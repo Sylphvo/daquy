@@ -1,0 +1,426 @@
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Outsourcing.Service.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Outsourcing.Service.pdb
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Outsourcing.Core.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Outsourcing.Data.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\System.Web.Mvc.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\System.Web.WebPages.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\EntityFramework.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\PagedList.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\System.Web.Razor.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Outsourcing.Core.pdb
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Outsourcing.Data.pdb
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\System.Web.Mvc.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\System.Web.WebPages.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\EntityFramework.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\PagedList.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\System.Web.Razor.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.Cache
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpaAcademy\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Outsourcing.Service.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Outsourcing.Service.pdb
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Outsourcing.Core.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Outsourcing.Data.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\System.Web.Mvc.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\System.Web.WebPages.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\EntityFramework.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\PagedList.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\System.Web.Razor.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Outsourcing.Core.pdb
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Outsourcing.Data.pdb
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\System.Web.Mvc.xml
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\System.Web.WebPages.xml
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\EntityFramework.xml
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\PagedList.xml
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\System.Web.Razor.xml
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojAssemblyReference.cache
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.cache
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+C:\Users\comch\OneDrive\Desktop\thuc tap\AcademySpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Outsourcing.Service.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Outsourcing.Service.pdb
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Outsourcing.Core.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Outsourcing.Data.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\System.Web.Mvc.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\System.Web.WebPages.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\EntityFramework.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\PagedList.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\System.Web.Razor.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Outsourcing.Core.pdb
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Outsourcing.Data.pdb
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\System.Web.Mvc.xml
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\System.Web.WebPages.xml
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\EntityFramework.xml
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\PagedList.xml
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\System.Web.Razor.xml
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.Cache
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+C:\Users\nguyen\Desktop\Academy\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Outsourcing.Service.dll.config
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Outsourcing.Service.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Outsourcing.Service.pdb
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\EntityFramework.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\EntityFramework.SqlServer.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Outsourcing.Core.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Outsourcing.Data.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\System.Web.Mvc.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\System.Web.WebPages.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\PagedList.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\System.Web.Razor.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Outsourcing.Core.pdb
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Outsourcing.Data.pdb
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\EntityFramework.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\EntityFramework.SqlServer.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\System.Web.Mvc.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\System.Web.WebPages.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\PagedList.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\System.Web.Razor.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.Cache
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Outsourcing.Service.dll.config
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Outsourcing.Service.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Outsourcing.Service.pdb
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\EntityFramework.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\EntityFramework.SqlServer.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Outsourcing.Core.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Outsourcing.Data.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\System.Web.Mvc.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\System.Web.WebPages.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\PagedList.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\System.Web.Razor.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Outsourcing.Core.pdb
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Outsourcing.Data.pdb
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\EntityFramework.xml
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\EntityFramework.SqlServer.xml
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\System.Web.Mvc.xml
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\System.Web.WebPages.xml
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\PagedList.xml
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\System.Web.Razor.xml
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojResolveAssemblyReference.cache
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.Cache
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+C:\Users\HuongMNTSE62703\Desktop\clonseTueDuc\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+E:\tueduc\Outsourcing.Service\bin\Outsourcing.Service.dll.config
+E:\tueduc\Outsourcing.Service\bin\Outsourcing.Service.dll
+E:\tueduc\Outsourcing.Service\bin\Outsourcing.Service.pdb
+E:\tueduc\Outsourcing.Service\bin\EntityFramework.dll
+E:\tueduc\Outsourcing.Service\bin\EntityFramework.SqlServer.dll
+E:\tueduc\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+E:\tueduc\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\tueduc\Outsourcing.Service\bin\Outsourcing.Core.dll
+E:\tueduc\Outsourcing.Service\bin\Outsourcing.Data.dll
+E:\tueduc\Outsourcing.Service\bin\System.Web.Mvc.dll
+E:\tueduc\Outsourcing.Service\bin\System.Web.WebPages.dll
+E:\tueduc\Outsourcing.Service\bin\PagedList.dll
+E:\tueduc\Outsourcing.Service\bin\System.Web.Razor.dll
+E:\tueduc\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+E:\tueduc\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+E:\tueduc\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+E:\tueduc\Outsourcing.Service\bin\Outsourcing.Core.pdb
+E:\tueduc\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+E:\tueduc\Outsourcing.Service\bin\Outsourcing.Data.pdb
+E:\tueduc\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+E:\tueduc\Outsourcing.Service\bin\EntityFramework.xml
+E:\tueduc\Outsourcing.Service\bin\EntityFramework.SqlServer.xml
+E:\tueduc\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+E:\tueduc\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\tueduc\Outsourcing.Service\bin\System.Web.Mvc.xml
+E:\tueduc\Outsourcing.Service\bin\System.Web.WebPages.xml
+E:\tueduc\Outsourcing.Service\bin\PagedList.xml
+E:\tueduc\Outsourcing.Service\bin\System.Web.Razor.xml
+E:\tueduc\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+E:\tueduc\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+E:\tueduc\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojAssemblyReference.cache
+E:\tueduc\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+E:\tueduc\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.cache
+E:\tueduc\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
+E:\tueduc\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+E:\tueduc\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+E:\bet\New-one\Outsourcing.Service\bin\Outsourcing.Service.dll.config
+E:\bet\New-one\Outsourcing.Service\bin\Outsourcing.Service.dll
+E:\bet\New-one\Outsourcing.Service\bin\Outsourcing.Service.pdb
+E:\bet\New-one\Outsourcing.Service\bin\EntityFramework.dll
+E:\bet\New-one\Outsourcing.Service\bin\EntityFramework.SqlServer.dll
+E:\bet\New-one\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+E:\bet\New-one\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\bet\New-one\Outsourcing.Service\bin\Outsourcing.Core.dll
+E:\bet\New-one\Outsourcing.Service\bin\Outsourcing.Data.dll
+E:\bet\New-one\Outsourcing.Service\bin\System.Web.Mvc.dll
+E:\bet\New-one\Outsourcing.Service\bin\System.Web.WebPages.dll
+E:\bet\New-one\Outsourcing.Service\bin\PagedList.dll
+E:\bet\New-one\Outsourcing.Service\bin\System.Web.Razor.dll
+E:\bet\New-one\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+E:\bet\New-one\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+E:\bet\New-one\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+E:\bet\New-one\Outsourcing.Service\bin\Outsourcing.Core.pdb
+E:\bet\New-one\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+E:\bet\New-one\Outsourcing.Service\bin\Outsourcing.Data.pdb
+E:\bet\New-one\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+E:\bet\New-one\Outsourcing.Service\bin\EntityFramework.xml
+E:\bet\New-one\Outsourcing.Service\bin\EntityFramework.SqlServer.xml
+E:\bet\New-one\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+E:\bet\New-one\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\bet\New-one\Outsourcing.Service\bin\System.Web.Mvc.xml
+E:\bet\New-one\Outsourcing.Service\bin\System.Web.WebPages.xml
+E:\bet\New-one\Outsourcing.Service\bin\PagedList.xml
+E:\bet\New-one\Outsourcing.Service\bin\System.Web.Razor.xml
+E:\bet\New-one\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+E:\bet\New-one\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+E:\bet\New-one\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojAssemblyReference.cache
+E:\bet\New-one\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+E:\bet\New-one\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.cache
+E:\bet\New-one\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
+E:\bet\New-one\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+E:\bet\New-one\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Outsourcing.Service.dll.config
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Outsourcing.Service.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Outsourcing.Service.pdb
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\EntityFramework.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\EntityFramework.SqlServer.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Outsourcing.Core.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Outsourcing.Data.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\System.Web.Mvc.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\System.Web.WebPages.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\PagedList.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\System.Web.Razor.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Outsourcing.Core.pdb
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Outsourcing.Data.pdb
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\EntityFramework.xml
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\EntityFramework.SqlServer.xml
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\System.Web.Mvc.xml
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\System.Web.WebPages.xml
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\PagedList.xml
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\System.Web.Razor.xml
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+E:\source avataclub\Web_avataclub\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+E:\source avataclub\Web_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojAssemblyReference.cache
+E:\source avataclub\Web_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+E:\source avataclub\Web_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.cache
+E:\source avataclub\Web_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+E:\source avataclub\Web_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
+E:\source avataclub\Web_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+E:\source avataclub\Web_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Outsourcing.Service.dll.config
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Outsourcing.Service.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Outsourcing.Service.pdb
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\EntityFramework.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\EntityFramework.SqlServer.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Outsourcing.Core.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Outsourcing.Data.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\System.Web.Mvc.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\System.Web.WebPages.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\PagedList.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\System.Web.Razor.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Outsourcing.Core.pdb
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Outsourcing.Data.pdb
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\EntityFramework.xml
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\EntityFramework.SqlServer.xml
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\System.Web.Mvc.xml
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\System.Web.WebPages.xml
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\PagedList.xml
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\System.Web.Razor.xml
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+E:\AvataClub\Website_avataclub\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+E:\AvataClub\Website_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojAssemblyReference.cache
+E:\AvataClub\Website_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+E:\AvataClub\Website_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.cache
+E:\AvataClub\Website_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+E:\AvataClub\Website_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
+E:\AvataClub\Website_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+E:\AvataClub\Website_avataclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Outsourcing.Service.dll.config
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Outsourcing.Service.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Outsourcing.Service.pdb
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\EntityFramework.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\EntityFramework.SqlServer.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Outsourcing.Core.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Outsourcing.Data.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\System.Web.Mvc.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\System.Web.WebPages.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\PagedList.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\System.Web.Razor.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Outsourcing.Core.pdb
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Outsourcing.Data.pdb
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\EntityFramework.xml
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\EntityFramework.SqlServer.xml
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\System.Web.Mvc.xml
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\System.Web.WebPages.xml
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\PagedList.xml
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\System.Web.Razor.xml
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojAssemblyReference.cache
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.cache
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+E:\AvataClub\Website_bigplayerclub\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Outsourcing.Service.dll.config
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Outsourcing.Service.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Outsourcing.Service.pdb
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\EntityFramework.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\EntityFramework.SqlServer.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Outsourcing.Core.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Outsourcing.Data.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\System.Web.Mvc.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\System.Web.WebPages.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\PagedList.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\System.Web.Razor.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Outsourcing.Core.pdb
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Outsourcing.Data.pdb
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\EntityFramework.xml
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\EntityFramework.SqlServer.xml
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\System.Web.Mvc.xml
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\System.Web.WebPages.xml
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\PagedList.xml
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\System.Web.Razor.xml
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojAssemblyReference.cache
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.cache
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+D:\SVNN\Web\Website_bigplayerClub\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Outsourcing.Service.dll.config
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Outsourcing.Service.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Outsourcing.Service.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\EntityFramework.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\EntityFramework.SqlServer.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Outsourcing.Core.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Outsourcing.Data.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\System.Web.Mvc.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\System.Web.WebPages.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\PagedList.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\System.Web.Razor.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Outsourcing.Core.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Outsourcing.Data.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\EntityFramework.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\EntityFramework.SqlServer.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\System.Web.Mvc.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\System.Web.WebPages.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\PagedList.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\System.Web.Razor.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojAssemblyReference.cache
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.cache
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb

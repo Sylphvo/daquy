@@ -1,0 +1,74 @@
+﻿
+
+
+@using PagedList;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<Outsourcing.Data.Models.Product>
+<style>
+    .ro-main {
+        background-color: #DECA9E;
+    }
+
+    p.borderexam2 {
+        padding: 15px;
+        border-bottom: 2px dotted black;
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        border-bottom: 1px dashed;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+</style>
+
+
+
+<div class="ro-section" style="margin-top: 212px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 ro-section-mb-big">
+                <div class="ro-quote-content text-center">
+                    <q>&nbsp;Chương trình đào tạo Spa lớp trung cấp&nbsp;</q>
+                </div>
+            </div>
+            @foreach (var item in Model)
+            {
+                <div class="col-xs-12 ro-section-mb-big">
+                    <div style="background-image:  url('@item.ProductPictureMappings.FirstOrDefault().Picture.Url')" class="ro-service-fullwidth clearfix">
+                        <div class="row">
+                            <div class="ro-service-list col-md-8 col-md-offset-4">
+                                <a href="/courseDetail/@item.Slug">
+                                    <h3 class="ro-hr-heading">@item.Name</h3>
+                                </a>
+                                <ul class="ro-bgc-trans-5">
+                                    <li>
+                                        <div class="ro-service">
+                                            @Html.Raw(item.ContentEng)
+                                       
+                                            <a href="/courseDetail/@item.Slug"><h3>Xem thêm</h3></a>
+                                        </div>
+
+
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+
+        </div>
+        <center>
+            <br />
+            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+            @Html.PagedListPager(Model, page => Url.Action("PostpartumCare", "AcademySpa", new { page }))
+        </center>
+    </div>
+</div>
+
+

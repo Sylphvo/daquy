@@ -1,0 +1,78 @@
+﻿
+@section scripts{
+    <link rel="stylesheet" href="~/Content/caseno/css/ModalLoader.css">
+}
+<style>
+    .register {
+        padding-bottom: 0 !important;
+    }
+
+    .text_implement {
+        color: white;
+    }
+
+    .validation-summary-errors {
+        color: #e7423c !important;
+    }
+
+    .changepass {
+        margin: 10px 0px 50px 0px;
+        text-align: left;
+    }
+
+    .changepass1 {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+
+    .login-page {
+        background: #070b28;
+    }
+
+    #input {
+        display: flex;
+        margin: 10px 0px;
+    }
+
+    #btnSuccess {
+        flex-grow: 1;
+    }
+
+    @@media(max-width:420px) {
+        #btnSuccess {
+            font-size: 10px !important;
+        }
+    }
+
+    .register {
+        padding: 100px 0 120px !important;
+    }
+</style>
+
+<!-- register begin -->
+<div class="register login-page">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-xl-6 col-lg-6 col-md-8">
+                <div class="reg-body changepass">
+              
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-8" id="body_meQR">
+                <div class="reg-body reg-body-code changepass" style="text-align:center">
+                   
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <div class="loader" id="loader"></div>
+</div>
+
+
+

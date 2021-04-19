@@ -1,0 +1,238 @@
+﻿@using Outsourcing.Core
+@model Labixa.Areas.Admin.ViewModel.OrderFormModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+@section scripts{
+    <script src="~/Content/ckeditor/ckeditor.js"></script>
+    <script src="~/Content/ckeditor/config.js"></script>
+}
+@section breadcrumb
+{
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            try { ace.settings.check('breadcrumbs', 'fixed') } catch (e) { }
+        </script>
+
+        <ul class="breadcrumb">
+            <li>
+                <i class="icon-home home-icon"></i>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <i class="icon-edit"></i>
+                <a href="/Product">Quản lý Order</a>
+            </li>
+            <li class="active">Thêm mới Order</li>
+        </ul>
+    </div>
+}
+
+<div class="page-content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="alert alert-block alert-info">
+                Chỉnh sửa nội dung
+            </div>
+            @if (Model != null)
+            {
+                using (Html.BeginForm("Edit", "Order", null, FormMethod.Post, new { @class = "form-horizontal" }))
+                {
+                    var TotalPayment = Model.TotalPayment.ToString("#,##0");
+                    var OrderTotal = Model.OrderTotal.ToString("#,##0");
+                    @Html.ValidationSummary(true)
+                    @Html.HiddenFor(model => model.Id)
+                    @Html.HiddenFor(model => model.Note)
+                    @Html.HiddenFor(model => model.Deleted)
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs" id="myTab">
+                            <li class="active">
+                                <a data-toggle="tab" href="#tab1">
+                                    <i class="green ace-icon fa fa-home bigger-120"></i>
+                                    Nội dung
+                                </a>
+                            </li>
+                            <li class="">
+                                <a data-toggle="tab" href="#tab2">
+                                    <i class="green ace-icon fa fa-home bigger-120"></i>
+                                    Đơn hàng
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="tab1" class="tab-pane fade active in">
+                                <div class="form-group ">
+                                    @Html.MyLabelFor(model => model.CustomerName)
+                                    <div class="col-sm-9">
+                                        <input class="col-xs-12 col-md-8" disabled="disabled" data-val="true" data-val-required="Tên Khách Hàng Không Được Để Trống" id="CustomerName" name="CustomerName" type="text" value="@Model.CustomerName">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    @Html.MyLabelFor(model => model.CustomerAddress)
+                                    <div class="col-sm-9">
+                                        <input class="col-xs-12 col-md-8" disabled="disabled" data-val="true" data-val-required="Tên Khách Hàng Không Được Để Trống" id="CustomerAddress" name="CustomerAddress" type="text" value="@Model.CustomerAddress">
+                                        @*@Html.EditorFor(model => model.CustomerAddress)
+                @Html.ValidationMessageFor(model => model.CustomerAddress)*@
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    @Html.MyLabelFor(model => model.CustomerPhone)
+                                    <div class="col-sm-9">
+                                        <input class="col-xs-12 col-md-8" disabled="disabled" data-val="true" data-val-required="Tên Khách Hàng Không Được Để Trống" id="CustomerPhone" name="CustomerPhone" type="text" value="@Model.CustomerPhone">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    @Html.MyLabelFor(model => model.Note)
+                                    <div class="col-sm-9">
+                                        <textarea class="col-xs-12 col-md-8" disabled="disabled" data-val="true" data-val-required="Tên Khách Hàng Không Được Để Trống" id="Note" name="Note" type="text" value="@Model.Note">@Model.Note</textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    @Html.MyLabelFor(model => model.Temp_1)
+                                    <div class="col-sm-9">
+                                        <input class="col-xs-12 col-md-8" disabled="disabled" data-val="true" data-val-required="Tên Khách Hàng Không Được Để Trống" id="Temp_1" name="Temp_1" type="text" value="@Model.Temp_1">
+                                    </div>
+                                </div>
+
+                                <div class="form-group ">
+                                    @Html.MyLabelFor(model => model.Discount)
+                                    <div class="col-sm-9">
+                                        <input class="col-xs-12 col-md-8" disabled="disabled" data-val="true" data-val-required="Tên Khách Hàng Không Được Để Trống" id="Discount" name="Discount" type="text" value="@Model.Discount %">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    @Html.MyLabelFor(model => model.OrderTotal)
+                                    <div class="col-sm-9">
+                                        <input class="col-xs-12 col-md-8" disabled="disabled" data-val="true" data-val-required="Tên Khách Hàng Không Được Để Trống" id="Discount" name="Discount" type="text" value="@OrderTotal">
+                                    </div>
+                                </div>
+                                <div class="form-group ">
+                                    @Html.MyLabelFor(model => model.TotalPayment)
+                                    <div class="col-sm-9">
+                                        <input class="col-xs-12 col-md-8" disabled="disabled" data-val="true" data-val-required="Tên Khách Hàng Không Được Để Trống" id="Discount" name="Discount" type="text" value="@TotalPayment">
+                                    </div>
+                                </div>
+                                @*<div class="form-group ">
+            @Html.MyLabelFor(model => model.Deleted)
+            <div class="col-sm-9">
+                <h6>
+                    @Html.EditorFor(model => model.Deleted)
+                    @Html.ValidationMessageFor(model => model.Deleted)
+                    Đã xóa
+                </h6>
+            </div>
+        </div>*@
+                                @*<div class="form-group ">
+            @Html.MyLabelFor(model => model.Note)
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Note, "CkEditor")
+                @Html.ValidationMessageFor(model => model.Note)
+            </div>
+        </div>*@
+                            </div>
+                            <div id="tab2" class="tab-pane fade ">
+                                <div class="col-xs-12">
+
+                                    @*<a class="btn btn-success" href="/Admin/Order/Create" style="margin-bottom:10px">Thêm mới order</a>*@
+
+                                    <div class="table-header">Danh sách Đơn hàng</div>
+
+                                    <table id="productTable" class="table table-bordered table-striped table-fixed-header">
+                                        <thead>
+                                            <tr role="row">
+                                                <th>STT</th>
+                                                <th>Tên sản phẩm</th>
+                                                <th>Đơn giá</th>
+                                                <th>Số lượng</th>
+                                                <th>Thành tiền</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                            @if (Model != null && Model.OrderItems.Any())
+                                            {
+                                                int count = 0;
+                                                foreach (var item in Model.OrderItems)
+                                                {
+                                                    count++;
+                                                    <tr class="odd">
+                                                        <td class=" sorting_1">@count</td>
+                                                        <td class="hidden-480 ">@item.Product.Name</td>
+                                                        <td class="hidden-480 ">@item.Price.ToString("#,##0")</td>
+                                                        <td class="hidden-480 ">@item.Quantity</td>
+                                                        <td class="hidden-480 ">@{var total = (item.Price * item.Quantity);} @total.ToString("#,##0")</td>
+                                                    </tr>
+                                                }
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    @*
+                        partial for group button
+                    *@
+                    <div class="clearfix form-actions">
+                        <div class="col-md-offset-3 col-md-9">
+                            @if (Model.Status != 2)
+                            {
+                                <a href="/Admin/Order/UpdateOrder?OrderId=@Model.Id" class="btn btn-info">Hoàn tất đơn hàng</a>
+                            }
+                            &nbsp; &nbsp; &nbsp;
+                        
+                            &nbsp; &nbsp; &nbsp;
+                            <a href="/Admin/Order" class="btn btn-warning">Back</a>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <h1>Không tìm thấy thuộc tính!</h1>
+            }
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var table = $("#productTable").DataTable();
+        //var arrayfilter = [2, 4];
+
+        createDropFilter(table, [2]);
+        bindDropFilter(table, [5]);
+
+    });
+
+    function createDropFilter(table, array) {
+        array.forEach(function (i) {
+            var selector = ".filter_" + i;
+            var filter1 = $(selector);
+            filter1.on('change', function () {
+                table.column(i)
+                    .search($(this).val())
+                    .draw();
+            });
+
+            table.column(i).data().unique().sort().each(function (d, j) {
+                filter1.append('<option value="' + d + '">' + d + '</option>');
+            });
+
+        });
+    }
+    function bindDropFilter(table, array) {
+        array.forEach(function (i) {
+            var selector = ".filter_" + i;
+            var filter1 = $(selector);
+            filter1.on('change', function () {
+                table.column(i)
+                    .search($(this).val())
+                    .draw();
+            });
+        });
+    }
+</script>

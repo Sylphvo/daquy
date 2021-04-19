@@ -1,0 +1,227 @@
+﻿@using Outsourcing.Core
+@model Outsourcing.Data.Models.WebsiteAttribute
+@{
+    var template = "";
+    if (Model.ControlType.ToLower() == "textarea")
+    {
+        template = "Ckeditor";
+    }
+    else if (Model.ControlType.ToLower() == "image")
+    {
+        template = "GetImageFromElfinder";
+    }
+    else if (Model.ControlType.ToLower() == "checkbox")
+    {
+        template = "CheckBox";
+    }
+}
+    <div class="form-group ">
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.Name)
+        @Html.HiddenFor(model => model.Description)
+        @Html.HiddenFor(model => model.Type)
+        @Html.HiddenFor(model => model.ControlType)
+        @Html.HiddenFor(model => model.Deleted)
+
+        @if (Model.Type.Equals("Banner"))
+        {
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    <label class="col-sm-12 control-label no-padding-right" for="">
+                        Banner
+                    </label>
+                </label>
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    Kích hoạt:
+                    @Html.EditorFor(model => model.IsPublic)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.LinkUrl, template)
+                @Html.ValidationMessageFor(model => model.LinkUrl)
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label no-padding-right">Vị Trí ND 1, tiếng việt </label>
+                <div class="col-sm-9">
+                    @Html.EditorFor(model => model.Noted_1)
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label no-padding-right">Vị Trí ND 1, tiếng anh</label>
+                <div class="col-sm-9">
+                    @Html.EditorFor(model => model.Noted_2)
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label no-padding-right">Vị Trí ND 2, tiếng việt </label>
+                <div class="col-sm-9">
+                    @Html.EditorFor(model => model.Title)
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label no-padding-right">Vị Trí ND 2, tiếng anh</label>
+                <div class="col-sm-9">
+                    @Html.EditorFor(model => model.Value)
+                </div>
+            </div>
+
+
+        }
+        @if (Model.Type.Equals("vision"))
+        {
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    <label class="col-sm-12 control-label no-padding-right" for="">
+                        Vision: Tiếng Việt
+                    </label>
+                </label>
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    Kích hoạt:
+                    @Html.EditorFor(model => model.IsPublic)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Noted_1, template)
+                @Html.ValidationMessageFor(model => model.Noted_1)
+            </div>
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    <label class="col-sm-12 control-label no-padding-right" for="">
+                        Vision: Tiếng Anh
+                    </label>
+                </label>
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    Kích hoạt:
+                    @Html.EditorFor(model => model.IsPublic)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Noted_2, template)
+                @Html.ValidationMessageFor(model => model.Noted_2)
+            </div>
+
+        }
+        @if (Model.Type.Equals("mision"))
+        {
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    <label class="col-sm-12 control-label no-padding-right" for="">
+                        mission: Tiếng Việt
+                    </label>
+                </label>
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    Kích hoạt:
+                    @Html.EditorFor(model => model.IsPublic)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Noted_1, template)
+                @Html.ValidationMessageFor(model => model.Noted_1)
+            </div>
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    <label class="col-sm-12 control-label no-padding-right" for="">
+                        mission: Tiếng Anh
+                    </label>
+                </label>
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    Kích hoạt:
+                    @Html.EditorFor(model => model.IsPublic)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Noted_2, template)
+                @Html.ValidationMessageFor(model => model.Noted_2)
+            </div>
+
+        }
+        @if (Model.Type.Equals("coreValue"))
+        {
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    <label class="col-sm-12 control-label no-padding-right" for="">
+                        Vision: Tiếng Việt
+                    </label>
+                </label>
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    Kích hoạt:
+                    @Html.EditorFor(model => model.IsPublic)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Noted_1, template)
+                @Html.ValidationMessageFor(model => model.Noted_1)
+            </div>
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    <label class="col-sm-12 control-label no-padding-right" for="">
+                        Vision: Tiếng Anh
+                    </label>
+                </label>
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    Kích hoạt:
+                    @Html.EditorFor(model => model.IsPublic)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Noted_2, template)
+                @Html.ValidationMessageFor(model => model.Noted_2)
+            </div>
+
+        }
+        @if (Model.Type.Equals("aboutus"))
+        {
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    <label class="col-sm-12 control-label no-padding-right" for="">
+                        Nội dung tiếng việt
+                    </label>
+                </label>
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    Kích hoạt:
+                    @Html.EditorFor(model => model.IsPublic)
+                </label>
+            </div>
+
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Noted_1, template)
+                @Html.ValidationMessageFor(model => model.Noted_1)
+            </div>
+
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    <label class="col-sm-12 control-label no-padding-right" for="">
+                        Nội dung tiếng anh
+                    </label>
+                </label>
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    Kích hoạt:
+                    @Html.EditorFor(model => model.IsPublic)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Noted_2, template)
+                @Html.ValidationMessageFor(model => model.Noted_2)
+            </div>
+
+        }
+        @if (Model.Type.Equals("Zalo"))
+        {
+            <div class="col-sm-3 control-label no-padding-right">
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    <label class="col-sm-12 control-label no-padding-right" for="">
+                        Số Điện Thoại Zalo
+                    </label>
+                </label>
+                <label class="col-sm-12 control-label no-padding-right" for="">
+                    Kích hoạt:
+                    @Html.EditorFor(model => model.IsPublic)
+                </label>
+            </div>
+            <div class="col-sm-9">
+                @Html.EditorFor(model => model.Value)
+                @Html.ValidationMessageFor(model => model.Value)
+            </div>
+
+        }
+    </div>

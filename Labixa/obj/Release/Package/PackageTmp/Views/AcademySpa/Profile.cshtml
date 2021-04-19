@@ -1,0 +1,133 @@
+﻿@{
+    var dat = (IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>)ViewBag.social;
+
+    HttpCookie cookie = Request.Cookies["_culture"];
+}
+    <style>
+        .ro-main {
+            background-color: #DECA9E;
+        }
+    </style>
+    <div class="ro-section ro-padding-top-big ro-section-service-accordion-2 ro-bg-lightgray" style="margin-top: 212px;>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="ro-hr-heading ro-section-heading">Chào bạn, Hà Hồ</h3>
+                </div>
+                <div class="col-md-1 ro-section-mb-big"></div>
+                    <div class="col-md-4 text-center ro-section-mb-big"><img src="~/Content/EcademySpa/assets/images/profile.jpg" alt="spacialize" class="img-responsive img-circle ro-center-block" /></div>
+                    <div class="col-md-6 ro-section-mb-big">
+                        <div id="ro-service-accordion" role="tablist" aria-multiselectable="true" class="ro-service-accordion panel-group">
+                            <div class="panel panel-default">
+                                <div id="ro-headingOne" role="tab" class="panel-heading">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#ro-service-accordion" href="#ro-collapseOne" aria-expanded="true" aria-controls="ro-collapseOne" class="collapsed">Thông tin của bạn</a></h4>
+                                </div>
+                                <div id="ro-collapseOne" role="tabpanel" aria-labelledby="ro-headingOne" aria-expanded="true" class="panel-collapse collapse in">
+                                    <div data-mcs-theme="minimal-dark" class="panel-body mCustomScrollbar">
+                                        <div class="ro-service-list">
+                                            <ul>
+                                                <li>
+                                                    <div class="ro-service">
+                                                        <a>Họ và tên: </a><a>Hồ Ngọc Hà</a>
+                                                    </div>
+                                                    <div class="ro-separator"> </div>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ro-service">
+                                                        <a>Email: </a><a>hahn1234@gmail.com</a>
+                                                    </div>
+                                                    <div class="ro-separator"> </div>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ro-service">
+                                                        <a>Số điện thoại: </a><a>0988123456</a>
+                                                    </div>
+                                                    <div class="ro-separator"> </div>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ro-service">
+                                                        <a>Địa chỉ: </a><a>Số 100 đường Tô Ký, phường Đông Hưng Thuận, quận 12, thành phố Hồ Chí Minh</a>
+                                                    </div>
+                                                    <div class="ro-separator"> </div>
+
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div id="ro-headingTwo" role="tab" class="panel-heading">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#ro-service-accordion" href="#ro-collapseTwo" aria-expanded="false" aria-controls="ro-collapseTwo" class="collapsed">Đổi mật khẩu</a></h4>
+                                </div>
+                                <div id="ro-collapseTwo" role="tabpanel" aria-labelledby="ro-headingTwo" aria-expanded="false" class="panel-collapse collapse">
+                                    <div data-mcs-theme="minimal-dark" class="panel-body mCustomScrollbar">
+                                        <div class="ro-service-list">
+                                            <ul>
+
+                                                <li>
+                                                    <label class="col-lg-4 col-form-label form-control-label">Mật khẩu cũ</label>
+                                                    <div class="col-lg-8">
+                                                        <input class="form-control" type="password" value="">
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label class="col-lg-4 col-form-label form-control-label">Mật khẩu mới</label>
+                                                    <div class="col-lg-8">
+                                                        <input class="form-control" type="password" value="">
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label class="col-lg-4 col-form-label form-control-label">Xác nhận mật khẩu</label>
+                                                    <div class="col-lg-8">
+                                                        <input class="form-control" type="password" value="">
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <label class="col-lg-4 col-form-label form-control-label"></label>
+                                                    <div class="col-lg-8">
+                                                        <input type="reset" class="btn btn-secondary" value="Cancel">
+                                                        <input type="button" class="btn btn-primary" value="Lưu thay đổi">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div id="ro-headingThree" role="tab" class="panel-heading">
+                                    <h4 class="panel-title"><a data-toggle="collapse" data-parent="#ro-service-accordion" href="#ro-collapseThree" aria-expanded="false" aria-controls="ro-headingThree" class="collapsed">Danh sách môn học</a></h4>
+                                </div>
+                                <div id="ro-collapseThree" role="tabpanel" aria-labelledby="ro-headingThree" aria-expanded="false" class="panel-collapse collapse">
+                                    <div data-mcs-theme="minimal-dark" class="panel-body mCustomScrollbar">
+                                        <div class="ro-service-list">
+                                            <ul>
+                                                <li>
+                                                    <div class="ro-service">
+                                                        <a href="#">1 : </a><a href="/courseOnline">Chăm sóc sau sinh</a>
+                                                    </div>
+                                                    <div class="ro-separator"> </div>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ro-service">
+                                                        <a href="#">2 : </a><a href="/courseOnline">Đào tạo sơ cấp</a>
+                                                    </div>
+                                                    <div class="ro-separator"> </div>
+
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>

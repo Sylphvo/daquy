@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from demo.qkit.io/tradee/wallet.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Jan 2021 14:31:29 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tradee</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Custom Stylesheet -->
+         
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+
+
+
+<div id="main-wrapper">
+
+    <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12">
+                <div class="header-content">
+                    <div class="header-left">
+                        <div class="brand-logo">
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="">
+                            </a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="header-right">
+                       
+                        <div class="profile_log dropdown">
+                            <div class="user" data-toggle="dropdown">
+                                <span class="thumb"><img src="images/profile/2.png" alt=""></span>
+                                <span class="arrow"><i class="icofont-angle-down"></i></span>
+                            </div>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="user-email">
+                                    <div class="user">
+                                        <span class="thumb"><img src="images/profile/2.png" alt=""></span>
+                                        <div class="user-info">
+                                            <h5>Jannatul Maowa</h5>
+                                            <span>Tradee.inc@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="user-balance">
+                                    <div class="available">
+                                        <p>Available</p>
+                                        <span>12 ETH</span>
+                                    </div>
+                                    <div class="total">
+                                        <p>USDX</p>
+                                        <span>23 USD</span>
+                                    </div>
+                                </div>
+                                
+                                <a href="signin.html" class="dropdown-item logout">
+                                    <i class="icofont-logout"></i> Logout
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="sidebar">
+    <div class="brand-logo">
+        <a href="index.html"><img src="images/logoi.png" alt="" width="30">
+        </a>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="index.html" data-toggle="tooltip" data-placement="right" title="Home">
+                    <span><i class="icofont-ui-home"></i></span>
+                </a>
+            </li>
+            <li><a href="trade.html" data-toggle="tooltip" data-placement="right" title="Trade">
+                    <span><i class="icofont-exchange"></i></span>
+                </a>
+            </li>
+            <li><a href="wallet.html" data-toggle="tooltip" data-placement="right" title="Wallet">
+                    <span><i class="icofont-wallet"></i></span>
+                </a>
+            </li>
+            <li><a href="settings-profile.html" data-toggle="tooltip" data-placement="right" title="Settings">
+                    <span><i class="icofont-settings"></i></span>
+                </a>
+            </li>
+            <li class="logout"><a href="signin.html" data-toggle="tooltip" data-placement="right"
+                    title="Signout">
+                    <span><i class="icofont-power"></i></span>
+                </a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            &#169; <a href="#">Qkit</a>
+        </p>
+    </div>
+</div>
+
+    <div class="content-body">
+        <div class="container">
+            <div class="row">
+			  <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="wallet-widget card" style="background: aqua;">
+                        <h5>ETH Balance</h5>
+                        <h2><span class="text-warning">1</span> <sub>ETH</sub></h2>
+                        <p>= 720 USD</p>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="wallet-widget card">
+                        <h5>USDX Balance</h5>
+                        <h2><span class="text-primary">100</span> <sub>USDX</sub></h2>
+                        <p>= 1.000 USD</p>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="wallet-widget card">
+                        <h5>Bonus USDX Balance</h5>
+                        <h2><span class="text-success">50</span> <sub>USDX</sub></h2>
+                        <p>= 500 USD</p>
+                    </div>
+                </div>
+              <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="wallet-widget card" style="background: antiquewhite;">
+                        <h5>Total USDX Balance</h5>
+                        <h2><span class="text-info">150</span> <sub>USDX</sub></h2>
+                        <p>= 1.500 USD</p>
+                    </div>
+                </div>
+				
+               <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="wallet-widget card">
+                       <button type="button" class="btn btn-danger btn-block">
+                                    Exchange ETH
+                                </button>
+                    </div>
+                </div>
+				<div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="wallet-widget card">
+                       <button type="button" class="btn btn-primary btn-block">
+                                    Exchange USDX
+                                </button>
+                    </div>
+                </div>
+				<div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="wallet-widget card">
+                       <button type="button" class="btn btn-info btn-block">
+                                    Withdraw ETH
+                                </button>
+                    </div>
+                </div>
+				<div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6">
+                    <div class="wallet-widget card">
+                       <button type="button" class="btn btn-warning btn-block">
+                                    Withdraw USDX
+                                </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-xxl-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">ETH Addresses </h4>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="table-responsive">
+                                <table class="table table-striped responsive-table">
+                                    <thead>
+                                        <tr>
+                                           
+                                            <th>Address</th>
+                                            <th>QR</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        <tr>
+                                            
+                                            <td><div class="copy-link">
+                                    <form action="#">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" value="https://www.tradee.io/join/12345">
+                                            <span class="input-group-text">Copy</span>
+                                        </div>
+                                    </form>
+                                </div></td>
+                                            <td>
+                                                <img class="qr-img" src="images/qr.svg" alt="" width="200">
+                                            </td>
+										
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-xxl-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">USDX Addresses </h4>
+                        </div>
+                        <div class="card-body">
+
+                            <div class="table-responsive">
+                                <table class="table table-striped responsive-table">
+                                    <thead>
+                                        <tr>
+                                           
+                                            <th>Username</th>
+                                           <th>QR</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        <tr>
+                                            
+                                            <td><div class="copy-link">
+                                    <form action="#">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" value="manulife">
+                                            <span class="input-group-text">Copy</span>
+                                        </div>
+                                    </form>
+                                </div>
+								</td>
+                                           <td>
+                                                <img class="qr-img" src="images/qr.svg" alt="" width="200">
+                                            </td>
+										
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+                    
+                </div>
+			<div class="row">
+                <div class="col-xxl-3 col-xl-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Exchange ETH </h4>
+                        </div>
+                        <div class="card-body">
+                            <form method="post" name="myform" class="currency_validate trade-form row g-3">
+                                <div class="col-12">
+                                    <label class="form-label">Amount </label>
+                                    <div class="input-group">
+                                         <select class="form-control" disabled name="method">
+                                            <option value="bank">ETH</option>
+                                           
+                                        </select>
+                                        <input type="text" name="currency_amount" class="form-control"
+                                            placeholder="0.0214 USDX">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label class="form-label">Receive</label>
+                                    <div class="input-group">
+                                        <select class="form-control" disabled name="method">
+                                            <option value="bank">USDX</option>
+                                        </select>
+                                        <input disabled type="text" name="currency_amount" class="form-control"
+                                            placeholder="200 USDX">
+                                    </div>
+                                </div>
+
+                                <!-- <button type="submit" name="submit" class="btn btn-success btn-block">Exchange
+                                        Now</button> -->
+                                <button type="button" class="btn btn-primary btn-block" data-toggle="modal"
+                                    data-target="#BuyModal">
+                                    Exchange Now
+                                </button>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+				<div class="col-xxl-3 col-xl-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Exchange USDX </h4>
+                        </div>
+                        <div class="card-body">
+                            <form method="post" name="myform" class="currency_validate trade-form row g-3">
+                                <div class="col-12">
+                                    <label class="form-label">Amount </label>
+                                    <div class="input-group">
+                                         <select class="form-control" disabled name="method">
+                                            <option value="bank">USDX</option>
+                                           
+                                        </select>
+                                        <input type="text" name="currency_amount" class="form-control"
+                                            placeholder="70 USDX">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label class="form-label">Receive</label>
+                                    <div class="input-group">
+                                        <select class="form-control" disabled name="method">
+                                            <option value="bank">ETH</option>
+                                        </select>
+                                        <input disabled type="text" name="currency_amount" class="form-control"
+                                            placeholder="0.995 ETH">
+                                    </div>
+                                </div>
+
+                                <!-- <button type="submit" name="submit" class="btn btn-success btn-block">Exchange
+                                        Now</button> -->
+                                <button type="button" class="btn btn-primary btn-block" data-toggle="modal"
+                                    data-target="#BuyModal">
+                                    Exchange Now
+                                </button>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xxl-3 col-xl-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Withdraw ETH </h4>
+                        </div>
+                        <div class="card-body">
+                            <form name="myform" class="currency_validate trade-form row g-3">
+                                <div class="col-12">
+                                    <label class="form-label">Amount</label>
+                                    <div class="input-group">
+                                        <select class="form-control" disabled name="method">
+                                            <option value="bank">ETH</option>
+                                            
+                                        </select>
+                                        <input type="text" name="currency_amount" class="form-control"
+                                            placeholder="0.0214 ETH">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label class="form-label">To Address</label>
+                                    <div class="input-group">
+                                        
+                                        <input type="text" name="currency_amount" class="form-control"
+                                            placeholder="0xlgcvsdfk49gfkdf49f">
+                                    </div>
+                                </div>
+
+                                <p class="mb-0">- Available withdraw: 0.2563 ETH <br>- Withdraw fee 1% <br> - Note: The daily Widthdrawal amount should be equal or less than to the last deposited amount</p>
+
+                                <button type="button" class="btn btn-success btn-block" data-toggle="modal"
+                                    data-target="#transferModal">Withdraw
+                                    Now</button>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Withdraw USDX </h4>
+                        </div>
+                        <div class="card-body">
+                            <form name="myform" class="currency_validate trade-form row g-3">
+                                <div class="col-12">
+                                    <label class="form-label">Amount</label>
+                                    <div class="input-group">
+                                        <select class="form-control" disabled name="method">
+                                            <option value="bank">USDX</option>
+                                            
+                                        </select>
+                                        <input type="text" name="currency_amount" class="form-control"
+                                            placeholder="150 USDX">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label class="form-label">To Username</label>
+                                    <div class="input-group">
+                                        
+                                        <input type="text" name="currency_amount" class="form-control"
+                                            placeholder="caibang">
+                                    </div>
+                                </div>
+
+                                <p class="mb-0">- Available withdraw: 200 USDX <br>- Withdraw fee 1% <br> - Note: The daily Widthdrawal amount should be equal or less than to the last deposited amount</p>
+
+                                <button type="button" class="btn btn-success btn-block" data-toggle="modal"
+                                    data-target="#transferModal">Withdraw
+                                    Now</button>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>           
+		   </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+<script src="vendor/apexchart/apexcharts.min.js"></script>
+<script src="js/plugins/apex-price.js"></script>
+
+
+
+
+
+
+<script src="vendor/basic-table/jquery.basictable.min.js"></script>
+<script src="js/plugins/basic-table-init.js"></script>
+
+
+
+<script src="js/dashboard.js"></script>
+
+
+
+
+
+<script src="js/scripts.js"></script>
+
+
+</body>
+
+
+<!-- Mirrored from demo.qkit.io/tradee/wallet.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Jan 2021 14:31:29 GMT -->
+</html>

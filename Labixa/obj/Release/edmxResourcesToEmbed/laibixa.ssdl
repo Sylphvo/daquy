@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Rise_webModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AccountUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Hoten" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sdt" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="Tendn" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mk" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AspNetRoles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserClaims">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ClaimType" Type="nvarchar(max)" />
+    <Property Name="ClaimValue" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AspNetUserLogins">
+    <Key>
+      <PropertyRef Name="LoginProvider" />
+      <PropertyRef Name="ProviderKey" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUserRoles">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar(max)" />
+    <Property Name="LastName" Type="nvarchar(max)" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="DateCreated" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginTime" Type="datetime" />
+    <Property Name="Activated" Type="bit" Nullable="false" />
+    <Property Name="Gender" Type="int" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="DateOfBirth" Type="datetime" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="SecurityStamp" Type="nvarchar(max)" />
+    <Property Name="PhoneNumber" Type="nvarchar(max)" />
+    <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="datetime" />
+    <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BlogCategories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Image" Type="nvarchar(max)" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Slug" Type="nvarchar(max)" />
+    <Property Name="CategoryParentId" Type="int" />
+    <Property Name="Layout" Type="int" Nullable="false" />
+    <Property Name="DisplayOrder" Type="int" Nullable="false" />
+    <Property Name="IsStaticPage" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Blogs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="TitleEng" Type="nvarchar(max)" />
+    <Property Name="Slug" Type="nvarchar(max)" />
+    <Property Name="BlogImage_Default" Type="nvarchar(max)" />
+    <Property Name="BlogImage_Square" Type="nvarchar(max)" />
+    <Property Name="BlogImage_Option" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Content" Type="nvarchar(max)" />
+    <Property Name="DescriptionEng" Type="nvarchar(max)" />
+    <Property Name="ContentEng" Type="nvarchar(max)" />
+    <Property Name="MetaKeywords" Type="nvarchar(max)" />
+    <Property Name="MetaTitle" Type="nvarchar(max)" />
+    <Property Name="MetaDescription" Type="nvarchar(max)" />
+    <Property Name="IsAvailable" Type="bit" Nullable="false" />
+    <Property Name="IsHomePage" Type="bit" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="DateCreated" Type="datetime" Nullable="false" />
+    <Property Name="LastEditedTime" Type="datetime" Nullable="false" />
+    <Property Name="PictureId" Type="int" Nullable="false" />
+    <Property Name="BlogCategoryId" Type="int" Nullable="false" />
+    <Property Name="Position" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrderItems">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="Price" Type="float" Nullable="false" />
+    <Property Name="Discount" Type="float" Nullable="false" />
+    <Property Name="Temp_1" Type="nvarchar(max)" />
+    <Property Name="Temp_2" Type="nvarchar(max)" />
+    <Property Name="Temp_3" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerName" Type="nvarchar(max)" />
+    <Property Name="CustomerAddress" Type="nvarchar(max)" />
+    <Property Name="CustomerPhone" Type="nvarchar(max)" />
+    <Property Name="CustomerEmail" Type="nvarchar(max)" />
+    <Property Name="OrderTotal" Type="float" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="DateCreated" Type="datetime" Nullable="false" />
+    <Property Name="Note" Type="nvarchar(max)" />
+    <Property Name="Discount" Type="float" />
+    <Property Name="TotalPayment" Type="float" />
+    <Property Name="Temp_1" Type="nvarchar(max)" />
+    <Property Name="Temp_2" Type="nvarchar(max)" />
+    <Property Name="Temp_3" Type="nvarchar(max)" />
+    <Property Name="Status" Type="int" />
+  </EntityType>
+  <EntityType Name="Pictures">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Binary" Type="nvarchar(max)" />
+    <Property Name="MimeType" Type="nvarchar(max)" />
+    <Property Name="Url" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="IsDeleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductAttributeMappings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Value" Type="nvarchar(max)" />
+    <Property Name="IsRequired" Type="bit" Nullable="false" />
+    <Property Name="DisplayOrder" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="ProductAttributeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductAttributes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="ControlType" Type="nvarchar(max)" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductCategories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Position" Type="int" Nullable="false" />
+    <Property Name="Notes" Type="nvarchar(max)" />
+    <Property Name="Slug" Type="nvarchar(max)" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductPictureMappings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="DisplayOrder" Type="int" Nullable="false" />
+    <Property Name="IsMainPicture" Type="bit" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="PictureId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductRelationships">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductRelateId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="isAvailable" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Slug" Type="nvarchar(max)" />
+    <Property Name="Content" Type="nvarchar(max)" />
+    <Property Name="Price" Type="float" Nullable="false" />
+    <Property Name="OldPrice" Type="float" />
+    <Property Name="MetaKeywords" Type="nvarchar(max)" />
+    <Property Name="MetaTitle" Type="nvarchar(max)" />
+    <Property Name="MetaDescription" Type="nvarchar(max)" />
+    <Property Name="NameEng" Type="nvarchar(max)" />
+    <Property Name="DescEng" Type="nvarchar(max)" />
+    <Property Name="ContentEng" Type="nvarchar(max)" />
+    <Property Name="DateCreated" Type="datetime" Nullable="false" />
+    <Property Name="LastEditedTime" Type="datetime" Nullable="false" />
+    <Property Name="ProductCategoryId" Type="int" Nullable="false" />
+    <Property Name="IsHomePage" Type="bit" Nullable="false" />
+    <Property Name="IsPublic" Type="bit" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="Position" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Staffs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Phone" Type="nvarchar(max)" />
+    <Property Name="Image" Type="nvarchar(max)" />
+    <Property Name="Rename" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Type" Type="int" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+    <Property Name="Yahoo" Type="nvarchar(max)" />
+    <Property Name="skype" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="WebsiteAttributes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="LinkUrl" Type="nvarchar(max)" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="Noted_1" Type="nvarchar(max)" />
+    <Property Name="Noted_2" Type="nvarchar(max)" />
+    <Property Name="Noted_3" Type="nvarchar(max)" />
+    <Property Name="ControlType" Type="nvarchar(max)" />
+    <Property Name="Type" Type="nvarchar(max)" />
+    <Property Name="Value" Type="nvarchar(max)" />
+    <Property Name="IsPublic" Type="bit" Nullable="false" />
+    <Property Name="Deleted" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserClaims" Type="Self.AspNetUserClaims" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserClaims">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserLogins" Type="Self.AspNetUserLogins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserLogins">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+    <End Role="AspNetRoles" Type="Self.AspNetRoles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetRoles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+    <End Role="AspNetUsers" Type="Self.AspNetUsers" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AspNetUserRoles" Type="Self.AspNetUserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AspNetUserRoles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_BlogCategories_dbo_BlogCategories_CategoryParentId">
+    <End Role="BlogCategories" Type="Self.BlogCategories" Multiplicity="0..1" />
+    <End Role="BlogCategories1" Type="Self.BlogCategories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BlogCategories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BlogCategories1">
+        <PropertyRef Name="CategoryParentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Blogs_dbo_BlogCategories_BlogCategoryId">
+    <End Role="BlogCategories" Type="Self.BlogCategories" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Blogs" Type="Self.Blogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BlogCategories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Blogs">
+        <PropertyRef Name="BlogCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductAttributeMappings_ProductAttributes">
+    <End Role="ProductAttributes" Type="Self.ProductAttributes" Multiplicity="1" />
+    <End Role="ProductAttributeMappings" Type="Self.ProductAttributeMappings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductAttributes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductAttributeMappings">
+        <PropertyRef Name="ProductAttributeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductPictureMappings_Pictures">
+    <End Role="Pictures" Type="Self.Pictures" Multiplicity="1" />
+    <End Role="ProductPictureMappings" Type="Self.ProductPictureMappings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pictures">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductPictureMappings">
+        <PropertyRef Name="PictureId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductPictureMappings_Products">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="ProductPictureMappings" Type="Self.ProductPictureMappings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductPictureMappings">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductRelationships_Products">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="ProductRelationships" Type="Self.ProductRelationships" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductRelationships">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Rise_webModelStoreContainer">
+    <EntitySet Name="AccountUser" EntityType="Self.AccountUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetRoles" EntityType="Self.AspNetRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserClaims" EntityType="Self.AspNetUserClaims" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserLogins" EntityType="Self.AspNetUserLogins" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUserRoles" EntityType="Self.AspNetUserRoles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AspNetUsers" EntityType="Self.AspNetUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BlogCategories" EntityType="Self.BlogCategories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Blogs" EntityType="Self.Blogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrderItems" EntityType="Self.OrderItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pictures" EntityType="Self.Pictures" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductAttributeMappings" EntityType="Self.ProductAttributeMappings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductAttributes" EntityType="Self.ProductAttributes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductCategories" EntityType="Self.ProductCategories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductPictureMappings" EntityType="Self.ProductPictureMappings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductRelationships" EntityType="Self.ProductRelationships" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Staffs" EntityType="Self.Staffs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WebsiteAttributes" EntityType="Self.WebsiteAttributes" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserClaims" EntitySet="AspNetUserClaims" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserLogins" EntitySet="AspNetUserLogins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetRoles_RoleId">
+      <End Role="AspNetRoles" EntitySet="AspNetRoles" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId" Association="Self.FK_dbo_AspNetUserRoles_dbo_AspNetUsers_UserId">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="AspNetUserRoles" EntitySet="AspNetUserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_BlogCategories_dbo_BlogCategories_CategoryParentId" Association="Self.FK_dbo_BlogCategories_dbo_BlogCategories_CategoryParentId">
+      <End Role="BlogCategories" EntitySet="BlogCategories" />
+      <End Role="BlogCategories1" EntitySet="BlogCategories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Blogs_dbo_BlogCategories_BlogCategoryId" Association="Self.FK_dbo_Blogs_dbo_BlogCategories_BlogCategoryId">
+      <End Role="BlogCategories" EntitySet="BlogCategories" />
+      <End Role="Blogs" EntitySet="Blogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductAttributeMappings_ProductAttributes" Association="Self.FK_ProductAttributeMappings_ProductAttributes">
+      <End Role="ProductAttributes" EntitySet="ProductAttributes" />
+      <End Role="ProductAttributeMappings" EntitySet="ProductAttributeMappings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductPictureMappings_Pictures" Association="Self.FK_ProductPictureMappings_Pictures">
+      <End Role="Pictures" EntitySet="Pictures" />
+      <End Role="ProductPictureMappings" EntitySet="ProductPictureMappings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductPictureMappings_Products" Association="Self.FK_ProductPictureMappings_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductPictureMappings" EntitySet="ProductPictureMappings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductRelationships_Products" Association="Self.FK_ProductRelationships_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductRelationships" EntitySet="ProductRelationships" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

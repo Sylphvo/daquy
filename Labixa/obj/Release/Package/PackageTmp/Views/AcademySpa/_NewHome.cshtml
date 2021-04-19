@@ -1,0 +1,26 @@
+﻿
+@model IEnumerable<Outsourcing.Data.Models.Blog>
+@foreach (var item in Model)
+{
+    <div class="col-md-4 col-xs-12">
+        <div class="ro-relate-posts-item" style="height:650px;">
+            <a href="#">
+                <div class="ro-image">
+                    <img src="@item.BlogImage_Default" alt="post image" />
+                </div>
+            </a>
+            <div class="ro-content">
+                <a href="/newsdetail/@item.Slug" class="ro-title">
+                    <h4>@item.Title</h4>
+                </a>
+                <p>Ngày đăng: @item.DateCreated</p>
+                <p style="height:175px;">@Html.Raw(item.Description) ...<br /></p>
+                <a href="/newsdetail/@item.Slug" class="ro-title">
+                    <p style="float:right;margin-top:25px;">Xem Thêm</p>
+                </a>
+            </div>
+        </div>
+    </div>
+}
+
+

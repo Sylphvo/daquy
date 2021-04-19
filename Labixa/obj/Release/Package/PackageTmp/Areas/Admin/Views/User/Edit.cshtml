@@ -1,0 +1,123 @@
+﻿@model Labixa.Models.UserEditViewModel
+@{
+    ViewBag.Title = "Chỉnh sửa thông tin khách hàng";
+}
+<!-- Latest compiled and minified CSS -->
+
+
+@using (Html.BeginForm("Edit", "User", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="ro-section">
+        <div class="container">
+            <form style="font-size: 16px; margin: 50px 0 50px 0;">
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label for="Name">Họ và Tên</label>
+                    </div>
+                    @Html.ValidationMessageFor(m => m.Name, "", new { @style = "color:red" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @style = "font-size: 16px;" })
+                    </div>
+                    @*<input style="font-size: 16px;" type="text" class="form-control">*@
+                </div>
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label for="Name">Email</label>
+                    </div>
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @style = "color:red" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @style = "font-size: 16px;" })
+                    </div>
+                    @*<input style="font-size: 16px;" type="text" class="form-control">*@
+                </div>
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label>Tên khoá học</label>
+                    </div>
+
+                    @Html.ValidationMessageFor(m => m.ProductId, "", new { @style = "color:red" })
+                    <div class="col-md-7">
+                        @Html.DropDownListFor(
+                        x => x.ProductId,
+                        new SelectList(Model.Products, "Id", "Name"),
+                        "--- Vui lòng lựa chọn khóa học ---",
+                        new
+                        {
+                            @class = "form-control selectpicker",
+                            //@Value = @Model.ProductId,
+                            //onchange = "this.form.submit();"
+                        }
+                        )
+
+                        @*@Html.TextBoxFor(m => m.Course, new { @class = "form-control", @placeholder = "Ghi tên khoá học" })*@
+                    </div>
+                    @*<input style="font-size: 16px;" type="text" class="form-control" placeholder="Ghi tên khoá học">*@
+                </div>
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label>Số điện thoại</label>
+                    </div>
+
+                    @Html.ValidationMessageFor(m => m.PhoneNumber, "", new { @style = "color:red" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control", @style = "font-size: 16px;" })
+                    </div>
+                    @*<input style="font-size: 16px;" type="text" class="form-control">*@
+                </div>
+                <div class="form-group">
+                    <div class="col-md-2">
+                        <label>Tên tài khoản</label>
+                    </div>
+                    @Html.ValidationMessageFor(m => m.UserName, "", new { @style = "color:red" })
+                    <div class="col-md-7">
+                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @readonly = true, @style = "font-size: 16px;" })
+                    </div>
+                    @*<input style="font-size: 16px;" type="text" class="form-control">*@
+                </div>
+                @*<div class="form-group">
+                        <div class="col-md-2">
+                            <label>Mật khẩu</label>
+                        </div>
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @style = "color:red" })
+                        <div class="col-md-7">
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", @style = "font-size: 16px;" })
+                        </div>
+
+
+                        <input style="font-size: 16px;" type="password" class="form-control">
+                    </div>*@
+                @*<div class="form-group">
+                        <div class="col-md-2">
+                            <label>Nhập lại mật khẩu</label>
+                        </div>
+
+                        @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @style = "color:red" })
+                        <div class="col-md-7">
+                            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", @style = "font-size: 16px;" })
+                        </div>
+                        <input style="font-size: 16px;" type="password" class="form-control">
+                    </div>*@
+                <div class="col-md-offset-2 col-md-4">
+                    <button style="font-size: 16px;" type="submit" class="btn btn-secondary">Sửa</button>
+                </div>
+            </form>
+        </div>
+        <div id="ro-backtop"><i class="icon-up"></i></div>
+    </div>
+
+    <style>
+        .form-group {
+            margin: 15px 0 15px 0 !important;
+        }
+
+        .btn-secondary {
+            margin: 15px 0 15px 0 !important;
+        }
+    </style>
+
+
+
+}

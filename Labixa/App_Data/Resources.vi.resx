@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABOUTUS" xml:space="preserve">
+    <value>Về Chúng Tôi</value>
+  </data>
+  <data name="ADDCART" xml:space="preserve">
+    <value>Thêm Vào Giỏ Hàng</value>
+  </data>
+  <data name="ADDRESS" xml:space="preserve">
+    <value>Địa Chỉ</value>
+  </data>
+  <data name="ADDRESSDETAIL" xml:space="preserve">
+    <value>Số 337/2/15 Đường Lê Văn Sỹ. Phường 1, Quận Tân Bình, TP. HCM</value>
+  </data>
+  <data name="Best_Selling" xml:space="preserve">
+    <value>Sản Phẩm Bán Chạy Nhất</value>
+  </data>
+  <data name="BREAKNEWS" xml:space="preserve">
+    <value>Tin Nổi Bật</value>
+  </data>
+  <data name="BUYNOW" xml:space="preserve">
+    <value>Mua Ngay</value>
+  </data>
+  <data name="COMPANYADRESS" xml:space="preserve">
+    <value>Địa Chỉ Công Ty</value>
+  </data>
+  <data name="CONTACT" xml:space="preserve">
+    <value>Liên Lạc</value>
+  </data>
+  <data name="CONTACTS" xml:space="preserve">
+    <value>Liên Hệ</value>
+  </data>
+  <data name="CONTACTSUS" xml:space="preserve">
+    <value>Hãy liên lạc với chúng tôi</value>
+  </data>
+  <data name="CONTENT" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="EMAIL" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Far_Heart" xml:space="preserve">
+    <value>Vươn xa từ tâm</value>
+  </data>
+  <data name="FeaturedNews" xml:space="preserve">
+    <value>Tin Tức Nổi Bật</value>
+  </data>
+  <data name="Featured_news" xml:space="preserve">
+    <value>Tin Tức Nổi Bật</value>
+  </data>
+  <data name="FOOTER_DES" xml:space="preserve">
+    <value>Tuyên ngôn của CEO: Kiên trì, không ngừng học hỏi, đổi mới sáng tạo, kỷ luật &amp; Lấy con người làm trọng tâm là cam kết như Vàng ròng của doanh chủ, không phải mục tiêu chính là Lợi nhuận.</value>
+  </data>
+  <data name="FULLNAME" xml:space="preserve">
+    <value>Họ và Tên</value>
+  </data>
+  <data name="HEALTH_RECOVERY" xml:space="preserve">
+    <value>PHỤC HỒI SỨC KHỎE</value>
+  </data>
+  <data name="HOME" xml:space="preserve">
+    <value>Trang Chủ</value>
+  </data>
+  <data name="Introduce" xml:space="preserve">
+    <value>Giới thiệu chúng tôi</value>
+  </data>
+  <data name="Mission" xml:space="preserve">
+    <value>Sứ Mệnh</value>
+  </data>
+  <data name="MissionDes" xml:space="preserve">
+    <value>Cống hiến cho xã hội những sản phẩm đạt chất lượng tốt, nhằm chăm sóc sức khỏe cho cộng đồng. Luôn thỏa mãn nhu cầu khách hàng, cùng nhau phát triển, đảm bảo quyền lợi tối đa cho khách hàng và đối tác bằng những chính sách tốt nhất. Luôn lấy con người làm yếu tố then chốt trong sự nghiệp và phát triển, luôn hướng đến môi trường làm việc năng động, sáng tạo và cùng nhau chia sẽ, cùng nhau học hỏi, nhằm tạo ra một tập thể nhân viên ổn định &amp;amp; phát triển bền vững.Một tập thể luôn có kỹ luật , ham học hỏi và tự giác sửa sai.</value>
+  </data>
+  <data name="NEWS" xml:space="preserve">
+    <value>Tin Tức</value>
+  </data>
+  <data name="NewsDetails" xml:space="preserve">
+    <value>Chi Tiết Tin Tức</value>
+  </data>
+  <data name="PHONE" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="PHONEDETAIL" xml:space="preserve">
+    <value>Điện thoại: 0911 82 82 88</value>
+  </data>
+  <data name="PHONENUMBER" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="ProductGroups" xml:space="preserve">
+    <value>Nhóm Sản Phẩm</value>
+  </data>
+  <data name="PRODUCTS" xml:space="preserve">
+    <value>Sản Phẩm</value>
+  </data>
+  <data name="ProductsDetails" xml:space="preserve">
+    <value>Chi Tiết Sản Phẩm</value>
+  </data>
+  <data name="PromotionProducts" xml:space="preserve">
+    <value>Sản Phẩm Khuyến Mãi</value>
+  </data>
+  <data name="RECRUITMENT" xml:space="preserve">
+    <value>Tuyển Dụng</value>
+  </data>
+  <data name="REFRESH_LIFE" xml:space="preserve">
+    <value>LÀM MỚI CUỘC SỐNG</value>
+  </data>
+  <data name="REVIVIFY_DES" xml:space="preserve">
+    <value>Sản Phẩm Dinh Dưỡng Tinh Khiết Nhất Thế Giới</value>
+  </data>
+  <data name="SEND" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="SENDMESSAGE" xml:space="preserve">
+    <value>Gửi tin nhắn</value>
+  </data>
+  <data name="VIEWMORE" xml:space="preserve">
+    <value>Xem Thêm</value>
+  </data>
+  <data name="Vision" xml:space="preserve">
+    <value>Tầm Nhìn</value>
+  </data>
+  <data name="VisionDes" xml:space="preserve">
+    <value>Trở thành công ty uy tín, với những chiến lược phát triển bền vững. Quyết tâm trở thành nhà phân phối dược phẩm, thực phẩm chức năng và mỹ phẩm chuyên nghiệp hàng đầu trong nước. Là đối tác tin cậy hợp tác &amp;amp; phát triển của những nhà sản xuất trong nước và nước ngoài.</value>
+  </data>
+  <data name="WORKINGTIMEDETAIL" xml:space="preserve">
+    <value>Thứ 2 – Thứ 6 : 09:00 – 20:00
+Thứ 7 &amp; Chủ nhật: 10:30 – 22:00</value>
+  </data>
+  <data name="WorkTime" xml:space="preserve">
+    <value>Thời Gian Làm Việc</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Xem Thêm</value>
+  </data>
+  <data name="WordTime_1" xml:space="preserve">
+    <value>Thứ 2 – Thứ 6 : 08:00 – 17:00</value>
+  </data>
+  <data name="WordTime_2" xml:space="preserve">
+    <value>Thứ 7 : 08:00 – 12:00</value>
+  </data>
+  <data name="CoreValue" xml:space="preserve">
+    <value>Giá trị cốt lõi</value>
+  </data>
+</root>

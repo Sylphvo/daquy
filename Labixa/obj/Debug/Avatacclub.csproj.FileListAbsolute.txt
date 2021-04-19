@@ -1,0 +1,612 @@
+E:\bet\New-one\Labixa\obj\Debug\Avatacclub.csprojAssemblyReference.cache
+E:\bet\New-one\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+E:\bet\New-one\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+E:\bet\New-one\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+E:\bet\New-one\Labixa\obj\Debug\Avatacclub.csproj.GenerateResource.cache
+E:\bet\New-one\Labixa\obj\Debug\Labixa.dll
+E:\bet\New-one\Labixa\obj\Debug\Labixa.pdb
+E:\bet\New-one\Labixa\bin\AutoMapper.Net4.dll
+E:\bet\New-one\Labixa\bin\Labixa.dll.config
+E:\bet\New-one\Labixa\bin\Labixa.dll
+E:\bet\New-one\Labixa\bin\Labixa.pdb
+E:\bet\New-one\Labixa\bin\en\Labixa.resources.dll
+E:\bet\New-one\Labixa\bin\vi\Labixa.resources.dll
+E:\bet\New-one\Labixa\bin\Antlr3.Runtime.dll
+E:\bet\New-one\Labixa\bin\Autofac.dll
+E:\bet\New-one\Labixa\bin\AutoMapper.dll
+E:\bet\New-one\Labixa\bin\ElFinder.Net.dll
+E:\bet\New-one\Labixa\bin\EntityFramework.dll
+E:\bet\New-one\Labixa\bin\EntityFramework.SqlServer.dll
+E:\bet\New-one\Labixa\bin\FluentValidation.dll
+E:\bet\New-one\Labixa\bin\FluentValidation.Mvc.dll
+E:\bet\New-one\Labixa\bin\FluentValidation.ValidatorAttribute.dll
+E:\bet\New-one\Labixa\bin\Microsoft.AspNet.Identity.Core.dll
+E:\bet\New-one\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\bet\New-one\Labixa\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\bet\New-one\Labixa\bin\Microsoft.Owin.dll
+E:\bet\New-one\Labixa\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\bet\New-one\Labixa\bin\Microsoft.Owin.Security.Cookies.dll
+E:\bet\New-one\Labixa\bin\Microsoft.Owin.Security.dll
+E:\bet\New-one\Labixa\bin\Microsoft.Owin.Security.OAuth.dll
+E:\bet\New-one\Labixa\bin\Microsoft.Web.Infrastructure.dll
+E:\bet\New-one\Labixa\bin\Newtonsoft.Json.dll
+E:\bet\New-one\Labixa\bin\Outsourcing.Core.dll
+E:\bet\New-one\Labixa\bin\Outsourcing.Data.dll
+E:\bet\New-one\Labixa\bin\Outsourcing.Service.dll
+E:\bet\New-one\Labixa\bin\Owin.dll
+E:\bet\New-one\Labixa\bin\PagedList.dll
+E:\bet\New-one\Labixa\bin\PagedList.Mvc.dll
+E:\bet\New-one\Labixa\bin\System.ComponentModel.Primitives.dll
+E:\bet\New-one\Labixa\bin\System.ValueTuple.dll
+E:\bet\New-one\Labixa\bin\System.Web.Helpers.dll
+E:\bet\New-one\Labixa\bin\System.Web.Mvc.dll
+E:\bet\New-one\Labixa\bin\System.Web.Optimization.dll
+E:\bet\New-one\Labixa\bin\System.Web.Razor.dll
+E:\bet\New-one\Labixa\bin\System.Web.WebPages.Deployment.dll
+E:\bet\New-one\Labixa\bin\System.Web.WebPages.dll
+E:\bet\New-one\Labixa\bin\System.Web.WebPages.Razor.dll
+E:\bet\New-one\Labixa\bin\WebGrease.dll
+E:\bet\New-one\Labixa\bin\Outsourcing.Core.pdb
+E:\bet\New-one\Labixa\bin\Outsourcing.Core.dll.config
+E:\bet\New-one\Labixa\bin\Outsourcing.Data.pdb
+E:\bet\New-one\Labixa\bin\Outsourcing.Data.dll.config
+E:\bet\New-one\Labixa\bin\Outsourcing.Service.pdb
+E:\bet\New-one\Labixa\bin\Outsourcing.Service.dll.config
+E:\bet\New-one\Labixa\bin\Antlr3.Runtime.pdb
+E:\bet\New-one\Labixa\bin\Autofac.xml
+E:\bet\New-one\Labixa\bin\AutoMapper.xml
+E:\bet\New-one\Labixa\bin\EntityFramework.xml
+E:\bet\New-one\Labixa\bin\EntityFramework.SqlServer.xml
+E:\bet\New-one\Labixa\bin\FluentValidation.xml
+E:\bet\New-one\Labixa\bin\FluentValidation.Mvc.xml
+E:\bet\New-one\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+E:\bet\New-one\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\bet\New-one\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\bet\New-one\Labixa\bin\Microsoft.Owin.xml
+E:\bet\New-one\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\bet\New-one\Labixa\bin\Microsoft.Owin.Security.xml
+E:\bet\New-one\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+E:\bet\New-one\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+E:\bet\New-one\Labixa\bin\Newtonsoft.Json.pdb
+E:\bet\New-one\Labixa\bin\Newtonsoft.Json.xml
+E:\bet\New-one\Labixa\bin\PagedList.xml
+E:\bet\New-one\Labixa\bin\PagedList.Mvc.xml
+E:\bet\New-one\Labixa\bin\System.ValueTuple.xml
+E:\bet\New-one\Labixa\bin\System.Web.Helpers.xml
+E:\bet\New-one\Labixa\bin\System.Web.Mvc.xml
+E:\bet\New-one\Labixa\bin\System.Web.Optimization.xml
+E:\bet\New-one\Labixa\bin\System.Web.Razor.xml
+E:\bet\New-one\Labixa\bin\System.Web.WebPages.xml
+E:\bet\New-one\Labixa\bin\System.Web.WebPages.Deployment.xml
+E:\bet\New-one\Labixa\bin\System.Web.WebPages.Razor.xml
+E:\bet\New-one\Labixa\obj\Debug\en\Labixa.resources.dll
+E:\bet\New-one\Labixa\obj\Debug\vi\Labixa.resources.dll
+E:\bet\New-one\Labixa\obj\Debug\Avatacclub.csproj.CopyComplete
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\Avatacclub.csprojAssemblyReference.cache
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\Avatacclub.csproj.GenerateResource.cache
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\Avatacclub.csproj.CoreCompileInputs.cache
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\Labixa.dll
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\Labixa.pdb
+E:\source avataclub\Web_avataclub\Labixa\bin\AutoMapper.Net4.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Labixa.dll.config
+E:\source avataclub\Web_avataclub\Labixa\bin\Labixa.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Labixa.pdb
+E:\source avataclub\Web_avataclub\Labixa\bin\en\Labixa.resources.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\vi\Labixa.resources.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Antlr3.Runtime.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Autofac.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\AutoMapper.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\ElFinder.Net.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\EntityFramework.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\EntityFramework.SqlServer.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\FluentValidation.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\FluentValidation.Mvc.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\FluentValidation.ValidatorAttribute.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Google.Authenticator.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\log4net.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.AspNet.Identity.Core.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Owin.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Owin.Security.Cookies.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Owin.Security.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Owin.Security.OAuth.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Web.Infrastructure.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Newtonsoft.Json.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Outsourcing.Core.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Outsourcing.Data.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Outsourcing.Service.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Owin.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\PagedList.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\PagedList.Mvc.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\System.ComponentModel.Primitives.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\System.ValueTuple.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.Helpers.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.Mvc.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.Optimization.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.Razor.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.WebPages.Deployment.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.WebPages.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.WebPages.Razor.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\WebGrease.dll
+E:\source avataclub\Web_avataclub\Labixa\bin\Outsourcing.Core.pdb
+E:\source avataclub\Web_avataclub\Labixa\bin\Outsourcing.Core.dll.config
+E:\source avataclub\Web_avataclub\Labixa\bin\Outsourcing.Data.pdb
+E:\source avataclub\Web_avataclub\Labixa\bin\Outsourcing.Data.dll.config
+E:\source avataclub\Web_avataclub\Labixa\bin\Outsourcing.Service.pdb
+E:\source avataclub\Web_avataclub\Labixa\bin\Outsourcing.Service.dll.config
+E:\source avataclub\Web_avataclub\Labixa\bin\Antlr3.Runtime.pdb
+E:\source avataclub\Web_avataclub\Labixa\bin\Autofac.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\AutoMapper.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\EntityFramework.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\EntityFramework.SqlServer.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\FluentValidation.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\FluentValidation.Mvc.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\log4net.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Owin.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Owin.Security.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\Newtonsoft.Json.pdb
+E:\source avataclub\Web_avataclub\Labixa\bin\Newtonsoft.Json.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\PagedList.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\PagedList.Mvc.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\System.ValueTuple.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.Helpers.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.Mvc.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.Optimization.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.Razor.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.WebPages.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.WebPages.Deployment.xml
+E:\source avataclub\Web_avataclub\Labixa\bin\System.Web.WebPages.Razor.xml
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\en\Labixa.resources.dll
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\vi\Labixa.resources.dll
+E:\source avataclub\Web_avataclub\Labixa\obj\Debug\Avatacclub.csproj.CopyComplete
+E:\AvataClub\Website_avataclub\Labixa\bin\AutoMapper.Net4.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Labixa.dll.config
+E:\AvataClub\Website_avataclub\Labixa\bin\Labixa.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Labixa.pdb
+E:\AvataClub\Website_avataclub\Labixa\bin\en\Labixa.resources.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\vi\Labixa.resources.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Antlr3.Runtime.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Autofac.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\AutoMapper.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\ElFinder.Net.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\EntityFramework.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\EntityFramework.SqlServer.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\FluentValidation.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\FluentValidation.Mvc.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\FluentValidation.ValidatorAttribute.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Google.Authenticator.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\log4net.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.AspNet.Identity.Core.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Owin.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Owin.Security.Cookies.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Owin.Security.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Owin.Security.OAuth.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Web.Infrastructure.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Newtonsoft.Json.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Outsourcing.Core.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Outsourcing.Data.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Outsourcing.Service.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Owin.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\PagedList.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\PagedList.Mvc.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\System.ComponentModel.Primitives.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\System.ValueTuple.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.Helpers.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.Mvc.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.Optimization.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.Razor.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.WebPages.Deployment.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.WebPages.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.WebPages.Razor.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\WebGrease.dll
+E:\AvataClub\Website_avataclub\Labixa\bin\Outsourcing.Core.pdb
+E:\AvataClub\Website_avataclub\Labixa\bin\Outsourcing.Core.dll.config
+E:\AvataClub\Website_avataclub\Labixa\bin\Outsourcing.Data.pdb
+E:\AvataClub\Website_avataclub\Labixa\bin\Outsourcing.Data.dll.config
+E:\AvataClub\Website_avataclub\Labixa\bin\Outsourcing.Service.pdb
+E:\AvataClub\Website_avataclub\Labixa\bin\Outsourcing.Service.dll.config
+E:\AvataClub\Website_avataclub\Labixa\bin\Antlr3.Runtime.pdb
+E:\AvataClub\Website_avataclub\Labixa\bin\Autofac.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\AutoMapper.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\EntityFramework.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\EntityFramework.SqlServer.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\FluentValidation.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\FluentValidation.Mvc.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\log4net.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Owin.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Owin.Security.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\Newtonsoft.Json.pdb
+E:\AvataClub\Website_avataclub\Labixa\bin\Newtonsoft.Json.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\PagedList.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\PagedList.Mvc.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\System.ValueTuple.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.Helpers.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.Mvc.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.Optimization.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.Razor.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.WebPages.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.WebPages.Deployment.xml
+E:\AvataClub\Website_avataclub\Labixa\bin\System.Web.WebPages.Razor.xml
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\Avatacclub.csprojAssemblyReference.cache
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\Avatacclub.csproj.GenerateResource.cache
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\Avatacclub.csproj.CoreCompileInputs.cache
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\en\Labixa.resources.dll
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\vi\Labixa.resources.dll
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\Avatacclub.csproj.CopyComplete
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\Labixa.dll
+E:\AvataClub\Website_avataclub\Labixa\obj\Debug\Labixa.pdb
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\AutoMapper.Net4.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Labixa.dll.config
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Labixa.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Labixa.pdb
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\en\Labixa.resources.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\vi\Labixa.resources.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Antlr3.Runtime.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Autofac.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\AutoMapper.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\ElFinder.Net.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\EntityFramework.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\EntityFramework.SqlServer.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\FluentValidation.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\FluentValidation.Mvc.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\FluentValidation.ValidatorAttribute.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Google.Authenticator.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\log4net.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.AspNet.Identity.Core.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Owin.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Owin.Security.Cookies.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Owin.Security.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Owin.Security.OAuth.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Web.Infrastructure.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Newtonsoft.Json.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Outsourcing.Core.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Outsourcing.Data.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Outsourcing.Service.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Owin.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\PagedList.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\PagedList.Mvc.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.ComponentModel.Primitives.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.ValueTuple.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.Helpers.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.Mvc.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.Optimization.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.Razor.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.WebPages.Deployment.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.WebPages.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.WebPages.Razor.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\WebGrease.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Outsourcing.Core.pdb
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Outsourcing.Core.dll.config
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Outsourcing.Data.pdb
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Outsourcing.Data.dll.config
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Outsourcing.Service.pdb
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Outsourcing.Service.dll.config
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Antlr3.Runtime.pdb
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Autofac.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\AutoMapper.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\EntityFramework.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\EntityFramework.SqlServer.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\FluentValidation.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\FluentValidation.Mvc.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\log4net.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Owin.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Owin.Security.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Newtonsoft.Json.pdb
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\Newtonsoft.Json.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\PagedList.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\PagedList.Mvc.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.ValueTuple.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.Helpers.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.Mvc.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.Optimization.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.Razor.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.WebPages.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.WebPages.Deployment.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\bin\System.Web.WebPages.Razor.xml
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\Avatacclub.csprojAssemblyReference.cache
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\Avatacclub.csproj.GenerateResource.cache
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\Avatacclub.csproj.CoreCompileInputs.cache
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\en\Labixa.resources.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\vi\Labixa.resources.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\Avatacclub.csproj.CopyComplete
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\Labixa.dll
+E:\AvataClub\Website_avataclub_version02\Labixa\obj\Debug\Labixa.pdb
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\AutoMapper.Net4.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Labixa.dll.config
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Labixa.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Labixa.pdb
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\en\Labixa.resources.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\vi\Labixa.resources.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Antlr3.Runtime.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Autofac.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\AutoMapper.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\ElFinder.Net.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\EntityFramework.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\EntityFramework.SqlServer.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\FluentValidation.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\FluentValidation.Mvc.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\FluentValidation.ValidatorAttribute.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Google.Authenticator.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\log4net.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.AspNet.Identity.Core.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Owin.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Owin.Security.Cookies.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Owin.Security.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Owin.Security.OAuth.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Web.Infrastructure.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Newtonsoft.Json.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Outsourcing.Core.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Outsourcing.Data.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Outsourcing.Service.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Owin.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\PagedList.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\PagedList.Mvc.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.ComponentModel.Primitives.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.ValueTuple.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.Helpers.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.Mvc.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.Optimization.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.Razor.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.WebPages.Deployment.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.WebPages.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.WebPages.Razor.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\WebGrease.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Outsourcing.Core.pdb
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Outsourcing.Core.dll.config
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Outsourcing.Data.pdb
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Outsourcing.Data.dll.config
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Outsourcing.Service.pdb
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Outsourcing.Service.dll.config
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Antlr3.Runtime.pdb
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Autofac.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\AutoMapper.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\EntityFramework.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\EntityFramework.SqlServer.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\FluentValidation.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\FluentValidation.Mvc.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\log4net.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Owin.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Owin.Security.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Newtonsoft.Json.pdb
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\Newtonsoft.Json.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\PagedList.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\PagedList.Mvc.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.ValueTuple.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.Helpers.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.Mvc.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.Optimization.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.Razor.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.WebPages.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.WebPages.Deployment.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\bin\System.Web.WebPages.Razor.xml
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\Avatacclub.csprojAssemblyReference.cache
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\Avatacclub.csproj.GenerateResource.cache
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\Avatacclub.csproj.CoreCompileInputs.cache
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\en\Labixa.resources.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\vi\Labixa.resources.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\Avatacclub.csproj.CopyComplete
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\Labixa.dll
+E:\AvataClub\Website_bigplayerclub\Labixa\obj\Debug\Labixa.pdb
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\AutoMapper.Net4.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Labixa.dll.config
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Labixa.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Labixa.pdb
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\en\Labixa.resources.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\vi\Labixa.resources.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Antlr3.Runtime.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Autofac.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\AutoMapper.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\ElFinder.Net.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\EntityFramework.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\EntityFramework.SqlServer.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\FluentValidation.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\FluentValidation.Mvc.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\FluentValidation.ValidatorAttribute.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Google.Authenticator.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\log4net.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Owin.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Owin.Security.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Web.Infrastructure.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Newtonsoft.Json.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Outsourcing.Core.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Outsourcing.Data.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Outsourcing.Service.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Owin.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\PagedList.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\PagedList.Mvc.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.ComponentModel.Primitives.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.ValueTuple.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.Helpers.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.Mvc.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.Optimization.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.Razor.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.WebPages.Deployment.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.WebPages.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.WebPages.Razor.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\WebGrease.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Outsourcing.Core.pdb
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Outsourcing.Core.dll.config
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Outsourcing.Data.pdb
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Outsourcing.Data.dll.config
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Outsourcing.Service.pdb
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Outsourcing.Service.dll.config
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Antlr3.Runtime.pdb
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Autofac.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\AutoMapper.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\EntityFramework.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\EntityFramework.SqlServer.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\FluentValidation.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\FluentValidation.Mvc.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\log4net.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Owin.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Owin.Security.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Newtonsoft.Json.pdb
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\Newtonsoft.Json.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\PagedList.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\PagedList.Mvc.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.ValueTuple.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.Helpers.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.Mvc.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.Optimization.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.Razor.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.WebPages.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.WebPages.Deployment.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\bin\System.Web.WebPages.Razor.xml
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\Avatacclub.csprojAssemblyReference.cache
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\Avatacclub.csproj.GenerateResource.cache
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\Avatacclub.csproj.CoreCompileInputs.cache
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\en\Labixa.resources.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\vi\Labixa.resources.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\Avatacclub.csproj.CopyComplete
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\Labixa.dll
+D:\SVNN\Web\Website_bigplayerClub\Labixa\obj\Debug\Labixa.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\AutoMapper.Net4.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Labixa.dll.config
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Labixa.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Labixa.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\en\Labixa.resources.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\vi\Labixa.resources.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Antlr3.Runtime.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Autofac.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\AutoMapper.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\ElFinder.Net.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\EntityFramework.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\EntityFramework.SqlServer.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\FluentValidation.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\FluentValidation.Mvc.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\FluentValidation.ValidatorAttribute.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Google.Authenticator.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\log4net.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Owin.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Owin.Security.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Web.Infrastructure.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Newtonsoft.Json.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Outsourcing.Core.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Outsourcing.Data.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Outsourcing.Service.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Owin.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\PagedList.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\PagedList.Mvc.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.ComponentModel.Primitives.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.ValueTuple.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.Helpers.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.Mvc.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.Optimization.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.Razor.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.WebPages.Deployment.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.WebPages.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.WebPages.Razor.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\WebGrease.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Outsourcing.Core.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Outsourcing.Core.dll.config
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Outsourcing.Data.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Outsourcing.Data.dll.config
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Outsourcing.Service.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Outsourcing.Service.dll.config
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Antlr3.Runtime.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Autofac.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\AutoMapper.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\EntityFramework.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\EntityFramework.SqlServer.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\FluentValidation.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\FluentValidation.Mvc.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\log4net.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Owin.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Owin.Security.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Newtonsoft.Json.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\Newtonsoft.Json.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\PagedList.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\PagedList.Mvc.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.ValueTuple.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.Helpers.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.Mvc.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.Optimization.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.Razor.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.WebPages.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.WebPages.Deployment.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\bin\System.Web.WebPages.Razor.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\Avatacclub.csprojAssemblyReference.cache
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\Labixa.App_Data.Resources.resources
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\Labixa.App_Data.Resources.en.resources
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\Labixa.App_Data.Resources.vi.resources
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\Avatacclub.csproj.GenerateResource.cache
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\Avatacclub.csproj.CoreCompileInputs.cache
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\en\Labixa.resources.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\vi\Labixa.resources.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\Avatacclub.csproj.CopyComplete
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\Labixa.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Labixa\obj\Debug\Labixa.pdb

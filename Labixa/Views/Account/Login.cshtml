@@ -1,0 +1,129 @@
+﻿@model Labixa.Models.LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+    Layout = "~/Views/Shared/_LayoutAuthor.cshtml";
+}
+@*@section scripts{
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="~/Content/caseno/css/ModalLoader.css">
+    }*@
+<div id="de-sidebar" class="col-lg-3 col-md-12">
+
+    <!-- header begin -->
+    <header class="side-header">
+
+        <!-- small button begin -->
+        <span id="menu-btn"></span>
+        <!-- small button close -->
+        <!-- logo begin -->
+        <div id="logo">
+            <a href="index.html">
+                <img class="logo" src="~/Content/stone/images/logo-2.png" alt="">
+                <img class="logo-2" src="~/Content/stone/images/logo-border.png" alt="">
+            </a>
+        </div>
+        <!-- logo close -->
+        <!-- mainmenu begin -->
+        @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-horizontal hidden_form", role = "form", @id = "formLogin" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @style = "color:#e7413e;" })
+            <h4 class="sub-title text_ColorMe">Login to your account</h4><br>
+            @Html.ValidationMessageFor(m => m.UserName)
+            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @placeholder = "User Name*", @id = "userName" })<br>
+            @Html.ValidationMessageFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Password*", @id = "password" })<br>
+            <div class="form-group">
+                <div class="checkbox pull-left">
+                    @Html.CheckBoxFor(m => m.RememberMe, new { @id = "checkbox" })
+                    @Html.LabelFor(m => m.RememberMe, new { @style = "color:white;" })
+                </div>
+                <button id="submit_login" class="btn btn-warning" onclick="getIpLogin()" style="float:right">Login</button>
+            </div>
+        }
+        @*<form method="post" action="/Home/Index">
+            <div class="modal-body">
+                <div> <h4>Tài Khoản</h4></div>
+                <div>
+                    <input type='text' name='username' id='username' class="form-control" required placeholder="Tài Khoản**">
+                </div><br />
+                <div> <h4>Mật Khẩu</h4></div>
+                <div>
+                    <input type='password' name='password' id='password' class="form-control" required placeholder="Mật Khẩu**">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button data-toggle="modal" data-target="#Register" type="button" class="btn btn-primary">Đăng Ký</button>
+                <button type="submit" class="btn btn-primary">Đăng Nhập</button>
+            </div>
+        </form>*@
+
+
+        <div class="h-content">
+            <div class="social-icons-2">
+                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+            </div>
+        </div>
+
+
+    </header>
+    <!-- header close -->
+
+
+</div>
+<div id="myModal" class="modal">
+    <div class="loader" id="loader"></div>
+</div>
+<script type="text/javascript">
+
+
+    //// Get the button that opens the modal
+    //var btn = document.getElementById("myBtn");
+
+    //// Get the <span> element that closes the modal
+    //var span = document.getElementsByClassName("close")[0];
+
+    //// When the user clicks on the button, open the modal
+    //btn.onclick = function () {
+    //    modal.style.display = "block";
+    //}
+
+    //// When the user clicks on <span> (x), close the modal
+    //span.onclick = function () {
+    //    modal.style.display = "none";
+    //}
+
+    //// When the user clicks anywhere outside of the modal, close it
+    //window.onclick = function (event) {
+    //    if (event.target == modal) {
+    //        modal.style.display = "none";
+    //    }
+    //}
+    //var modal = document.getElementById("myModal");
+    //modal.style.display = "block";
+    function getIpLogin() {
+        $('#submit_login').attr("disabled", "disabled").css("cursor", "default").fadeTo(500, 0.2);
+        $('#submit_login').last().html("Please waitting...");
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+        console.log("document.URL : " + document.domain);
+        console.log("Log: " + $('#userName').val());
+        var UserName = $('#userName').val();
+        //$.ajax({
+        //    type: "POST",
+        //    url: "/EmailFunc/GetIPClient",
+        //    data: { username: UserName },
+        //    async: false,
+        //    success: function (data) {
+        //        console.log(data);
+        //        //$('#submit_login').prop('disabled', true);
+        //        //$('#submit_login').submit();
+        //    }
+        //});
+        $("#formLogin").submit();
+    };
+</script>

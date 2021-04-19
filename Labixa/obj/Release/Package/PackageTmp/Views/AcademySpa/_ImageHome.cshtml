@@ -1,0 +1,14 @@
+﻿
+@model IEnumerable<Outsourcing.Data.Models.LibraryImage>
+
+@foreach (var item in Model)
+{
+
+    if (item.Type == 1)
+    {
+        <li class="ro-item">
+            <div class="ro-image"><a href="#"><img src="@item.Url" alt="space image" /></a></div>
+        </li>
+    }
+
+}

@@ -1,0 +1,90 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<Outsourcing.Data.Models.LibraryImage>
+<style>
+
+    .container {
+    }
+
+    div.gallery {
+        margin: 20px;
+        float: left;
+        width: 350px;
+        height: 370px;
+    }
+
+        div.gallery:hover {
+            border: 1px solid;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 250px;
+        }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        vertical-align: bottom;
+    }
+
+    p.borderexam2 {
+        padding: 15px;
+        border-bottom: 2px dotted black;
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        border-bottom: 1px dashed;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    .ro-main {
+        background-color: #DECA9E;
+    }
+</style>
+
+
+
+<div class="ro-section" style="margin-top: 212px;">
+    <div class="container">
+        <div class="row ro-section-mb">
+            <div class="col-lg-8 col-lg-offset-2 text-center ro-shop-intro">
+                <p>* * *<br />THƯ VIỆN HÌNH ẢNH</p>
+            </div>
+        </div>
+        <div class="row ro-section-mb">
+            @foreach (var item in Model)
+            {
+                if (Url != null)
+                {
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="ro-shop-item ro-center-block">
+                            <a href="#"><img src="@item.Url" alt="shop image" class="img-responsive" style="height:275px;" /></a>
+                        </div>
+                    </div>
+                }
+
+            }
+
+
+
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <nav class="text-center ro-section-mb-small">
+
+        <center>
+            <br />
+            Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+            @Html.PagedListPager(Model, page => Url.Action("TrainImage", "AcademySpa", new { page }))
+        </center>
+
+    </nav>
+</div>

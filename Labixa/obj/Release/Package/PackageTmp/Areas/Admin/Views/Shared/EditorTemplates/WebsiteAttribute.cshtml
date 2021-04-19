@@ -1,0 +1,42 @@
+﻿@using Outsourcing.Core
+@model Outsourcing.Data.Models.WebsiteAttribute
+@{
+    var template = "";
+    if (Model.ControlType.ToLower() == "textarea")
+    {
+        template = "Ckeditor";
+    }
+    else if (Model.ControlType.ToLower() == "image")
+    {
+        template = "GetImageFromElfinder";
+    }else if(Model.ControlType.ToLower()=="checkbox")
+    {
+        template = "CheckBox";
+    }
+}
+<div class="form-group ">
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.Name)
+    @Html.HiddenFor(model => model.Description)
+    @Html.HiddenFor(model => model.Type)
+    @Html.HiddenFor(model => model.ControlType)
+    @Html.HiddenFor(model => model.Deleted)
+    
+    <div class="col-sm-3 control-label no-padding-right">
+        <label class="col-sm-12 control-label no-padding-right" for="">
+            @Model.Description
+        </label>
+        <label class="col-sm-12 control-label no-padding-right" for="">
+            Kích hoạt:
+            @Html.EditorFor(model => model.IsPublic)
+        </label>
+
+
+   
+    </div>
+
+    <div class="col-sm-9">
+        @Html.EditorFor(model => model.Value, template)
+        @Html.ValidationMessageFor(model => model.Value)
+            </div>
+</div>

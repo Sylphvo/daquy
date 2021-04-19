@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.Blog>
+
+
+
+            @foreach (var item in Model)
+            {
+
+
+                <li class="ro-item">
+                    <a href="/ReviewDetail/@item.Slug">
+                        <div class="ro-image">
+                            <img src="@item.BlogImage_Default" style="width: 100%;height: 112px;" alt="testimonial" />
+                        </div>
+                        <div class="ro-content">
+                            <p>@item.Description</p>
+
+                        </div>
+                    </a>
+                </li>
+            }
+

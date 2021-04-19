@@ -1,0 +1,88 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<Outsourcing.Data.Models.LibraryImage>
+<style>
+    div.video {
+        margin: 40px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 500px;
+        height: 370px;
+    }
+
+        div.video:hover {
+            border: 1px solid #777;
+        }
+
+    .ytb {
+        position: relative;
+        width: 100%;
+        height: 370px;
+    }
+
+    p.borderexam2 {
+        padding: 15px;
+        border-bottom: 2px dotted black;
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+        border-bottom: 1px dashed;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    .ro-main {
+        background-color: #DECA9E;
+    }
+</style>
+
+
+<div class="ro-section" style="margin-top: 212px;">
+    <div class="container">
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+                if (item.Url == null)
+                {
+                    <div class="video">
+                        <p>
+                            @Html.Raw(item.Temp2)
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <div class="video">
+                        <p>
+                            <iframe  width="500" height="370" class="ytb" title="CHIA SẺ KINH NGHIỆM CHĂM SÓC SAU SINH"
+                                    src="@item.Url" frameborder="0"
+                                    allow="accelerometer; autoplay;
+                                   encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                        </p>
+                    </div>
+                }
+            }
+
+
+
+        </div>
+        <div class="row">
+            <nav class="text-center ro-section-mb-small">
+
+                <center>
+                    <br />
+                    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+                    @Html.PagedListPager(Model, page => Url.Action("Video", "AcademySpa", new { page }))
+                </center>
+
+            </nav>
+        </div>
+
+
+    </div>
+</div>
+

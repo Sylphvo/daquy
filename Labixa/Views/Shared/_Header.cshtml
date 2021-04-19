@@ -1,0 +1,87 @@
+﻿<style>
+    .modal-title {
+        text-align: center !important;
+    }
+</style>
+<header>
+    <div class="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="column">Working Hours Monday - Friday <span class="id-color"><strong>08:00-16:00</strong></span></div>
+                    <div class="column">Toll Free <span class="id-color"><strong>1800.899.900</strong></span></div>
+                    <!-- social icons -->
+                    <div class="column social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-rss"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                    <!-- social icons close -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- logo begin -->
+                <div id="logo">
+                    <a href="index.html">
+                        <img class="logo" src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <!-- logo close -->
+                <!-- small button begin -->
+                <span id="menu-btn"></span>
+                <!-- small button close -->
+                <!-- mainmenu begin -->
+                <nav>
+                    <ul id="mainmenu">
+                        <li>
+                            <a href="/Home">Trang Chủ</a>
+                        </li>
+                        <li>
+                            <a href="/Pages">Pages</a>
+                        </li>
+                        <li>
+                            <a href="/Service">Services</a>
+                        </li>
+                        <li>
+                            <a href="/Blog">Blog</a>
+                        </li>
+                        <li>
+                            <a href="/Shop">Cửa Hàng</a>
+                        </li>
+                        <li><a href="/Contact">Hỗ Trợ</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <li>
+
+                                <a href="/login"><i title="Copy to use sign-in"></i> Đăng Nhập</a>
+                                <a href="/register-account">  <i class="fa fa-fw" aria-hidden="true" title="Copy to use sign-out"></i>  Đăng Ký</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <a><i aria-hidden = "true" class="icon-profile-male" ></i> @User.Identity.Name</a>
+                            <li>
+                                <a class="btn btn-line-black" href="/logoff">
+
+                                    Đăng Xuất
+                                </a>
+                            </li>
+                        }
+                </nav>
+
+                <!-- mainmenu close -->
+
+            </div>
+
+
+        </div>
+    </div>
+</header>

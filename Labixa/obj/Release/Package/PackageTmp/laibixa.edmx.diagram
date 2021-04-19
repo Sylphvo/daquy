@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3668f13af99f4f0ba93638c94fdb6e8c" Name="Diagram1">
+        <EntityTypeShape EntityType="Rise_webModel.AccountUser" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.AspNetRoles" Width="1.5" PointX="5.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.AspNetUserClaims" Width="1.5" PointX="10.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.AspNetUserLogins" Width="1.5" PointX="10.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.AspNetUsers" Width="1.5" PointX="8" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.BlogCategories" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.Blogs" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.OrderItems" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.Orders" Width="1.5" PointX="5.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.Pictures" Width="1.5" PointX="0.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.ProductAttributeMappings" Width="1.5" PointX="8" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.ProductAttributes" Width="1.5" PointX="5.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.ProductCategories" Width="1.5" PointX="7.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.ProductPictureMappings" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.ProductRelationships" Width="1.5" PointX="3" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.Products" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.Staffs" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.sysdiagrams" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Rise_webModel.WebsiteAttributes" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="Rise_webModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="Rise_webModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="Rise_webModel.FK_dbo_BlogCategories_dbo_BlogCategories_CategoryParentId" ManuallyRouted="false" />
+        <AssociationConnector Association="Rise_webModel.FK_dbo_Blogs_dbo_BlogCategories_BlogCategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="Rise_webModel.FK_ProductPictureMappings_Pictures" ManuallyRouted="false" />
+        <AssociationConnector Association="Rise_webModel.FK_ProductAttributeMappings_ProductAttributes" ManuallyRouted="false" />
+        <AssociationConnector Association="Rise_webModel.FK_ProductPictureMappings_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Rise_webModel.FK_ProductRelationships_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Rise_webModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

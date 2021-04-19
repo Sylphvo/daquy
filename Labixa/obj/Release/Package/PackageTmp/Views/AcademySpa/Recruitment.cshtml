@@ -1,0 +1,64 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<Outsourcing.Data.Models.Blog>
+
+<div class="ro-section" style="margin-top: 212px;">
+    <div class="container">
+        <div id="ro-shop-tab" class="tab-content">
+            <div id="ro-shop-beauty" class="tab-pane fade active in">
+
+                @foreach (var item in Model)
+                {
+                    <div class="row ro-related-posts">
+                        <div class="col-md-12">
+                            <div class="ro-relate-posts-item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="ro-image"><img src="@item.BlogImage_Default" alt="@item.Title" /></div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="ro-content">
+                                            <a href="/recruitmentdetail/@item.Slug"><h3 class="ro-title">@item.Title</h3></a>
+                                            <p>Ngày đăng: @item.DateCreated </p>
+                                            <p>@Html.Raw(item.Description)...</p>
+                                            <a href="/recruitmentdetail/@item.Slug" style="color:gray;float:right;margin-top:30px;"><h3>Xem thêm</h3></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+
+
+
+
+                <nav class="text-center ro-section-mb-small">
+                    <center>
+                        <br />
+                        Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+                        @Html.PagedListPager(Model, page => Url.Action("Recruitment", "AcademySpa", new { page }))
+                    </center>
+                </nav>
+            </div>
+        </div>
+    </div>
+ 
+</div>
+<style>
+
+    .ro-main {
+        background-color: #DECA9E;
+    }
+
+    .ro-relate-posts-item {
+        max-width: 100% !important;
+    }
+
+    .ro-image {
+        width: 375px !important;
+        height: unset !important;
+        margin-left: 45px !important;
+    }
+</style>

@@ -1,0 +1,28 @@
+﻿@model  Outsourcing.Data.Models.Product
+<div class="ro-section ro-bgc-5" style="margin-top:212px">
+    <div class="container">
+        <div class="ro-specialize clearfix">
+            <div class="row">
+                @*<div class="col-md-3 text-center"><img src="@Model.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="spacialize" class="img-responsive"></div>*@
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h3 class="ro-hr-heading">@Model.Name</h3>
+                    <div class="ro-specialize-content" style="background-color: #d8bf8cc4">
+                        @Html.Raw(Model.Content)
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+<div id="service" class="ro-section ro-padding-top">
+    <div class="container">
+        <div class="row ro-section-mb">
+            <div class="col-md-12">
+                <h3 class="ro-hr-heading ro-section-heading">Khóa Học Liên Quan</h3>
+            </div>
+          @Html.Action("getCourseNews", "AcademySpa")
+        </div>
+    </div>
+</div>

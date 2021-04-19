@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Outsourcing.Data.Models.Product>
+@*test 1*@
+@foreach (var item in Model)
+{
+    <div class="col-md-4 col-xs-12" style="height: 701px; width: 390px">
+        <div class="ro-service-item-2 clearfix"  style="background-color: #d8bf8cc4">
+
+            <div style="height: 700px">
+                <a href="/courseDetail/@item.Slug">
+                    <img src="@item.ProductPictureMappings.FirstOrDefault().Picture.Url" alt="service" class="img-responsive" style="margin:auto;width:300px;display:block; margin-top:25px" />
+                </a>
+                    <a href="/courseDetail/@item.Slug">
+                        <h4 style="height:50px;padding:15px 5px;">@item.Name</h4>
+                    </a>
+                <br/>
+                    <p style="padding:25px; font-size:15px; font-style:normal">
+                        @Html.Raw(item.Description)
+                    </p>
+                    <a href="/courseDetail/@item.Slug">
+                        <p style="position:absolute; bottom:0; left: 158px;">xem ngay</p>
+                    </a>
+            </div>
+
+        </div>
+    </div>
+}
+
