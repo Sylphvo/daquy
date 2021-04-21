@@ -31,3 +31,37 @@ C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Core\obj\Release\Outsourc
 C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Core\obj\Release\Outsourcing.Core.csproj.CoreCompileInputs.cache
 C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Core\obj\Release\Outsourcing.Core.dll
 C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Core\obj\Release\Outsourcing.Core.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Outsourcing.Core.dll.config
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Outsourcing.Core.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Outsourcing.Core.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\EntityFramework.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\EntityFramework.SqlServer.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Outsourcing.Data.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.Helpers.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.Mvc.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.Razor.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.WebPages.Deployment.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.WebPages.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.WebPages.Razor.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\PagedList.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Outsourcing.Data.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Outsourcing.Data.dll.config
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\EntityFramework.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\EntityFramework.SqlServer.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.Helpers.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.Mvc.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.Razor.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.WebPages.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.WebPages.Deployment.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\System.Web.WebPages.Razor.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\bin\Release\PagedList.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\obj\Release\Outsourcing.Core.csprojAssemblyReference.cache
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\obj\Release\Outsourcing.Core.csproj.CoreCompileInputs.cache
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\obj\Release\Outsourcing.Core.csproj.CopyComplete
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\obj\Release\Outsourcing.Core.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Core\obj\Release\Outsourcing.Core.pdb

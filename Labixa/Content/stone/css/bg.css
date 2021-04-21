@@ -1,4 +1,4 @@
-/* 
+﻿/* 
 	Section Background (bg.css)
 	
 	Table of Content
@@ -43,7 +43,9 @@ background:url(../images/background/subheader.jpg)top fixed;
 #section-welcome{background:url(../images/background/bg-4.jpg) top fixed;}
 #section-welcome-2{background:url(../images/background/bg-6.jpg) top fixed;}
 #section-welcome-3{background:url(../images/background/bg-7.jpg) top fixed;}
-#section-welcome-4{background:url(../images/background/bg-10.jpg) top fixed;}
+#section-welcome-4 {
+	background: url(../img-background/background-login.png) top fixed;
+}
 #section-welcome-6{background:url(../images/background/bg-15.jpg) top fixed;}
 #section-welcome-7{background:url(../images/background/bg-19.jpg) fixed center;}
 #section-welcome-8{background:url(../images/background/bg-20.jpg) fixed center;}
@@ -58,11 +60,13 @@ background:url(../images/background/subheader.jpg)top fixed;
 #section-portfolio{background:#222; width:101%; overflow:hidden;}
 .de_light #section-portfolio{background:#fff;}
 #section-skill-bar{ background:url(../images/background/bg-8.jpg) top fixed;}
-#section-testimonial{ background:url(../images/background/bg-3.jpg) top fixed;}
+/*#section-testimonial {
+	background: url(../img-background/background-home.jpg) top fixed; back ground trên footer ở trang chủ
+}*/ 
 #section-testimonial-2{ background:url(../images/background/bg-17.jpg) top fixed;}
-#section-steps {
+/*#section-steps {
 	background: url(../images/stone/marble_simple_background_sphere_3D_Pok_balls-168627.jpg) top fixed;
-}
+}*/
 #section-steps-2{ background:#f5f5f5;}
 #section-steps-3{ background:url(../images/background/bg-12.jpg) top fixed;}
 #section-steps-4{ background:url(../images/background/bg-32.jpg) top no-repeat;}

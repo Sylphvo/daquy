@@ -55,6 +55,18 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
+                                    @Html.MyLabelFor(model => model.Noted_1)
+                                    <div class="col-sm-9">
+                                        @Html.EditorFor(model => model.Noted_1, "CkEditor")
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.MyLabelFor(model => model.Noted_2)
+                                    <div class="col-sm-9">
+                                        @Html.EditorFor(model => model.Noted_2, "CkEditor")
+                                    </div>
+                                </div>
+                                <div class="form-group">
                                     @Html.MyLabelFor(model => model.ControlType)
                                     <div class="col-sm-9">
                                         @Html.EditorFor(model => model.ControlType)
@@ -77,20 +89,20 @@
                                     <div class="col-sm-9">
                                         @* Flexible control type *@
                                         @{
-                    var template = Model.ControlType;
+                                            var template = Model.ControlType;
 
-                    if (template == "TextArea")
-                    {
-                        template = "Ckeditor";
-                    }
-                    else if (template == "Image")
-                    {
-                        template = "GetImageFromElfinder";
-                    }
-                    else if (template == "Text")
-                    {
-                        template = "String";
-                    }
+                                            if (template == "TextArea")
+                                            {
+                                                template = "Ckeditor";
+                                            }
+                                            else if (template == "Image")
+                                            {
+                                                template = "GetImageFromElfinder";
+                                            }
+                                            else if (template == "Text")
+                                            {
+                                                template = "String";
+                                            }
                                         }
 
                                         @Html.EditorFor(model => model.Value, template)

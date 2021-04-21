@@ -24,7 +24,7 @@
             <li>
                 <a href="/Admin/ProductCategory">Quản lý danh mục</a>
             </li>
-            <li class="active">Khóa học</li>
+            <li class="active">sản phẩm</li>
         </ul>
     </div>
 }
@@ -32,7 +32,7 @@
     <div class="row">
         <div class="col-xs-12">
 
-            <a class="btn btn-success" href="/Admin/Product/Create" style="margin-bottom:10px">Thêm khóa học</a>
+            <a class="btn btn-success" href="/Admin/Product/Create" style="margin-bottom:10px">Thêm sản phẩm</a>
 
             <div class="row" style="margin-bottom:10px">
                 <div class="col-sm-6">
@@ -82,7 +82,7 @@
             </div>
 
 
-            <div class="table-header">Danh sách khóa học</div>
+            <div class="table-header">Danh sách sản phẩm</div>
 
             <table id="productTable" class="table table-bordered table-striped table-fixed-header">
                 <thead>
@@ -135,9 +135,6 @@
 
                                 <td class=" ">
                                     <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
-                                        <a href="/Admin/LibraryImage/DetailProduct?id=@item.Id&cateId=@item.ProductCategoryId" data-toggle="tooltip" title="Chi tiết Khóa học" class="btn btn-xs btn-secondary">
-                                            <i class="icon-eye-open"></i>
-                                        </a>
                                         <a href="/Admin/Product/Edit?productId=@item.Id" class="btn btn-xs btn-info">
                                             <i class="icon-edit bigger-160"></i>
                                         </a>

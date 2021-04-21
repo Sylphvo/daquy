@@ -1,147 +1,56 @@
 ﻿@model Labixa.Models.RegisterViewModel
 @{
     ViewBag.Title = "RegisterAccount";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutAuthor.cshtml";
 }
-<style>
-    .titlelogin{
-        margin-right:0 !important;
-    }
-    .validation-summary-errors {
-        color: #e7423c !important;
-    }
+<div id="de-sidebar" class="col-lg-3 col-md-12">
 
-    .loader {
-        border: 16px solid #f3f3f3; /* Light grey */
-        border-top: 16px solid #3498db; /* Blue */
-        border-radius: 50%;
-        width: 120px;
-        height: 120px;
-        animation: spin 2s linear infinite;
-    }
+    <!-- header begin -->
+    <header class="side-header">
 
-    .securesignup {
-        margin: 0px 0px 70px 0px;
-    }
+        <!-- small button begin -->
+        <span id="menu-btn"></span>
+        <!-- small button close -->
+        <!-- logo begin -->
+        <div id="logo">
+            <a href="">
+                <img class="logo" src="~/Content/stone/Logo/GEMS-01-01.png" alt="" width="150" height="150">
+                <img class="logo-2" src="~/Content/stone/images/logo-border.png" alt="">
+            </a>
+        </div>
+        <!-- logo close -->
+        <!-- mainmenu begin -->
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", @role = "form", @id = "formSignup" }))
+        {
 
-    .titlelogin {
-        color: #fefefe;
-        font-size: 50px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;
-        margin: 200px 50px 0px 0;
-    }
-
-    .form-control {
-        margin: 25px 0 25px 0;
-    }
-
-    #loader {
-        /*display: none;*/
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        margin-top: -50px;
-        margin-left: -50px;
-    }
-
-    @@keyframes spin {
-        0% {
-            transform: rotate(0deg);
-        }
-
-        100% {
-            transform: rotate(360deg);
-        }
-    }
-    /* The Modal (background) */
-    .modal {
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        z-index: 9999; /* Sit on top */
-        left: 0;
-        top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    }
-
-    /* Modal Content/Box */
-    .modal-content {
-        background-color: #fefefe;
-        margin: 15% auto; /* 15% from the top and centered */
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%; /* Could be more or less, depending on screen size */
-    }
-
-    /* The Close Button */
-    .close {
-        color: #aaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-    .login-page {
-        background: #070b28;
-    }
-
-    .registerbody {
-        margin: 50px 0px 50px 0px;
-    }
-</style>
-<!-- The Modal -->
-<div id="myModal" class="modal">
-    <div class="loader" id="loader"></div>
-</div>
-<div class="register login-page">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-6 col-md-8 titleregister">
-                <div class="titlelogin">
-                    <h3 class="title" style="color:#fefefe">
-                        REGISTER HERE
-                    </h3>
-
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary()
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 registerbody ">
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @placeholder = "Tài Khoản*" })<br>
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Mật Khẩu*" })<br>
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email*" })<br>
                 </div>
+            </div>
 
-                @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", @role = "form", @id = "formSignup" }))
-                {
+            <div class="row" style="float:right">
+                <button type="button" class="btn btn-warning securesignup" onclick="SignUp()" id="securesignup">Tạo Tài Khoản</button>
 
-                    @Html.AntiForgeryToken()
-                    @Html.ValidationSummary()
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-12 col-md-12 registerbody ">
-                            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @placeholder = "User Name*" })
-                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Password*" })
-                            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", @placeholder = "Confirmation Password*" })
-                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email*" })
-                            @Html.TextBoxFor(m => m.Affilate_ID, new { @class = "form-control", @placeholder = "Affilate ID*", @Value = (ViewBag.Affiliate != null && ViewBag.Affiliate != "") ? ViewBag.Affiliate : "" })
-                        </div>
-                    </div>
-                    
-                    <div class="row" style="float:right">
-                        <button type="button" class="btn btn-warning securesignup" onclick="SignUp()" id="securesignup">Create account <i class="fas fa-arrow-right"></i></button>
-
-                    </div>
-                }
+            </div>
+        }
+        <div class="h-content">
+            <div class="social-icons-2">
+                <a href="https://www.facebook.com/Trang-s%E1%BB%A9c-Gems-Tek-105273135036909/?ref=page_internal"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                <a href="#"><i class="fa fa-rss fa-lg"></i></a>
             </div>
         </div>
-    </div>
+
+
+    </header>
 </div>
-
-
-
 @section Scripts {
     <script>
         //var modal = document.getElementById("myModal");

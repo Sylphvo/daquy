@@ -13,16 +13,14 @@ namespace Labixa
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             routes.MapRoute("Home", "Home", new { controller = "Home", action = "Index", id = UrlParameter.Optional });
-            routes.MapRoute("about-us", "about-us", new { controller = "Home", action = "AboutUs", id = UrlParameter.Optional });
-            routes.MapRoute("ware-game", "ware-game", new { controller = "Home", action = "WareGame", id = UrlParameter.Optional });
-            routes.MapRoute("contest", "contest", new { controller = "Home", action = "Contest", id = UrlParameter.Optional });
-            routes.MapRoute("contact", "Contact", new { controller = "Home", action = "Contact", id = UrlParameter.Optional });
+            routes.MapRoute("Contact", "Contact", new { controller = "Contact", action = "Index", id = UrlParameter.Optional });
+            routes.MapRoute("register-account", "register-account", new { controller = "Account", action = "Register", affiliate = UrlParameter.Optional });
+
             routes.MapRoute("affilites", "affilites", new { controller = "Home", action = "AffiliateProgramming", id = UrlParameter.Optional });
             routes.MapRoute("account-dashboard", "account-dashboard", new { controller = "Home", action = "AccountDashboard", id=UrlParameter.Optional});
             routes.MapRoute("my-affilites", "my-affilites", new { controller = "Home", action = "Affilites", id = UrlParameter.Optional });
             routes.MapRoute("changePassword", "changePassword", new { controller = "Home", action = "ChangePassword", id = UrlParameter.Optional });
             routes.MapRoute("history-transaction", "history-transaction", new { controller = "Home", action = "History", id = UrlParameter.Optional });
-            routes.MapRoute("register-account", "register-account", new { controller = "Account", action = "Register", affiliate = UrlParameter.Optional });
             routes.MapRoute("login", "login", new { controller = "Account", action = "Login", id = UrlParameter.Optional });
             routes.MapRoute("Logoff", "Logoff", new { controller = "Account", action = "Signout", id = UrlParameter.Optional });
             routes.MapRoute("change-password", "change-password", new { controller = "Account", action = "Manage", id = UrlParameter.Optional });

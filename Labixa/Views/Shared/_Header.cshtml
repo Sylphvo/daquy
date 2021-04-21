@@ -44,37 +44,98 @@
                             <a href="/Home">Trang Chủ</a>
                         </li>
                         <li>
-                            <a href="/Pages">Pages</a>
+                            <a href="#">Bộ Sưu Tập<span></span></a>
+                            <ul class="mega">
+                                <li>
+                                    <div class="container-fluid">
+                                        <div class="menu-content">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-12">
+                                                    <ul>
+                                                        <li class="title">Nhẫn Nam</li>
+                                                        <li><a href="#">Nhẫn Phong Thuỷ</a></li>
+                                                        <li><a href="#">Nhẫn Đính Đá</a></li>
+                                                        <li><a href="#">Nhẫn Cặp</a></li>
+                                                        <li><a href="#">Nhẫn Ngón út</a></li>
+                                                        <li><a href="#">Nhẫn Teen</a></li>
+                                                        
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-lg-3 col-md-12">
+                                                    <ul>
+                                                        <li class="title">Lắc Tay & Lắc Chân</li>
+                                                        <li><a href="#">Lắc Tay Bạc</a></li>
+                                                        <li><a href="#">Lắc Tay Mảnh</a></li>
+                                                        <li><a href="#">Lắc Tay Cặp</a></li>
+                                                        <li><a href="#">Lắc Tay Bản Khắc Tên</a></li>
+                                                        <li><a href="#">Lắc Tay Bé</a></li>
+                                                        <li><a href="#">Vòng Kiềng Bạc</a></li>
+                                                        <li><a href="#">Vòng Charm Pandora</a></li>
+                                                        <li><a href="#">Vòng Đá Phong Thủy</a></li>
+                                                        <li><a href="#">Vòng Chỉ Đỏ</a></li>
+                                                        <li><a href="#">Lắc Chân</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-lg-3 col-md-12">
+                                                    <ul>
+                                                        <li class="title">Trang Sức Nam</li>
+                                                        <li><a href="#">Nhẫn Nam</a></li>
+                                                        <li><a href="#">Lắc Tay Nam</a></li>
+                                                    
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-lg-3 col-md-12">
+                                                    <ul>
+                                                        <li><a href="#">Vòng Đá Phong Thủy</a></li>
+                                                        <li><a href="#">Trang Sức Theo Bộ</a></li>
+                                                        <li><a href="#">Trang Sức Trẻ Em</a></li>
+                                                        
+                                                    </ul>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                        @*<li>
+                            <a href="/#">Services</a>
+                        </li>*@
+                        <li>
+                            <a href="#">Bài Viết</a>
                         </li>
                         <li>
-                            <a href="/Service">Services</a>
-                        </li>
-                        <li>
-                            <a href="/Blog">Blog</a>
-                        </li>
-                        <li>
-                            <a href="/Shop">Cửa Hàng</a>
+                            <a href="#">Cửa Hàng</a>
                         </li>
                         <li><a href="/Contact">Hỗ Trợ</a></li>
-                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="#">FAQ</a></li>
                         @if (!User.Identity.IsAuthenticated)
                         {
                             <li>
-
-                                <a href="/login"><i title="Copy to use sign-in"></i> Đăng Nhập</a>
-                                <a href="/register-account">  <i class="fa fa-fw" aria-hidden="true" title="Copy to use sign-out"></i>  Đăng Ký</a>
+                                <a href="/login"><i class="fa fa-fw" title="Copy to use sign-in"></i> Đăng Nhập</a>
                             </li>
+                            <li>
+                                <a href="/register-account">  <i class="fa fa-fw" title="Copy to use sign-out"></i>  Đăng Ký</a>
+                            </li>
+
                         }
                         else
                         {
                             <li><a><i aria-hidden="true" class="icon-profile-male"></i> @User.Identity.Name</a></li>
                             <li>
-                                <a class="btn btn-line-black" href="/logoff">
+                                <a href="/logoff">
 
                                     Đăng Xuất
                                 </a>
                             </li>
                         }
+                        </ul>
                 </nav>
 
                 <!-- mainmenu close -->

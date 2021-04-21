@@ -1,60 +1,68 @@
-﻿@{
-    var dat = (IEnumerable<Outsourcing.Data.Models.WebsiteAttribute>)ViewBag.social;
-
-    HttpCookie cookie = Request.Cookies["_culture"];
-}
-
-<footer class="ro-bg-dark ro-section" style="background:#74482c">
+﻿<footer>
     <div class="container">
-        <div class="ro-main-footer">
-            <div class="row">
-                <div class="col-lg-5 col-md-4 col-sm-7 col-xs-12 ro-footer-item">
-                    <h5>LIÊN HỆ</h5>
-                    <p>Trụ sở chính: 61 Bàu Cát 1, phường 14, quận Tân Bình,<br /> thành phố Hồ Chí Minh</p>
-                    <p>Điện thoại: 028.62.83.38.38 – 0963.002.002 – 0915.9000.83</p>
-                    <p>Website: naturalqueen.com.vn</p>
-                    <p>Email: Naturalqueen.com.vn@gmail.com</p>
-                </div>
+        <div class="row">
+            <div class="col-md-3" style="text-align:center">
+                <img class="logo" src="~/Content/stone/Logo/GEMS-01-01.png" alt="" width="150" height="150">
+                @*<img src="~/Content/stone/Logo/GEMS-01-01.png" class="logo-small" alt="">*@<br> Chuyên cung cấp đá quý, trang sức Bạc cao cấp
+            </div>
 
-                <div class="col-lg-2 col-md-4 col-sm-7 col-xs-12 ro-footer-item">
-                    <h5>GIỜ MỞ CỬA</h5>
-                    <p>8:00am - 11:30am</p>
-                    <p>2:00am - 5:30pm</p>
-                    <p>7:00pm - 10:00pm</p>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-7 col-xs-12 ro-footer-item">
-                    <h5>Link Nhanh</h5>
-                    <p><a href="/">Trang chủ</a></p>
-                    <p>
-                        <a href="/news">Tin tức</a>
-                    </p>
-                    <p>
-                        <a href="/recruitment">Tuyển dụng</a>
-                    </p>
-                    <p>
-                        <a href="/Contact">Liên hệ</a>
-                    </p>
-                    <p>
-                        <a href="/Login">Đăng nhập</a>
-                    </p>
-                
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-7 col-xs-12 ro-footer-item">
-                    <h5>Fanpage</h5>
-                    <div class="single-footer-widget">
-                        <div class="footer-social d-flex align-items-center">
-                            <div class="fb-page" data-href="https://www.facebook.com/naturalqueen.com.vn/" data-tabs="" data-width="300px" data-height="300px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/lilotech2014/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/naturalqueen.com.vn/">naturalqueen.com.vn</a></blockquote></div>
-                        </div>
-                    </div>
+            <div class="col-md-3">
+                <div class="widget widget_recent_post">
+                    <h3>Tin Tức</h3>
+                    <ul>
+                        <li><a target="_blank" href="https://thoitrangtre.thanhnien.vn/nghe-nghiep/da-quy-ranh-gioi-giua-hanh-phuc-va-kho-dau-40493.html">Đá quý: Ranh giới giữa hạnh phúc và khổ đau</a></li>
+                        <li><a target="_blank" href="https://thanhnien.vn/the-gioi/tho-mo-tanzania-tro-thanh-trieu-phu-usd-nho-tim-duoc-da-quy-hiem-1243301.html">Hai khối đá quí giúp thợ mỏ Tanzania trở thành triệu phú USD</a></li>
+                        <li><a target="_blank" href="https://www.nguoiduatin.vn/sieu-nhan-kim-cuong-dat-ky-luc-guinness-the-gioi-a498818.html">Siêu nhẫn kim cương đạt kỷ lục Guinness thế giới</a></li>
+                        <li><a target="_blank" href="https://www.nguoiduatin.vn/than-apollo-hien-hinh-tren-con-dau-ngoc-bich-2000-nam-tuoi-a495319.html">Bí ẩn về thần Apollo trên con dấu ngọc bích 2.000 năm tuổi</a></li>
+                        <li><a target="_blank" href="https://www.nguoiduatin.vn/chuyen-la-nguoi-dan-ba-bi-an-trong-chiec-nhan-sapphire-gan-2-000-tuoi-a475801.html">Chuyện lạ: Người đàn bà bí ẩn trong chiếc nhẫn sapphire gần 2.000 tuổi</a></li>
+                    </ul>
                 </div>
             </div>
-           
 
+            <div class="col-md-3">
+                <h3>Hỗ Trợ</h3>
+                <div class="widget widget-address">
+                    <address>
+                        <span>307/41 Thạch Lam, P.Phú Thạnh, Q.Tân Phú, HCM</span>
+                        <span><strong>Phone:</strong>0906710739</span>
+                        <span><strong>Email:</strong><a href="mailto:contact@Daquy.com">contact@Daquy.com</a></span>
+                        <span><strong>Facebook:</strong><a href="https://www.facebook.com/Trang-s%E1%BB%A9c-Gems-Tek-105273135036909/?ref=page_internal">&emsp; Trang sức Gems-Tek</a></span>
+                    </address>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="widget widget_recent_post">
+                    <h3>Thông Tin Chung</h3>
+                    <ul>
+                        <li><a href="#">Hướng dẫn đo size</a></li>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Phương thức thanh toán</a></li>
+                        <li><a href="#">Tuyển cộng tác viên</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="ro-foot-footer">
-        <h6>© 2015 NATUQURREEN SPA AND BEAUTY. DESIGNED BY LILOETCH</h6>
+    <div class="subfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    &copy; Copyright 2020 <span class="id-color">Gems-Tek</span>
+                </div>
+                <div class="col-md-6 text-right">
+                    <div class="social-icons">
+                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-skype fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-dribbble fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
+    <a href="#" id="back-to-top"></a>
 </footer>

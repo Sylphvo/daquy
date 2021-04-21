@@ -15,3 +15,21 @@ C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\obj\Release\Outsourc
 C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\obj\Release\Outsourcing.Data.csproj.CoreCompileInputs.cache
 C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\obj\Release\Outsourcing.Data.dll
 C:\Users\HuongMNTSE62703\Desktop\sourceSpa\Outsourcing.Data\obj\Release\Outsourcing.Data.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\Outsourcing.Data.dll.config
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\Outsourcing.Data.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\Outsourcing.Data.pdb
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\EntityFramework.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\PagedList.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\EntityFramework.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\bin\Release\PagedList.xml
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\obj\Release\Outsourcing.Data.csprojAssemblyReference.cache
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\obj\Release\Outsourcing.Data.csproj.CoreCompileInputs.cache
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\obj\Release\Outsourcing.Data.csproj.CopyComplete
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\obj\Release\Outsourcing.Data.dll
+D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\obj\Release\Outsourcing.Data.pdb

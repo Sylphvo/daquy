@@ -52,9 +52,9 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label no-padding-right">Tên Tiếng anh Danh Mục (*): </label>
+                                    <label class="col-sm-3 control-label no-padding-right">Hình Ảnh (*): </label>
                                     <div class="col-sm-9">
-                                        @Html.EditorFor(model => model.Notes)
+                                        @Html.EditorFor(model => model.Notes, "GetImageFromElfinder")
                                         @Html.ValidationMessageFor(model => model.Notes)
                                     </div>
                                 </div>
@@ -76,6 +76,20 @@
                                     <div class="col-sm-9">
                                         @Html.EditorFor(model => model.Description, "CkEditor")
                                         @Html.ValidationMessageFor(model => model.Description)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right">Tên Danh Mục tiếng anh (*): </label>
+                                    <div class="col-sm-9">
+                                        @Html.EditorFor(model => model.NameEN)
+                                        @Html.ValidationMessageFor(model => model.NameEN)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label no-padding-right">Nội dung tiếng anh (*): </label>
+                                    <div class="col-sm-9">
+                                        @Html.EditorFor(model => model.DesEN, "CkEditor")
+                                        @Html.ValidationMessageFor(model => model.DesEN, "CkEditor")
                                     </div>
                                 </div>
 

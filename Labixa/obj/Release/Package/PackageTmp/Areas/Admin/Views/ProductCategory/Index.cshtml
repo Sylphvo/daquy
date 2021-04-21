@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<Outsourcing.Data.Models.ProductCategory>
 @using Outsourcing.Data.Models
+@using Outsourcing.Core.Common
 
 @{
     ViewBag.Title = "Index";
@@ -39,9 +40,10 @@
                     <tr role="row">
                         <th>STT</th>
                         <th>Tên Danh Mục</th>
-                        <th>Tên Danh mục Tiếng Anh</th>
-                        <th>Slug</th>
+                        <th>Hình Ảnh</th>
+@*                        <th>Slug</th>*@
                         <th>Mô Tả</th>
+                        <th>Trạng thái</th>
                         <th></th>
                     </tr>
                 </thead>
@@ -55,15 +57,24 @@
                     <tr class="odd">
                         <td class=" sorting_1">@count</td>
                         <td class="hidden-480 ">@item.Name</td>
-                        <td class="hidden-480 ">@item.Notes</td>
-                        <td class="hidden-480 ">@item.Slug</td>
-                        <td class="hidden-480 ">@Html.Raw(item.Description)</td>
+                        <td class="hidden-480 "><img src="@item.Notes" width="50" height="50" /></td>
+                        @*<td class="hidden-480 ">@item.Slug</td>*@
+                        <td class="hidden-480 ">@Html.Raw(slitString.TruncateAtWord(item.Description, 180))</td>
+                        <td class="hidden-480 ">
+                            @if (!item.Deleted)
+                            {
+
+                                <span class="label label-sm label-success">Hiển thị</span>
+                            }
+                            else
+                            {
+
+                                <span class="label label-sm label-warning">Đang ẩn</span>
+                            }
+                        </td>
+
                         <td class=" ">
                             <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
-
-                                <a href="/Admin/Product/Detail?id=@item.Id" data-toggle="tooltip" title="Khóa học" class="btn btn-xs btn-secondary">
-                                    <i class="icon-eye-open"></i>
-                                </a>
                                 <a href="/Admin/ProductCategory/Edit?id=@item.Id" class="btn btn-xs btn-info">
                                     <i class="icon-edit bigger-120"></i>
                                 </a>

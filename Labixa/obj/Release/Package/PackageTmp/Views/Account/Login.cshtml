@@ -1,98 +1,111 @@
 ﻿@model Labixa.Models.LoginViewModel
 @{
     ViewBag.Title = "Log in";
-    Layout = null;
+    Layout = "~/Views/Shared/_LayoutAuthor.cshtml";
 }
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login</title>
+@*@section scripts{
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="~/Content/caseno/css/ModalLoader.css">
+    }*@
+<div id="de-sidebar" class="col-lg-3 col-md-12">
 
-    @Styles.Render("~/Style/Common")
-    @Scripts.Render("~/Scripts/Common")
-</head>
-<body class="login-layout">
+    <!-- header begin -->
+    <header class="side-header">
 
-
-    <div class="main-container">
-        <div class="main-content">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1">
-                    <div class="login-container">
-                        <div class="center">
-                            <h1>
-                                <i class="icon-leaf green"></i>
-                                <span class="red">RISES</span>
-                                <span class="white">Fashion</span>
-                            </h1>
-                            <h4 class="blue">© RISES</h4>
-                        </div>
-
-                        <div class="space-6"></div>
-
-                        <div class="position-relative">
-                            <div id="login-box" class="login-box visible widget-box no-border">
-                                <div class="widget-body">
-                                    <div class="widget-main">
-                                        <h4 class="header blue lighter bigger">
-                                            <i class="icon-coffee green"></i>
-                                            Please Enter Your Information
-                                        </h4>
-
-                                        <div class="space-6"></div>
-
-                                        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-                                        {
-                                            @Html.AntiForgeryToken()
-
-                                            @Html.ValidationSummary(true)
-                                            <div class="form-group">
-                                                @*                                @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label", style = "text-align: left;width:80px;" })*@
-                                                <div class="">
-                                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
-                                                    @Html.ValidationMessageFor(m => m.Email)
-                                                </div>
-                                            </div>
-                                            <br />
-                                            <div class="form-group">
-                                                @*                                @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label", style = "text-align: left;width:80px" })*@
-                                                <div class="">
-                                                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-                                                    @Html.ValidationMessageFor(m => m.Password)
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <div class="checkbox pull-left">
-                                                    @Html.CheckBoxFor(m => m.RememberMe)
-                                                    @Html.LabelFor(m => m.RememberMe)
-                                                </div>
-                                                <input type="submit" value="Log in" class="btn btn-primary pull-right" />
-                                            </div>
-                                            @*<p>
-                                                @Html.ActionLink("Register", "Register") if you don't have a local account.
-                                            </p>*@
-                                        }
-                                    </div><!-- /widget-main -->
-
-                                </div><!-- /widget-body -->
-                            </div><!-- /login-box -->
-
-
-                        </div><!-- /position-relative -->
-                    </div>
-                </div><!-- /.col -->
-            </div><!-- /.row -->
+        <!-- small button begin -->
+        <span id="menu-btn"></span>
+        <!-- small button close -->
+        <!-- logo begin -->
+        <div id="logo">
+            <a href="">
+                <img class="logo" src="~/Content/stone/Logo/GEMS-01-01.png" alt="" width="150" height="150">
+                <img class="logo-2" src="~/Content/stone/images/logo-border.png" alt="">
+            </a>
         </div>
-    </div>
-    @*@section Scripts {
-            @Scripts.Render("~/bundles/jqueryval")
-        }*@
-    <script src="~/Scripts/jquery.validate-vsdoc.js"></script>
-    <script src="~/Scripts/jquery.validate.js"></script>
-    <script src="~/Scripts/jquery.validate.min.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
-    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
-</body>
-</html>
+        <!-- logo close -->
+        <!-- mainmenu begin -->
+        @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-horizontal hidden_form", role = "form", @id = "formLogin" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @style = "color:#e7413e;" })
+            <h4 class="sub-title text_ColorMe">Login to your account</h4><br>
+            @Html.ValidationMessageFor(m => m.UserName)
+            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @placeholder = "User Name*", @id = "userName" })<br>
+            @Html.ValidationMessageFor(m => m.Password)
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Password*", @id = "password" })<br>
+            <div class="form-group">
+                <div class="checkbox pull-left">
+                    @Html.CheckBoxFor(m => m.RememberMe, new { @id = "checkbox" })
+                    @Html.LabelFor(m => m.RememberMe, new { @style = "color:white;" })
+                </div>
+                <button id="submit_login" class="btn btn-warning" onclick="getIpLogin()" style="float:right">Login</button>
+            </div>
+        }
+        <div class="h-content">
+            <div class="social-icons-2">
+                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+            </div>
+        </div>
+
+
+    </header>
+    <!-- header close -->
+
+
+</div>
+<div id="myModal" class="modal">
+    <div class="loader" id="loader"></div>
+</div>
+<script type="text/javascript">
+
+
+    //// Get the button that opens the modal
+    //var btn = document.getElementById("myBtn");
+
+    //// Get the <span> element that closes the modal
+    //var span = document.getElementsByClassName("close")[0];
+
+    //// When the user clicks on the button, open the modal
+    //btn.onclick = function () {
+    //    modal.style.display = "block";
+    //}
+
+    //// When the user clicks on <span> (x), close the modal
+    //span.onclick = function () {
+    //    modal.style.display = "none";
+    //}
+
+    //// When the user clicks anywhere outside of the modal, close it
+    //window.onclick = function (event) {
+    //    if (event.target == modal) {
+    //        modal.style.display = "none";
+    //    }
+    //}
+    //var modal = document.getElementById("myModal");
+    //modal.style.display = "block";
+    function getIpLogin() {
+        $('#submit_login').attr("disabled", "disabled").css("cursor", "default").fadeTo(500, 0.2);
+        $('#submit_login').last().html("Please waitting...");
+        var modal = document.getElementById("myModal");
+        modal.style.display = "block";
+        console.log("document.URL : " + document.domain);
+        console.log("Log: " + $('#userName').val());
+        var UserName = $('#userName').val();
+        //$.ajax({
+        //    type: "POST",
+        //    url: "/EmailFunc/GetIPClient",
+        //    data: { username: UserName },
+        //    async: false,
+        //    success: function (data) {
+        //        console.log(data);
+        //        //$('#submit_login').prop('disabled', true);
+        //        //$('#submit_login').submit();
+        //    }
+        //});
+        $("#formLogin").submit();
+    };
+</script>
