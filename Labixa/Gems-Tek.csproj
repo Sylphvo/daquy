@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9EA210CC-E963-4E76-A8E7-52CE06F3BBE4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Labixa</RootNamespace>
+    <AssemblyName>Labixa</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TypeScriptToolsVersion>3.2</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac, Version=3.4.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.3.4.0\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Downloads\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper, Version=3.1.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.1.1-ci1000\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4, Version=3.1.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.3.1.1-ci1000\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="ElFinder.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ElFinder.Net.1.0.0\lib\net45\ElFinder.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.8.2.0\lib\net45\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation.Mvc, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.Mvc5.8.2.0\lib\net45\FluentValidation.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation.ValidatorAttribute, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.ValidatorAttribute.8.2.0\lib\net45\FluentValidation.ValidatorAttribute.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Authenticator">
+      <HintPath>..\packages\GoogleAuthenticator.1.2.1\lib\net35\Google.Authenticator.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.12\lib\net40\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.2\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.2\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.2\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.4.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.4.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.4.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2-beta1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Primitives, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Primitives.4.3.0\lib\net45\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Data\Resources.Designer.cs" />
+    <Compile Include="App_Data\Resources.en.Designer.cs" />
+    <Compile Include="App_Data\Resources.vi.Designer.cs" />
+    <Compile Include="App_Start\Bootstrapper.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\AlbumPhotoController.cs" />
+    <Compile Include="Areas\Admin\Controllers\AlbumPhotoDivingController.cs" />
+    <Compile Include="Areas\Admin\Controllers\AlbumPhotoEventController.cs" />
+    <Compile Include="Areas\Admin\Controllers\BaseController.cs" />
+    <Compile Include="Areas\Admin\Controllers\BlogCategoryController.cs" />
+    <Compile Include="Areas\Admin\Controllers\LibraryImageController.cs" />
+    <Compile Include="Areas\Admin\Controllers\OrderController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PictureController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProductAttributeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProductCategoryController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProductController.cs" />
+    <Compile Include="Areas\Admin\Controllers\BlogController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
+    <Compile Include="Areas\Admin\Controllers\FilesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ImageController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ResourcesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\StaffController.cs" />
+    <Compile Include="Areas\Admin\Controllers\UserController.cs" />
+    <Compile Include="Areas\Admin\Controllers\WebsiteAttributeController.cs" />
+    <Compile Include="Areas\Admin\Mappings\AutoMapperConfiguration.cs" />
+    <Compile Include="Areas\Admin\Mappings\DomainToViewModelMappingProfile.cs" />
+    <Compile Include="Areas\Admin\Mappings\ViewModelToDomainMappingProfile.cs" />
+    <Compile Include="Areas\Admin\ViewModel\AlbumPhotoFormModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\BlogCategoryFormModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\OrderFormModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\ProductRelationFormModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\ResourcesFormModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\WebsiteAtribute\WebsiteAttributeManageModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\WebsiteAtribute\WebsiteAttributeFormModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\ProductAttributeFormModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\ProductCategoryFormModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\ProductFormModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\BlogFormModel.cs" />
+    <Compile Include="Areas\Admin\ViewModel\StaffFormModel.cs" />
+    <Compile Include="Common\MessageResponeApi.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BaseHomeController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\ErrorMessageController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PagesController.cs" />
+    <Compile Include="Controllers\ProjectController.cs" />
+    <Compile Include="Controllers\ServiceController.cs" />
+    <Compile Include="Controllers\ShopController.cs" />
+    <Compile Include="Controllers\TaiKhoanController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HashMD\HashMD5.cs" />
+    <Compile Include="Helpers\CultureHelper.cs" />
+    <Compile Include="laibixa.cs" />
+    <Compile Include="laibixa.Designer.cs">
+      <DependentUpon>laibixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Images\Models\AccountViewModels.cs" />
+    <Compile Include="Models\ForgotPasswordViewModel.cs" />
+    <Compile Include="Models\ManageUserViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\AlbumModels.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\packages\AutoMapper.3.1.1-ci1000\lib\net40\AutoMapper.Net4.dll">
+      <Link>AutoMapper.Net4.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\packages\AutoMapper.3.1.1-ci1000\lib\net40\AutoMapper.Net4.dll">
+      <Link>AutoMapper.Net4.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\Pioneer.sql" />
+    <Content Include="Content\author\css\bootstrap.min.css" />
+    <Content Include="Content\author\css\owl.carousel.min.css" />
+    <Content Include="Content\author\css\owl.video.play.html" />
+    <Content Include="Content\author\css\style.css" />
+    <Content Include="Content\author\fonts\icomoon\fonts\icomoon1a44.svg" />
+    <Content Include="Content\author\fonts\icomoon\style.css" />
+    <Content Include="Content\author\images\bg_1.jpg" />
+    <Content Include="Content\author\js\bootstrap.min.js" />
+    <Content Include="Content\author\js\jquery-3.3.1.min.js" />
+    <Content Include="Content\author\js\main.js" />
+    <Content Include="Content\author\js\popper.min.js" />
+    <Content Include="Content\stone\css\animate.css" />
+    <Content Include="Content\stone\css\bg.css" />
+    <Content Include="Content\stone\css\bootstrap.css" />
+    <Content Include="Content\stone\css\color.css" />
+    <Content Include="Content\stone\css\colors\blue-2.css" />
+    <Content Include="Content\stone\css\colors\blue-3.css" />
+    <Content Include="Content\stone\css\colors\blue.css" />
+    <Content Include="Content\stone\css\colors\green.css" />
+    <Content Include="Content\stone\css\colors\red.css" />
+    <Content Include="Content\stone\css\colors\white.css" />
+    <Content Include="Content\stone\css\colors\yellow-2.css" />
+    <Content Include="Content\stone\css\colors\yellow.css" />
+    <Content Include="Content\stone\css\font-style-2.css" />
+    <Content Include="Content\stone\css\font-style-3.css" />
+    <Content Include="Content\stone\css\font\ytp-regular.html" />
+    <Content Include="Content\stone\css\jpreloader.css" />
+    <Content Include="Content\stone\css\jquery.countdown.css" />
+    <Content Include="Content\stone\css\jquery.mb.YTPlayer.min.css" />
+    <Content Include="Content\stone\css\jquery.pagepiling.css" />
+    <Content Include="Content\stone\css\let-it-snow.css" />
+    <Content Include="Content\stone\css\magnific-popup.css" />
+    <Content Include="Content\stone\css\owl.carousel.css" />
+    <Content Include="Content\stone\css\owl.theme.css" />
+    <Content Include="Content\stone\css\owl.transitions.css" />
+    <Content Include="Content\stone\css\owl.video.play.html" />
+    <Content Include="Content\stone\css\plugin.css" />
+    <Content Include="Content\stone\css\rev-settings.css" />
+    <Content Include="Content\stone\css\style.css" />
+    <Content Include="Content\stone\css\twentytwenty.css" />
+    <Content Include="Content\stone\demo\demo-2.html" />
+    <Content Include="Content\stone\demo\demo.html" />
+    <Content Include="Content\stone\Favicon\1.jpg" />
+    <Content Include="Content\stone\Favicon\16.16-01.ico" />
+    <Content Include="Content\stone\Favicon\2.jpg" />
+    <Content Include="Content\stone\Favicon\3.jpg" />
+    <Content Include="Content\stone\Favicon\386.jpg" />
+    <Content Include="Content\stone\fonts\elegant_font\HTML_CSS\fonts\ElegantIcons.svg" />
+    <Content Include="Content\stone\fonts\elegant_font\HTML_CSS\style.css" />
+    <Content Include="Content\stone\fonts\et-line-font\fonts\et-line.svg" />
+    <Content Include="Content\stone\fonts\et-line-font\style.css" />
+    <Content Include="Content\stone\fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\stone\fonts\font-awesome\fonts\fontawesome-webfont3e6e.html" />
+    <Content Include="Content\stone\fonts\font-awesome\fonts\fontawesome-webfont3e6e.svg" />
+    <Content Include="Content\stone\images-apartment\logo.png" />
+    <Content Include="Content\stone\images-apartment\misc\1.png" />
+    <Content Include="Content\stone\images-apartment\misc\floorplan.jpg" />
+    <Content Include="Content\stone\images-apartment\misc\r1.jpg" />
+    <Content Include="Content\stone\images-apartment\misc\r2.jpg" />
+    <Content Include="Content\stone\images-apartment\misc\r3.jpg" />
+    <Content Include="Content\stone\images-apartment\misc\r4.jpg" />
+    <Content Include="Content\stone\images-apartment\portfolio\1.jpg" />
+    <Content Include="Content\stone\images-apartment\portfolio\2.jpg" />
+    <Content Include="Content\stone\images-apartment\portfolio\3.jpg" />
+    <Content Include="Content\stone\images-apartment\portfolio\4.jpg" />
+    <Content Include="Content\stone\images-apartment\slider\wide1.jpg" />
+    <Content Include="Content\stone\images-apartment\slider\wide2.jpg" />
+    <Content Include="Content\stone\images-apartment\team\1.jpg" />
+    <Content Include="Content\stone\images-apartment\team\2.jpg" />
+    <Content Include="Content\stone\images-apartment\team\3.jpg" />
+    <Content Include="Content\stone\images-apartment\team\4.jpg" />
+    <Content Include="Content\stone\images-architecture\logo.png" />
+    <Content Include="Content\stone\images-architecture\misc\1.jpg" />
+    <Content Include="Content\stone\images-architecture\misc\2.jpg" />
+    <Content Include="Content\stone\images-architecture\misc\3.jpg" />
+    <Content Include="Content\stone\images-architecture\portfolio\1.jpg" />
+    <Content Include="Content\stone\images-architecture\portfolio\2.jpg" />
+    <Content Include="Content\stone\images-architecture\portfolio\3.jpg" />
+    <Content Include="Content\stone\images-architecture\portfolio\4.jpg" />
+    <Content Include="Content\stone\images-architecture\portfolio\5.jpg" />
+    <Content Include="Content\stone\images-architecture\portfolio\6.jpg" />
+    <Content Include="Content\stone\images-architecture\services\1.jpg" />
+    <Content Include="Content\stone\images-architecture\services\2.jpg" />
+    <Content Include="Content\stone\images-architecture\services\3.jpg" />
+    <Content Include="Content\stone\images-architecture\slider\wide1.jpg" />
+    <Content Include="Content\stone\images-architecture\slider\wide2.jpg" />
+    <Content Include="Content\stone\images-architecture\team\1.jpg" />
+    <Content Include="Content\stone\images-architecture\team\2.jpg" />
+    <Content Include="Content\stone\images-architecture\team\3.jpg" />
+    <Content Include="Content\stone\images-architecture\team\4.jpg" />
+    <Content Include="Content\stone\images-architect\logo.png" />
+    <Content Include="Content\stone\images-architect\misc\1.jpg" />
+    <Content Include="Content\stone\images-architect\people\1.jpg" />
+    <Content Include="Content\stone\images-architect\portfolio\1.jpg" />
+    <Content Include="Content\stone\images-architect\portfolio\2.jpg" />
+    <Content Include="Content\stone\images-architect\portfolio\3.jpg" />
+    <Content Include="Content\stone\images-architect\portfolio\4.jpg" />
+    <Content Include="Content\stone\images-architect\portfolio\5.jpg" />
+    <Content Include="Content\stone\images-architect\portfolio\6.jpg" />
+    <Content Include="Content\stone\images-architect\services\1.jpg" />
+    <Content Include="Content\stone\images-architect\services\2.jpg" />
+    <Content Include="Content\stone\images-architect\services\3.jpg" />
+    <Content Include="Content\stone\images-architect\services\4.jpg" />
+    <Content Include="Content\stone\images-architect\slider\wide1.jpg" />
+    <Content Include="Content\stone\images-architect\slider\wide2.jpg" />
+    <Content Include="Content\stone\images-consulting\logo.png" />
+    <Content Include="Content\stone\images-consulting\misc\1.jpg" />
+    <Content Include="Content\stone\images-consulting\misc\2.jpg" />
+    <Content Include="Content\stone\images-consulting\misc\3.jpg" />
+    <Content Include="Content\stone\images-consulting\services\1.jpg" />
+    <Content Include="Content\stone\images-consulting\services\2.jpg" />
+    <Content Include="Content\stone\images-consulting\services\3.jpg" />
+    <Content Include="Content\stone\images-consulting\slider\wide1.jpg" />
+    <Content Include="Content\stone\images-consulting\slider\wide2.jpg" />
+    <Content Include="Content\stone\images-consulting\team\1.jpg" />
+    <Content Include="Content\stone\images-consulting\team\2.jpg" />
+    <Content Include="Content\stone\images-consulting\team\3.jpg" />
+    <Content Include="Content\stone\images-consulting\team\4.jpg" />
+    <Content Include="Content\stone\images-kitchen\before-after\1a.jpg" />
+    <Content Include="Content\stone\images-kitchen\before-after\1b.jpg" />
+    <Content Include="Content\stone\images-kitchen\logo.png" />
+    <Content Include="Content\stone\images-kitchen\misc\1.png" />
+    <Content Include="Content\stone\images-kitchen\misc\r1.jpg" />
+    <Content Include="Content\stone\images-kitchen\misc\r2.jpg" />
+    <Content Include="Content\stone\images-kitchen\misc\r3.jpg" />
+    <Content Include="Content\stone\images-kitchen\misc\r4.jpg" />
+    <Content Include="Content\stone\images-kitchen\misc\r5.jpg" />
+    <Content Include="Content\stone\images-kitchen\misc\r6.jpg" />
+    <Content Include="Content\stone\images-kitchen\portfolio\1.jpg" />
+    <Content Include="Content\stone\images-kitchen\portfolio\2.jpg" />
+    <Content Include="Content\stone\images-kitchen\portfolio\3.jpg" />
+    <Content Include="Content\stone\images-kitchen\portfolio\4.jpg" />
+    <Content Include="Content\stone\images-kitchen\portfolio\5.jpg" />
+    <Content Include="Content\stone\images-kitchen\portfolio\6.jpg" />
+    <Content Include="Content\stone\images-kitchen\slider\wide1.jpg" />
+    <Content Include="Content\stone\images-kitchen\slider\wide2.jpg" />
+    <Content Include="Content\stone\images-photography\gallery\4.jpg" />
+    <Content Include="Content\stone\images-photography\gallery\5.jpg" />
+    <Content Include="Content\stone\images-photography\logo.png" />
+    <Content Include="Content\stone\images-photography\slider\wide1.jpg" />
+    <Content Include="Content\stone\images-photography\slider\wide2.jpg" />
+    <Content Include="Content\stone\images-photography\slider\wide3.jpg" />
+    <Content Include="Content\stone\images-webstudio\before-after\1a.jpg" />
+    <Content Include="Content\stone\images-webstudio\before-after\1b.jpg" />
+    <Content Include="Content\stone\images-webstudio\logo.png" />
+    <Content Include="Content\stone\images-webstudio\logo\1.png" />
+    <Content Include="Content\stone\images-webstudio\logo\2.png" />
+    <Content Include="Content\stone\images-webstudio\logo\3.png" />
+    <Content Include="Content\stone\images-webstudio\logo\4.png" />
+    <Content Include="Content\stone\images-webstudio\logo\5.png" />
+    <Content Include="Content\stone\images-webstudio\logo\6.png" />
+    <Content Include="Content\stone\images-webstudio\logo\7.png" />
+    <Content Include="Content\stone\images-webstudio\logo\8.png" />
+    <Content Include="Content\stone\images-webstudio\portfolio\1.jpg" />
+    <Content Include="Content\stone\images-webstudio\portfolio\2.jpg" />
+    <Content Include="Content\stone\images-webstudio\portfolio\3.jpg" />
+    <Content Include="Content\stone\images-webstudio\portfolio\4.jpg" />
+    <Content Include="Content\stone\images-webstudio\portfolio\5.jpg" />
+    <Content Include="Content\stone\images-webstudio\portfolio\6.jpg" />
+    <Content Include="Content\stone\images-webstudio\portfolio\7.jpg" />
+    <Content Include="Content\stone\images-webstudio\portfolio\8.jpg" />
+    <Content Include="Content\stone\images-webstudio\project\1.jpg" />
+    <Content Include="Content\stone\images-webstudio\project\2.jpg" />
+    <Content Include="Content\stone\images-webstudio\project\3.jpg" />
+    <Content Include="Content\stone\images-webstudio\project\4.jpg" />
+    <Content Include="Content\stone\images-webstudio\project\5.jpg" />
+    <Content Include="Content\stone\images-webstudio\services\1.jpg" />
+    <Content Include="Content\stone\images-webstudio\services\2.jpg" />
+    <Content Include="Content\stone\images-webstudio\services\3.jpg" />
+    <Content Include="Content\stone\images-webstudio\slider\wide1.jpg" />
+    <Content Include="Content\stone\images-webstudio\slider\wide2.jpg" />
+    <Content Include="Content\stone\images\arrow-down.png" />
+    <Content Include="Content\stone\images\avatar-light.jpg" />
+    <Content Include="Content\stone\images\avatar.jpg" />
+    <Content Include="Content\stone\images\background\bg-10.jpg" />
+    <Content Include="Content\stone\images\background\bg-12.jpg" />
+    <Content Include="Content\stone\images\background\bg-13.jpg" />
+    <Content Include="Content\stone\images\background\bg-14.jpg" />
+    <Content Include="Content\stone\images\background\bg-15.jpg" />
+    <Content Include="Content\stone\images\background\bg-16.jpg" />
+    <Content Include="Content\stone\images\background\bg-17.jpg" />
+    <Content Include="Content\stone\images\background\bg-18.jpg" />
+    <Content Include="Content\stone\images\background\bg-19.jpg" />
+    <Content Include="Content\stone\images\background\bg-2.jpg" />
+    <Content Include="Content\stone\images\background\bg-20.jpg" />
+    <Content Include="Content\stone\images\background\bg-21.jpg" />
+    <Content Include="Content\stone\images\background\bg-22.jpg" />
+    <Content Include="Content\stone\images\background\bg-23.jpg" />
+    <Content Include="Content\stone\images\background\bg-24.jpg" />
+    <Content Include="Content\stone\images\background\bg-25.jpg" />
+    <Content Include="Content\stone\images\background\bg-26.jpg" />
+    <Content Include="Content\stone\images\background\bg-27.jpg" />
+    <Content Include="Content\stone\images\background\bg-28.jpg" />
+    <Content Include="Content\stone\images\background\bg-29.jpg" />
+    <Content Include="Content\stone\images\background\bg-3.jpg" />
+    <Content Include="Content\stone\images\background\bg-30.jpg" />
+    <Content Include="Content\stone\images\background\bg-31.jpg" />
+    <Content Include="Content\stone\images\background\bg-32.jpg" />
+    <Content Include="Content\stone\images\background\bg-4.jpg" />
+    <Content Include="Content\stone\images\background\bg-5.jpg" />
+    <Content Include="Content\stone\images\background\bg-6.jpg" />
+    <Content Include="Content\stone\images\background\bg-7.jpg" />
+    <Content Include="Content\stone\images\background\bg-8.jpg" />
+    <Content Include="Content\stone\images\background\bg-9.jpg" />
+    <Content Include="Content\stone\images\background\bg-service-1.jpg" />
+    <Content Include="Content\stone\images\background\bg-service-2.jpg" />
+    <Content Include="Content\stone\images\background\bg-service-3.jpg" />
+    <Content Include="Content\stone\images\background\bg-service-4.jpg" />
+    <Content Include="Content\stone\images\background\bg-side-1.jpg" />
+    <Content Include="Content\stone\images\background\bg-side-10.jpg" />
+    <Content Include="Content\stone\images\background\bg-side-2.jpg" />
+    <Content Include="Content\stone\images\background\bg-side-3.jpg" />
+    <Content Include="Content\stone\images\background\bg-side-4.jpg" />
+    <Content Include="Content\stone\images\background\bg-side-5.jpg" />
+    <Content Include="Content\stone\images\background\bg-side-6.jpg" />
+    <Content Include="Content\stone\images\background\bg-side-7.jpg" />
+    <Content Include="Content\stone\images\background\bg-side-8.jpg" />
+    <Content Include="Content\stone\images\background\bg-side-9.jpg" />
+    <Content Include="Content\stone\images\background\bg-subheader-sn.jpg" />
+    <Content Include="Content\stone\images\background\pattern-1.jpg" />
+    <Content Include="Content\stone\images\background\subheader-1-sn.jpg" />
+    <Content Include="Content\stone\images\background\subheader-1.jpg" />
+    <Content Include="Content\stone\images\background\subheader-1b.jpg" />
+    <Content Include="Content\stone\images\background\subheader-2-sn.jpg" />
+    <Content Include="Content\stone\images\background\subheader-2.jpg" />
+    <Content Include="Content\stone\images\background\subheader-3-sn.jpg" />
+    <Content Include="Content\stone\images\background\subheader-3.jpg" />
+    <Content Include="Content\stone\images\background\subheader-4-sn.jpg" />
+    <Content Include="Content\stone\images\background\subheader-4.jpg" />
+    <Content Include="Content\stone\images\background\subheader-5-sn.jpg" />
+    <Content Include="Content\stone\images\background\subheader-5.jpg" />
+    <Content Include="Content\stone\images\background\subheader-6-sn.jpg" />
+    <Content Include="Content\stone\images\background\subheader-6.jpg" />
+    <Content Include="Content\stone\images\background\subheader.jpg" />
+    <Content Include="Content\stone\images\before-after\1a.jpg" />
+    <Content Include="Content\stone\images\before-after\1b.jpg" />
+    <Content Include="Content\stone\images\before-after\2a.jpg" />
+    <Content Include="Content\stone\images\before-after\2b.jpg" />
+    <Content Include="Content\stone\images\before-after\3a.jpg" />
+    <Content Include="Content\stone\images\before-after\3b.jpg" />
+    <Content Include="Content\stone\images\blog\pic-blog-1.jpg" />
+    <Content Include="Content\stone\images\blog\pic-blog-2.jpg" />
+    <Content Include="Content\stone\images\blog\pic-blog-3.jpg" />
+    <Content Include="Content\stone\images\blog\pic-blog-4.jpg" />
+    <Content Include="Content\stone\images\close-2.html" />
+    <Content Include="Content\stone\images\close.html" />
+    <Content Include="Content\stone\images\dotted.png" />
+    <Content Include="Content\stone\images\icon-slide-min.html" />
+    <Content Include="Content\stone\images\icon-slide-plus.html" />
+    <Content Include="Content\stone\images\icon-url.html" />
+    <Content Include="Content\stone\images\icon-zoom.html" />
+    <Content Include="Content\stone\images\list-arrow.html" />
+    <Content Include="Content\stone\images\logo-2-square.png" />
+    <Content Include="Content\stone\images\logo-2.png" />
+    <Content Include="Content\stone\images\logo-2\1.png" />
+    <Content Include="Content\stone\images\logo-2\2.png" />
+    <Content Include="Content\stone\images\logo-2\3.png" />
+    <Content Include="Content\stone\images\logo-2\4.png" />
+    <Content Include="Content\stone\images\logo-2\5.png" />
+    <Content Include="Content\stone\images\logo-2\6.png" />
+    <Content Include="Content\stone\images\logo-2\7.png" />
+    <Content Include="Content\stone\images\logo-2\8.png" />
+    <Content Include="Content\stone\images\logo-border-dark.png" />
+    <Content Include="Content\stone\images\logo-border.png" />
+    <Content Include="Content\stone\images\logo-dark.png" />
+    <Content Include="Content\stone\images\logo.png" />
+    <Content Include="Content\stone\img-background\background-chung.png" />
+    <Content Include="Content\stone\img-background\background-chung1.png" />
+    <Content Include="Content\stone\img-background\background-home.png" />
+    <Content Include="Content\stone\img-background\background-login.png" />
+    <Content Include="Content\stone\Logo\GEMS-01-01.png" />
+    <Content Include="Content\stone\images\misc\cwr_1.jpg" />
+    <Content Include="Content\stone\images\misc\cwr_2.jpg" />
+    <Content Include="Content\stone\images\misc\cwr_3.jpg" />
+    <Content Include="Content\stone\images\misc\cwr_4.jpg" />
+    <Content Include="Content\stone\images\misc\deco_1.png" />
+    <Content Include="Content\stone\images\misc\deco_2.png" />
+    <Content Include="Content\stone\images\misc\deco_3.png" />
+    <Content Include="Content\stone\images\misc\deco_4.png" />
+    <Content Include="Content\stone\images\misc\hand-with-phone.png" />
+    <Content Include="Content\stone\images\misc\pic_1.jpg" />
+    <Content Include="Content\stone\images\misc\pic_10.jpg" />
+    <Content Include="Content\stone\images\misc\pic_11.jpg" />
+    <Content Include="Content\stone\images\misc\pic_12.jpg" />
+    <Content Include="Content\stone\images\misc\pic_13.jpg" />
+    <Content Include="Content\stone\images\misc\pic_14.jpg" />
+    <Content Include="Content\stone\images\misc\pic_15.jpg" />
+    <Content Include="Content\stone\images\misc\pic_16.jpg" />
+    <Content Include="Content\stone\images\misc\pic_17.jpg" />
+    <Content Include="Content\stone\images\misc\pic_18.jpg" />
+    <Content Include="Content\stone\images\misc\pic_19.jpg" />
+    <Content Include="Content\stone\images\misc\pic_2.jpg" />
+    <Content Include="Content\stone\images\misc\pic_3.jpg" />
+    <Content Include="Content\stone\images\misc\pic_4.jpg" />
+    <Content Include="Content\stone\images\misc\pic_6.jpg" />
+    <Content Include="Content\stone\images\misc\pic_7.jpg" />
+    <Content Include="Content\stone\images\misc\pic_9.jpg" />
+    <Content Include="Content\stone\images\page-loader.html" />
+    <Content Include="Content\stone\images\portfolio-coworking\pf %281%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-coworking\pf %282%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-coworking\pf %283%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-coworking\pf %284%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-coworking\pf %285%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-coworking\pf %286%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-landing-product\pf %281%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-landing-product\pf %282%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-landing-product\pf %283%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-landing-product\pf %284%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-minimal\pf %281%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-minimal\pf %282%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-minimal\pf %283%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-minimal\pf %284%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-minimal\pf %285%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-minimal\pf %286%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-minimal\pf %287%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-minimal\pf %288%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-multipurpose\pf %281%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-multipurpose\pf %282%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-multipurpose\pf %283%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-multipurpose\pf %284%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-multipurpose\pf %285%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-multipurpose\pf %286%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-multipurpose\pf %287%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-multipurpose\pf %288%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-new\pf %281%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-new\pf %282%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-new\pf %283%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-new\pf %284%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-new\pf %285%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-new\pf %286%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-new\pf %287%29.jpg" />
+    <Content Include="Content\stone\images\portfolio-new\pf %288%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\cols-4\pf %281%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\cols-4\pf %282%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\cols-4\pf %283%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\cols-4\pf %284%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\cols-4\pf %285%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\cols-4\pf %286%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\cols-4\pf %287%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\cols-4\pf %288%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %281%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %2810%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %2811%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %2812%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %282%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %283%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %284%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %285%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %286%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %287%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %288%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\pf %289%29.jpg" />
+    <Content Include="Content\stone\images\portfolio\view\p1_a.jpg" />
+    <Content Include="Content\stone\images\portfolio\view\p1_b.jpg" />
+    <Content Include="Content\stone\images\portfolio\view\p1_c.jpg" />
+    <Content Include="Content\stone\images\portfolio\view\p2_a.jpg" />
+    <Content Include="Content\stone\images\portfolio\view\p2_b.jpg" />
+    <Content Include="Content\stone\images\portfolio\view\p3_a.jpg" />
+    <Content Include="Content\stone\images\portfolio\view\p3_b.jpg" />
+    <Content Include="Content\stone\images\profession\profile-pic-2.jpg" />
+    <Content Include="Content\stone\images\profession\profile-pic-3.jpg" />
+    <Content Include="Content\stone\images\profession\profile-pic.jpg" />
+    <Content Include="Content\stone\images\services\p1_a.jpg" />
+    <Content Include="Content\stone\images\services\p1_b.jpg" />
+    <Content Include="Content\stone\images\services\p2_a.jpg" />
+    <Content Include="Content\stone\images\services\p2_b.jpg" />
+    <Content Include="Content\stone\images\services\p3_a.jpg" />
+    <Content Include="Content\stone\images\services\p3_b.jpg" />
+    <Content Include="Content\stone\images\services\p4_a.jpg" />
+    <Content Include="Content\stone\images\services\p4_b.jpg" />
+    <Content Include="Content\stone\images\shop\10a.jpg" />
+    <Content Include="Content\stone\images\shop\11a.jpg" />
+    <Content Include="Content\stone\images\shop\12a.jpg" />
+    <Content Include="Content\stone\images\shop\1a.jpg" />
+    <Content Include="Content\stone\images\shop\1b.jpg" />
+    <Content Include="Content\stone\images\shop\2a.jpg" />
+    <Content Include="Content\stone\images\shop\2b.jpg" />
+    <Content Include="Content\stone\images\shop\3a.jpg" />
+    <Content Include="Content\stone\images\shop\3b.jpg" />
+    <Content Include="Content\stone\images\shop\4a.jpg" />
+    <Content Include="Content\stone\images\shop\5a.jpg" />
+    <Content Include="Content\stone\images\shop\6a.jpg" />
+    <Content Include="Content\stone\images\shop\7a.jpg" />
+    <Content Include="Content\stone\images\shop\8a.jpg" />
+    <Content Include="Content\stone\images\shop\9a.jpg" />
+    <Content Include="Content\stone\images\shop\single\1.jpg" />
+    <Content Include="Content\stone\images\shop\single\2.jpg" />
+    <Content Include="Content\stone\images\shop\single\3.jpg" />
+    <Content Include="Content\stone\images\shop\single\4.jpg" />
+    <Content Include="Content\stone\images\shop\single\5.jpg" />
+    <Content Include="Content\stone\images\slider\wide1.jpg" />
+    <Content Include="Content\stone\images\slider\wide12.jpg" />
+    <Content Include="Content\stone\images\slider\wide2.jpg" />
+    <Content Include="Content\stone\images\slider\wide3.jpg" />
+    <Content Include="Content\stone\images\slider\wide7.jpg" />
+    <Content Include="Content\stone\images\slider\wide8.jpg" />
+    <Content Include="Content\stone\images\slider\wide9.jpg" />
+    <Content Include="Content\stone\images\stone\08Peridot-Ring-Featured.jpg" />
+    <Content Include="Content\stone\images\stone\2006054_L.jpg" />
+    <Content Include="Content\stone\images\stone\5cb8320e9ea57-V-ng-Gi-ng-B-o-Ph-i-Lu-Th-ng-V-Charm-ng-Ti-n-B-c-5200k-1759k-1.jpg" />
+    <Content Include="Content\stone\images\stone\5cca656c3100e-116-1.jpg" />
+    <Content Include="Content\stone\images\stone\6ba75ab47df1cc1f2d1d79280fe3e062.jpg" />
+    <Content Include="Content\stone\images\stone\bo-trang-suc-da-quy-GSDB33-l.jpg" />
+    <Content Include="Content\stone\images\stone\bo-trang-suc-da-quy-GSDB513-l.jpg" />
+    <Content Include="Content\stone\images\stone\bo-trang-suc-da-quy-GSDB550-l %281%29.jpg" />
+    <Content Include="Content\stone\images\stone\bo-trang-suc-da-quy-GSDB550-l.jpg" />
+    <Content Include="Content\stone\images\stone\bo-trang-suc-da-quy-GSDB720-l.jpg" />
+    <Content Include="Content\stone\images\stone\cac-loai-da-quy-1.jpg" />
+    <Content Include="Content\stone\images\stone\cac-loai-da-quy-4.jpg" />
+    <Content Include="Content\stone\images\stone\da-ngoc-luc-bao.jpg" />
+    <Content Include="Content\stone\images\stone\da-quy-mau-xanh-da-troi.jpg" />
+    <Content Include="Content\stone\images\stone\da-quy-mau-xanh-duong.jpg" />
+    <Content Include="Content\stone\images\stone\iad1366517206.jpg" />
+    <Content Include="Content\stone\images\stone\marble_simple_background_sphere_3D_Pok_balls-168627.jpg" />
+    <Content Include="Content\stone\images\stone\mez1366517195.jpg" />
+    <Content Include="Content\stone\images\stone\ngoc-luc-bao-do.jpg" />
+    <Content Include="Content\stone\images\stone\nqvt0259-.jpg" />
+    <Content Include="Content\stone\images\stone\phong-thuy-cho-menh-thuy phunutoday_vn.jpg" />
+    <Content Include="Content\stone\images\stone\sapphire-jewelry-gems-roung-shape-black-background-29598478.jpg" />
+    <Content Include="Content\stone\images\stone\unnamed.jpg" />
+    <Content Include="Content\stone\images\stone\vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" />
+    <Content Include="Content\stone\images\stone\vong-tay-da-aquamarine-5a-mix-ty-huu-bac-va4-01.jpg" />
+    <Content Include="Content\stone\images\stone\vong-tay-da-giong-to-2.jpeg" />
+    <Content Include="Content\stone\images\stone\vong-tay-da-phong-thuy-mix-charm-bac-dapu-gemstone-06.jpeg" />
+    <Content Include="Content\stone\images\stone\vong-tay-da-pietersite-mau-tdop804_05.jfif" />
+    <Content Include="Content\stone\images\stone\vong-tay-da-pietersite-mau-tdop804_09.jfif" />
+    <Content Include="Content\stone\images\stone\vongda.jpg" />
+    <Content Include="Content\stone\images\stone\Đá-bloodstone-2.png" />
+    <Content Include="Content\stone\images\team-2\team_pic_1.jpg" />
+    <Content Include="Content\stone\images\team-2\team_pic_2.jpg" />
+    <Content Include="Content\stone\images\team-2\team_pic_3.jpg" />
+    <Content Include="Content\stone\images\team-2\team_pic_4.jpg" />
+    <Content Include="Content\stone\images\team\team_pic_1.jpg" />
+    <Content Include="Content\stone\images\team\team_pic_2.jpg" />
+    <Content Include="Content\stone\images\team\team_pic_3.jpg" />
+    <Content Include="Content\stone\images\team\team_pic_4.jpg" />
+    <Content Include="Content\stone\images\ui.totop.html" />
+    <Content Include="Content\stone\images\ui\arrow-down-invert.png" />
+    <Content Include="Content\stone\images\ui\arrow-down.png" />
+    <Content Include="Content\stone\images\ui\arrow-up-invert.png" />
+    <Content Include="Content\stone\images\ui\arrow-up.png" />
+    <Content Include="Content\stone\images\video-poster.jpg" />
+    <Content Include="Content\stone\img-background\da.png" />
+    <Content Include="Content\stone\img-background\nhanbac.png" />
+    <Content Include="Content\stone\img-background\nhandaquy.png" />
+    <Content Include="Content\stone\js\bootstrap.min.js" />
+    <Content Include="Content\stone\js\classie.js" />
+    <Content Include="Content\stone\js\cookit.js" />
+    <Content Include="Content\stone\js\countdown-custom.js" />
+    <Content Include="Content\stone\js\designesia.js" />
+    <Content Include="Content\stone\js\easing.js" />
+    <Content Include="Content\stone\js\enquire.min.js" />
+    <Content Include="Content\stone\js\jpreLoader.js" />
+    <Content Include="Content\stone\js\jquery.countdown.js" />
+    <Content Include="Content\stone\js\jquery.countTo.js" />
+    <Content Include="Content\stone\js\jquery.event.move.js" />
+    <Content Include="Content\stone\js\jquery.flexslider-min.js" />
+    <Content Include="Content\stone\js\jquery.isotope.min.js" />
+    <Content Include="Content\stone\js\jquery.magnific-popup.min.js" />
+    <Content Include="Content\stone\js\jquery.mb.YTPlayer.min.js" />
+    <Content Include="Content\stone\js\jquery.min.js" />
+    <Content Include="Content\stone\js\jquery.pagepiling.min.js" />
+    <Content Include="Content\stone\js\jquery.plugin.js" />
+    <Content Include="Content\stone\js\jquery.scrollto.js" />
+    <Content Include="Content\stone\js\jquery.stellar.min.js" />
+    <Content Include="Content\stone\js\jquery.twentytwenty.js" />
+    <Content Include="Content\stone\js\let-it-snow.min.js" />
+    <Content Include="Content\stone\js\map.js" />
+    <Content Include="Content\stone\js\owl.carousel.js" />
+    <Content Include="Content\stone\js\particles-settings.js" />
+    <Content Include="Content\stone\js\particles.js" />
+    <Content Include="Content\stone\js\typed.js" />
+    <Content Include="Content\stone\js\validation.js" />
+    <Content Include="Content\stone\js\video.resize.js" />
+    <Content Include="Content\stone\js\wow.min.js" />
+    <Content Include="Content\stone\revolution\assets\coloredbg.png" />
+    <Content Include="Content\stone\revolution\assets\gridtile.png" />
+    <Content Include="Content\stone\revolution\assets\gridtile_3x3.png" />
+    <Content Include="Content\stone\revolution\assets\gridtile_3x3_white.png" />
+    <Content Include="Content\stone\revolution\assets\gridtile_white.png" />
+    <Content Include="Content\stone\revolution\assets\loader.gif" />
+    <Content Include="Content\stone\revolution\css\closedhand.html" />
+    <Content Include="Content\stone\revolution\css\layers.css" />
+    <Content Include="Content\stone\revolution\css\navigation.css" />
+    <Content Include="Content\stone\revolution\css\openhand.html" />
+    <Content Include="Content\stone\revolution\css\settings.css" />
+    <Content Include="Content\stone\revolution\fonts\revicons\revicons90c6.svg" />
+    <Content Include="Content\stone\revolution\js\extensions\revolution.extension.actions.min.js" />
+    <Content Include="Content\stone\revolution\js\extensions\revolution.extension.kenburn.min.js" />
+    <Content Include="Content\stone\revolution\js\extensions\revolution.extension.layeranimation.min.js" />
+    <Content Include="Content\stone\revolution\js\extensions\revolution.extension.migration.min.js" />
+    <Content Include="Content\stone\revolution\js\extensions\revolution.extension.navigation.min.js" />
+    <Content Include="Content\stone\revolution\js\extensions\revolution.extension.parallax.min.js" />
+    <Content Include="Content\stone\revolution\js\extensions\revolution.extension.slideanims.min.js" />
+    <Content Include="Content\stone\revolution\js\extensions\revolution.extension.video.min.js" />
+    <Content Include="Content\stone\revolution\js\jquery.themepunch.revolution.min838f.js" />
+    <Content Include="Content\stone\revolution\js\jquery.themepunch.tools.min838f.js" />
+    <Content Include="Content\stone\rs-plugin\assets\arrowleft.png" />
+    <Content Include="Content\stone\rs-plugin\assets\arrowright.png" />
+    <Content Include="Content\stone\rs-plugin\assets\arrow_left.png" />
+    <Content Include="Content\stone\rs-plugin\assets\arrow_left2.png" />
+    <Content Include="Content\stone\rs-plugin\assets\arrow_right.png" />
+    <Content Include="Content\stone\rs-plugin\assets\arrow_right2.png" />
+    <Content Include="Content\stone\rs-plugin\assets\boxed_bgtile.png" />
+    <Content Include="Content\stone\rs-plugin\assets\bullet.png" />
+    <Content Include="Content\stone\rs-plugin\assets\bullets.png" />
+    <Content Include="Content\stone\rs-plugin\assets\bullets2.png" />
+    <Content Include="Content\stone\rs-plugin\assets\bullet_boxed.png" />
+    <Content Include="Content\stone\rs-plugin\assets\coloredbg.png" />
+    <Content Include="Content\stone\rs-plugin\assets\gridtile.png" />
+    <Content Include="Content\stone\rs-plugin\assets\gridtile_3x3.png" />
+    <Content Include="Content\stone\rs-plugin\assets\gridtile_3x3_white.png" />
+    <Content Include="Content\stone\rs-plugin\assets\gridtile_white.png" />
+    <Content Include="Content\stone\rs-plugin\assets\large_left.png" />
+    <Content Include="Content\stone\rs-plugin\assets\large_right.png" />
+    <Content Include="Content\stone\rs-plugin\assets\loader.gif" />
+    <Content Include="Content\stone\rs-plugin\assets\navigdots.png" />
+    <Content Include="Content\stone\rs-plugin\assets\navigdots_bgtile.png" />
+    <Content Include="Content\stone\rs-plugin\assets\shadow1.png" />
+    <Content Include="Content\stone\rs-plugin\assets\shadow2.png" />
+    <Content Include="Content\stone\rs-plugin\assets\shadow3.png" />
+    <Content Include="Content\stone\rs-plugin\assets\small_left.png" />
+    <Content Include="Content\stone\rs-plugin\assets\small_left_boxed.png" />
+    <Content Include="Content\stone\rs-plugin\assets\small_right.png" />
+    <Content Include="Content\stone\rs-plugin\assets\small_right_boxed.png" />
+    <Content Include="Content\stone\rs-plugin\assets\timer.png" />
+    <Content Include="Content\stone\rs-plugin\css\settings.css" />
+    <Content Include="Content\stone\rs-plugin\font\revicons90c6.svg" />
+    <Content Include="Content\stone\rs-plugin\images\gradient\g30.png" />
+    <Content Include="Content\stone\rs-plugin\images\gradient\g40.png" />
+    <Content Include="Content\stone\rs-plugin\js\jquery.themepunch.plugins.min.js" />
+    <Content Include="Content\stone\rs-plugin\js\jquery.themepunch.revolution.min.js" />
+    <Content Include="Saveimage\148923530_3806791532733412_8718778825614066826_n.jpg" />
+    <Content Include="Saveimage\z2377563172400_4520f7ce9ebb0ccc43ea4d42c35b29b0.jpg" />
+    <Content Include="Saveimage\z2377563188193_6105642acdf44e39aa1a40336e209c9f.jpg" />
+    <Content Include="Saveimage\z2377563198744_5b7a0561beed55a2ce368ae803fc4971.jpg" />
+    <Content Include="Saveimage\z2377563225335_86a92869a804c05bc8eb575d23b1eeaf.jpg" />
+    <Content Include="Saveimage\z2377563246875_2243ff497ea71fe8b12a3d6a67a56ffb.jpg" />
+    <Content Include="Saveimage\z2377563255463_efa34f7836cba150fe730544e78e7a57.jpg" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\esm\popper-utils.js" />
+    <Content Include="Scripts\esm\popper-utils.min.js" />
+    <Content Include="Scripts\esm\popper.js" />
+    <Content Include="Scripts\esm\popper.min.js" />
+    <Content Include="Scripts\jquery-1.8.3.min.js" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Scripts\esm\popper.min.js.map" />
+    <Content Include="Scripts\esm\popper.js.map" />
+    <Content Include="Scripts\esm\popper-utils.min.js.map" />
+    <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="packages.config" />
+    <Content Include="Areas\Admin\Views\Picture\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Picture\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Picture\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\LibraryImage\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\LibraryImage\CreateVideo.cshtml" />
+    <Content Include="Areas\Admin\Views\LibraryImage\CreateImage.cshtml" />
+    <Content Include="Areas\Admin\Views\LibraryImage\EditVideo.cshtml" />
+    <Content Include="Areas\Admin\Views\LibraryImage\EditImage.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\User\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\LibraryImage\DetailProduct.cshtml" />
+    <Content Include="Content\stone\fonts\elegant_font\HTML_CSS\fonts\ElegantIcons.eot" />
+    <Content Include="Content\stone\fonts\elegant_font\HTML_CSS\fonts\ElegantIcons.ttf" />
+    <Content Include="Content\stone\fonts\elegant_font\HTML_CSS\fonts\ElegantIcons.woff" />
+    <Content Include="Content\stone\fonts\elegant_font\HTML_CSS\fonts\ElegantIconsd41d.eot" />
+    <Content Include="Content\stone\fonts\et-line-font\fonts\et-line.eot" />
+    <Content Include="Content\stone\fonts\et-line-font\fonts\et-line.ttf" />
+    <Content Include="Content\stone\fonts\et-line-font\fonts\et-line.woff" />
+    <Content Include="Content\stone\fonts\et-line-font\fonts\et-lined41d.eot" />
+    <Content Include="Content\stone\fonts\font-awesome\fonts\fontawesome-webfont3e6e.eot" />
+    <Content Include="Content\stone\fonts\font-awesome\fonts\fontawesome-webfont3e6e.ttf" />
+    <Content Include="Content\stone\fonts\font-awesome\fonts\fontawesome-webfont3e6e.woff" />
+    <Content Include="Content\stone\fonts\font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="Content\stone\revolution\fonts\revicons\revicons90c6.eot" />
+    <Content Include="Content\stone\revolution\fonts\revicons\revicons90c6.ttf" />
+    <Content Include="Content\stone\revolution\fonts\revicons\revicons90c6.woff" />
+    <Content Include="Content\stone\rs-plugin\font\revicons90c6.eot" />
+    <Content Include="Content\stone\rs-plugin\font\revicons90c6.ttf" />
+    <Content Include="Content\stone\rs-plugin\font\revicons90c6.woff" />
+    <Content Include="Content\author\fonts\icomoon\fonts\icomoon1a44.eot" />
+    <Content Include="Content\author\fonts\icomoon\fonts\icomoon1a44.ttf" />
+    <Content Include="Content\author\fonts\icomoon\fonts\icomoon1a44.woff" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.3.min.js" />
+    <Content Include="Scripts\jquery.colorbox-min.js" />
+    <Content Include="Scripts\jquery.elevateZoom-3.0.8.min.js" />
+    <Content Include="Scripts\jquery.elevatezoom.js" />
+    <Content Include="Scripts\jquery.imagesloaded.min.js" />
+    <Content Include="Scripts\jquery.justifiedGallery.js" />
+    <Content Include="Scripts\jquery.swipebox.min.js" />
+    <Content Include="Scripts\jquery1.8.3.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Areas\Admin\Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Index.cshtml" />
+    <Content Include="fonts\VNF_Oswald.ttf" />
+    <Content Include="fonts\VNF_Oswald.eot" />
+    <Content Include="Areas\Admin\Views\Blog\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\BlogCategory\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Dashboard\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Blog\ManageStaticPage.cshtml" />
+    <Content Include="Areas\Admin\Views\Blog\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Blog\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Blog\EditStaticPage.cshtml" />
+    <Content Include="Areas\Admin\Views\File\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\File\_Elfinder.cshtml" />
+    <Content Include="Areas\Admin\Views\File\_ElfinderTextBox.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\_Elfinder.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\_ElfinderTextBox.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\DisplayTemplates\DetailsInt32.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\DisplayTemplates\Int32.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\DisplayTemplates\IsRight.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\DisplayTemplates\IsTransferMoneyToBank.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\DisplayTemplates\String.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\DateTime.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\Int32.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\Password.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\String.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\DisplayTemplates\Label.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\CkEditor.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\GetImageFromElfinder.cshtml" />
+    <Content Include="CodeTemplates\ApiControllerEmpty\Controller.cs.t4" />
+    <Content Include="CodeTemplates\ApiControllerWithActions\Controller.cs.t4" />
+    <Content Include="CodeTemplates\ApiControllerWithContext\Controller.cs.t4" />
+    <Content Include="CodeTemplates\ApiDependencyCodeGenerator\Global.asax.cs.t4" />
+    <Content Include="CodeTemplates\ApiDependencyCodeGenerator\Global.cs.t4" />
+    <Content Include="CodeTemplates\ApiDependencyCodeGenerator\WebApiConfig.cs.t4" />
+    <Content Include="CodeTemplates\MvcArea\Area.cs.t4" />
+    <Content Include="CodeTemplates\MvcArea\web.cs.t4" />
+    <Content Include="CodeTemplates\MvcControllerEmpty\Controller.cs.t4" />
+    <Content Include="CodeTemplates\MvcControllerWithActions\Controller.cs.t4" />
+    <Content Include="CodeTemplates\MvcControllerWithContext\AwesomeController.cs.t4" />
+    <Content Include="CodeTemplates\MvcControllerWithContext\Controller.cs.t4" />
+    <Content Include="CodeTemplates\MvcFullDependencyCodeGenerator\BundleConfig.cs.t4" />
+    <Content Include="CodeTemplates\MvcFullDependencyCodeGenerator\FilterConfig.cs.t4" />
+    <Content Include="CodeTemplates\MvcFullDependencyCodeGenerator\Global.asax.cs.t4" />
+    <Content Include="CodeTemplates\MvcFullDependencyCodeGenerator\Global.cs.t4" />
+    <Content Include="CodeTemplates\MvcFullDependencyCodeGenerator\RouteConfig.cs.t4" />
+    <Content Include="CodeTemplates\MvcFullDependencyCodeGenerator\web.cs.t4" />
+    <Content Include="CodeTemplates\MvcFullDependencyCodeGenerator\_Layout.cs.t4" />
+    <Content Include="CodeTemplates\MvcFullDependencyCodeGenerator\_ViewStart.cs.t4" />
+    <Content Include="CodeTemplates\MvcMinimalDependencyCodeGenerator\Global.asax.cs.t4" />
+    <Content Include="CodeTemplates\MvcMinimalDependencyCodeGenerator\Global.cs.t4" />
+    <Content Include="CodeTemplates\MvcMinimalDependencyCodeGenerator\RouteConfig.cs.t4" />
+    <Content Include="CodeTemplates\MvcMinimalDependencyCodeGenerator\web.cs.t4" />
+    <Content Include="CodeTemplates\MvcViewWithoutModel\Empty.cs.t4" />
+    <Content Include="CodeTemplates\MvcViewWithoutModel\Imports.include.t4" />
+    <Content Include="CodeTemplates\MvcView\Create.cs.t4" />
+    <Content Include="CodeTemplates\MvcView\Delete.cs.t4" />
+    <Content Include="CodeTemplates\MvcView\Details.cs.t4" />
+    <Content Include="CodeTemplates\MvcView\Edit.cs.t4" />
+    <Content Include="CodeTemplates\MvcView\Empty.cs.t4" />
+    <Content Include="CodeTemplates\MvcView\Imports.include.t4" />
+    <Content Include="CodeTemplates\MvcView\List.cs.t4" />
+    <Content Include="CodeTemplates\MvcView\Manage.cs.t4" />
+    <Content Include="CodeTemplates\MvcView\ModelMetadataFunctions.cs.include.t4" />
+    <Content Include="CodeTemplates\MvcView\OldList.cs.t4" />
+    <Content Include="CodeTemplates\ODataControllerWithContext\Controller.cs.t4" />
+    <Content Include="Areas\Admin\Views\Product\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Image\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\BlogCategory\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\BlogCategory\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductAttribute\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductAttribute\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductAttribute\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\ProductAttributeMapping.cshtml" />
+    <Content Include="Areas\Admin\Views\Staff\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Staff\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Order\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Order\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Order\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Staff\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\ProductPictureMapping.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductCategory\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductCategory\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductCategory\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\WebsiteAttribute\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\WebsiteAttribute.cshtml" />
+    <Content Include="Areas\Admin\Views\WebsiteAttribute\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\WebsiteAttribute\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\ControlType.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_PartialButtonGroup.cshtml" />
+    <Content Include="Areas\Admin\Views\WebsiteAttribute\Manage.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_PartialButtonGroup.cshtml" />
+    <Content Include="Areas\Admin\Views\Resources\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Resources\ViewVietNam.cshtml" />
+    <Content Include="Areas\Admin\Views\Resources\ViewEnglish.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\CheckBox.cshtml" />
+    <Content Include="Areas\Admin\Views\AlbumPhoto\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\PhotoAlbum.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\EditorTemplates\GetImageFromElfinderPhoto.cshtml" />
+    <Content Include="Areas\Admin\Views\AlbumPhoto\_NewPhoto.cshtml" />
+    <Content Include="Areas\Admin\Views\AlbumPhoto\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\AlbumPhotoDiving\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\AlbumPhotoDiving\_NewPhotoDiving.cshtml" />
+    <Content Include="Areas\Admin\Views\AlbumPhotoEvent\_NewPhotoEvent.cshtml" />
+    <Content Include="Areas\Admin\Views\AlbumPhotoEvent\Index.cshtml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\popper-utils.js" />
+    <Content Include="Scripts\popper-utils.min.js" />
+    <Content Include="Scripts\popper.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="Scripts\umd\popper-utils.js" />
+    <Content Include="Scripts\umd\popper-utils.min.js" />
+    <Content Include="Scripts\umd\popper.js" />
+    <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Manage.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\umd\popper.min.js.map" />
+    <Content Include="Scripts\umd\popper.js.map" />
+    <Content Include="Scripts\umd\popper-utils.min.js.map" />
+    <Content Include="Scripts\umd\popper-utils.js.map" />
+    <Content Include="Scripts\README.md" />
+    <Content Include="Scripts\popper.min.js.map" />
+    <Content Include="Scripts\popper.js.map" />
+    <Content Include="Scripts\popper-utils.min.js.map" />
+    <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\ErrorMessage\Index.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\ErrorMessage\Message400.cshtml" />
+    <Content Include="Views\ErrorMessage\Message404.cshtml" />
+    <Content Include="Views\ErrorMessage\Message403.cshtml" />
+    <Content Include="Views\ErrorMessage\Message500.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Pages\Index.cshtml" />
+    <Content Include="Views\Project\Index.cshtml" />
+    <Content Include="Views\Service\Index.cshtml" />
+    <Content Include="Views\Service\Index2.cshtml" />
+    <Content Include="Views\Service\Index3.cshtml" />
+    <Content Include="Views\Service\Index4.cshtml" />
+    <Content Include="Views\Shop\Deal.cshtml" />
+    <Content Include="Views\Shop\Index.cshtml" />
+    <Content Include="Views\Shop\Information.cshtml" />
+    <Content Include="Views\Shared\_LayoutAuthor.cshtml" />
+    <Content Include="Views\Shared\_Logout.cshtml" />
+    <Content Include="Views\Home\FAQ.cshtml" />
+    <Content Include="Views\Home\BLog.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Base\" />
+    <Folder Include="Areas\Admin\Views\Shared\Partial\" />
+    <Folder Include="Content\stone\images\logo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Outsourcing.Core\Outsourcing.Core.csproj">
+      <Project>{cd5d0955-e501-4709-9d91-002fd8f52a2d}</Project>
+      <Name>Outsourcing.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Outsourcing.Data\Outsourcing.Data.csproj">
+      <Project>{6BDB3E77-B09C-4514-ADD2-19B03B1AC35B}</Project>
+      <Name>Outsourcing.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Outsourcing.Service\Outsourcing.Service.csproj">
+      <Project>{9c27520d-d8b8-486a-a353-ebd5a81e4df2}</Project>
+      <Name>Outsourcing.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App_Data\Resources.en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_Data\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_Data\Resources.vi.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

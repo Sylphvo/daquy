@@ -58,7 +58,7 @@
                                                         <li><a href="#">Nhẫn Cặp</a></li>
                                                         <li><a href="#">Nhẫn Ngón út</a></li>
                                                         <li><a href="#">Nhẫn Teen</a></li>
-                                                        
+
                                                     </ul>
                                                 </div>
 
@@ -77,13 +77,14 @@
                                                         <li><a href="#">Lắc Chân</a></li>
                                                     </ul>
                                                 </div>
-
                                                 <div class="col-lg-3 col-md-12">
                                                     <ul>
-                                                        <li class="title">Trang Sức Nam</li>
-                                                        <li><a href="#">Nhẫn Nam</a></li>
-                                                        <li><a href="#">Lắc Tay Nam</a></li>
-                                                    
+                                                        <li class="title">LẮC BẠC</li>
+                                                        <li><a href="#">Vòng Bạc</a></li>
+                                                        <li><a href="#">Lắc Tay Bạc</a></li>
+                                                        <li><a href="#">Lắc Chân Bạc</a></li>
+                                                        <li><a href="#">Charm Bạc</a></li>
+
                                                     </ul>
                                                 </div>
 
@@ -92,7 +93,9 @@
                                                         <li><a href="#">Vòng Đá Phong Thủy</a></li>
                                                         <li><a href="#">Trang Sức Theo Bộ</a></li>
                                                         <li><a href="#">Trang Sức Trẻ Em</a></li>
-                                                        
+                                                        <li><a href="#">Bộ Vệ sinh</a></li>
+                                                        <li><a href="#">Dây chuyền bán lẻ</a></li>
+
                                                     </ul>
                                                 </div>
 
@@ -105,16 +108,17 @@
                         </li>
 
                         @*<li>
-                            <a href="/#">Services</a>
-                        </li>*@
+                                <a href="/#">Services</a>
+                            </li>*@
                         <li>
                             <a href="#">Bài Viết</a>
                         </li>
                         <li>
-                            <a href="#">Cửa Hàng</a>
+                            <a href="/Shop">Cửa Hàng</a>
                         </li>
                         <li><a href="/Contact">Hỗ Trợ</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/Deal">Thanh Toán</a></li>
                         @if (!User.Identity.IsAuthenticated)
                         {
                             <li>
@@ -127,15 +131,33 @@
                         }
                         else
                         {
-                            <li><a><i aria-hidden="true" class="icon-profile-male"></i> @User.Identity.Name</a></li>
                             <li>
-                                <a href="/logoff">
-
-                                    Đăng Xuất
-                                </a>
+                                <a><i aria-hidden="true" class="icon-profile-male"></i> @User.Identity.Name</a>
+                                <ul class="mega">
+                                    <li>
+                                        <div class="container-fluid">
+                                            <div class="menu-content">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-md-12">
+                                                        <ul>
+                                                            <li><a href="#">Thông tin của tôi</a></li>
+                                                            <li><a href="#">Đơn mua</a></li>
+                                                            <li>
+                                                                <a href="/logoff">
+                                                                    Đăng Xuất
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </li>
+
                         }
-                        </ul>
+                    </ul>
                 </nav>
 
                 <!-- mainmenu close -->

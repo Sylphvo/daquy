@@ -3,16 +3,60 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<style>
+    ul {
+        padding-left: 0px !important;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /*sub-menu*/
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f5f5f5;
+        z-index: 1;
+        list-style: none;
+        left: 150px;
+        top: 0px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown1:hover .dropdown-content1 {
+        display: block;
+    }
+    .dropdown1 {
+        position: relative;
+        display: inline-block;
+    }
+    #navbarDropdown {
+    width:150px;
+    border-radius:0.5rem;
+    }
+    /*sub-menu*/
+    .dropdown-content1 {
+        display: none;
+        position: absolute;
+        background-color: #f5f5f5;
+        list-style: none;
+        left: 150px;
+        top: 0px;
+    }
+</style>
 <!-- subheader -->
-<section id="subheader" data-bgimage="url(/Content/stone/images/background/bg-19.jpg)" data-stellar-background-ratio=".2">
+<section id="subheader" data-stellar-background-ratio=".2">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Our Products</h1>
+                <h1>Cửa Hàng</h1>
                 <ul class="crumb">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a style="color:white;" href="/Home">Trang Chủ</a></li>
                     <li class="sep">/</li>
-                    <li>Our Products</li>
+                    <li>Cửa Hàng</li>
                 </ul>
             </div>
         </div>
@@ -28,12 +72,12 @@
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
-                                    <img src="~/Content/stone/images/stone/vong-tay-da-giong-to-2.jpeg" class="pi-1 img-responsive" alt=""> @*ảnh khi chưa di chuyển chuột đến*@ 
+                                <a href="/Information">
+                                    <img src="~/Content/stone/images/stone/vong-tay-da-giong-to-2.jpeg" class="pi-1 img-responsive" alt=""> @*ảnh khi chưa di chuyển chuột đến*@
                                     <img src="~/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-2 img-responsive" alt=""> @*ảnh khi di chuyển chuột đến*@
                                 </a>
                             </div>
-                            <a href="product-single.html">
+                            <a href="/Information">
                                 <h4>Vòng Đá Thạch Anh</h4>
                             </a>
                             <div class="p-rating">
@@ -44,19 +88,19 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$420</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vong-tay-da-giong-to-2.jpeg" class="pi-1 img-responsive" alt="">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-2 img-responsive" alt="">
                                 </a>
                             </div>
-                            <a href="product-single.html">
+                            <a href="/Information">
                                 <h4>Vòng Đá Thạch Anh</h4>
                             </a>
                             <div class="p-rating">
@@ -67,19 +111,19 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$210</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vong-tay-da-giong-to-2.jpeg" class="pi-1 img-responsive" alt="">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-2 img-responsive" alt="">
                                 </a>
                             </div>
-                            <a href="product-single.html">
+                            <a href="/Information">
                                 <h4>Triple Seat Sofa</h4>
                             </a>
                             <div class="p-rating">
@@ -90,18 +134,18 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$180</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-1 img-responsive" alt="">
                                 </a>
                             </div>
-                            <a href="product-single.html">
+                            <a href="/Information">
                                 <h4>Multifunction Bed Red</h4>
                             </a>
                             <div class="p-rating">
@@ -112,18 +156,18 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$850</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-1 img-responsive" alt="">
                                 </a>
                             </div>
-                            <a href="product-single.html">
+                            <a href="/Information">
                                 <h4>Minimalist Corner Desk</h4>
                             </a>
                             <div class="p-rating">
@@ -134,18 +178,18 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$240</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-1 img-responsive" alt="">
                                 </a>
                             </div>
-                            <a href="product-single.html">
+                            <a href="/Information">
                                 <h4>Decorative Fabric Sofa</h4>
                             </a>
                             <div class="p-rating">
@@ -156,18 +200,18 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$550</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-1 img-responsive" alt="">
                                 </a>
                             </div>
-                            <a href=productt-single.html>
+                            <a href=/Information>
                                 <h4>Artistic Wood Hanger</h4>
                             </a>
                             <div class="p-rating">
@@ -178,14 +222,14 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$120</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-1 img-responsive" alt="">
                                 </a>
                             </div>
@@ -200,14 +244,14 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$170</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-1 img-responsive" alt="">
                                 </a>
                             </div>
@@ -222,18 +266,18 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$650</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-1 img-responsive" alt="">
                                 </a>
                             </div>
-                            <a href="product-single.html">
+                            <a href="/Information">
                                 <h4>Woven Dinning Chair</h4>
                             </a>
                             <div class="p-rating">
@@ -244,18 +288,18 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$180</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-1 img-responsive" alt="">
                                 </a>
                             </div>
-                            <a href="product-single.html">
+                            <a href="/Information">
                                 <h4>Classic Colorful Chair</h4>
                             </a>
                             <div class="p-rating">
@@ -266,18 +310,18 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$200</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
 
                     <li class="col-xl-3 col-lg-4 col-md-6 product">
                         <div class="p-inner">
                             <div class="p-images">
-                                <a href="product-single.html">
+                                <a href="/Information">
                                     <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" class="pi-1 img-responsive" alt="">
                                 </a>
                             </div>
-                            <a href="product-single.html">
+                            <a href="/Information">
                                 <h4>Rattan Triple Seat Sofa</h4>
                             </a>
                             <div class="p-rating">
@@ -288,7 +332,7 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <div class="price">$380</div>
-                            <a href="#" class="btn btn-line">Add To Cart</a>
+                            <a href="#" class="btn btn-line">Thêm Vào Giỏ Hàng</a>
                         </div>
                     </li>
                 </ul>
@@ -309,13 +353,127 @@
 
             <div id="sidebar" class="col-md-3">
                 <div class="widget widget_search">
-                    <input type='text' name='search' id='search' class="form-control" placeholder="search product">
+                    <input type='text' name='search' id='search' class="form-control" placeholder="Tìm kiếm sản phẩm">
                     <button id="btn-search" type='submit'></button>
                     <div class="clearfix"></div>
                 </div>
+                <div>
+                    <h4>Danh mục sản phẩm</h4>
 
+                    <ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown">Vòng Tay</a>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li class="nav-item dropdown1">
+                                        <a style="color:black;" class="nav-link" href="#" id="navbarDropdown">Vòng Tay</a>
+                                        <div class="dropdown-content1">
+                                            <a class="dropdown-item" href="#">Vòng Tay Nam</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Vòng Tay Nữ</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="nav-item dropdown1">
+                                        <a style="color:black;" class="nav-link" href="#" id="navbarDropdown">Vòng Chân</a>
+                                        <div class="dropdown-content1">
+                                            <a class="dropdown-item" href="#">Vòng Chân Nam</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Vòng Chân Nữ</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="nav-item dropdown1">
+                                        <a style="color:black;" class="nav-link" href="#" id="navbarDropdown">Nhẫn</a>
+                                        <div class="dropdown-content1">
+                                            <a class="dropdown-item" href="#">Nhẫn Nam</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Nhẫn Nữ</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown">Vòng Chân</a>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li class="nav-item dropdown1">
+                                        <a style="color:black;" class="nav-link" href="#" id="navbarDropdown">Vòng Tay</a>
+                                        <div class="dropdown-content1">
+                                            <a class="dropdown-item" href="#">Vòng Tay Nam</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Vòng Tay Nữ</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="nav-item dropdown1">
+                                        <a style="color:black;" class="nav-link" href="#" id="navbarDropdown">Vòng Chân</a>
+                                        <div class="dropdown-content1">
+                                            <a class="dropdown-item" href="#">Vòng Chân Nam</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Vòng Chân Nữ</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="nav-item dropdown1">
+                                        <a style="color:black;" class="nav-link" href="#" id="navbarDropdown">Nhẫn</a>
+                                        <div class="dropdown-content1">
+                                            <a class="dropdown-item" href="#">Nhẫn Nam</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Nhẫn Nữ</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown">Lắc Tay</a>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li class="nav-item dropdown1">
+                                        <a style="color:black;" class="nav-link" href="#" id="navbarDropdown">Vòng Tay</a>
+                                        <div class="dropdown-content1">
+                                            <a class="dropdown-item" href="#">Vòng Tay Nam</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Vòng Tay Nữ</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="nav-item dropdown1">
+                                        <a style="color:black;" class="nav-link" href="#" id="navbarDropdown">Vòng Chân</a>
+                                        <div class="dropdown-content1">
+                                            <a class="dropdown-item" href="#">Vòng Chân Nam</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Vòng Chân Nữ</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="nav-item dropdown1">
+                                        <a style="color:black;" class="nav-link" href="#" id="navbarDropdown">Nhẫn</a>
+                                        <div class="dropdown-content1">
+                                            <a class="dropdown-item" href="#">Nhẫn Nam</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Nhẫn Nữ</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
                 <div class="widget widget_top_rated_product">
-                    <h4>Top Rated Product</h4>
+                    <h4>Sản phẩm nổi bật</h4>
                     <ul>
                         <li>
                             <img src="/Content/stone/images/stone/vocc80ng-tay-phong-thucc89y-c491acc81-aquamarine-12mm-2-510x510-1.jpg" alt="">
@@ -390,17 +548,7 @@
                     </ul>
                 </div>
 
-                <div class="widget widget_category">
-                    <h4>Product Category</h4>
-                    <ul>
-                        <li><a href="#">Bed</a></li>
-                        <li><a href="#">Cabinet</a></li>
-                        <li><a href="#">Chair</a></li>
-                        <li><a href="#">Desk</a></li>
-                        <li><a href="#">Sofa</a></li>
-                        <li><a href="#">Misc</a></li>
-                    </ul>
-                </div>
+
             </div>
 
         </div>

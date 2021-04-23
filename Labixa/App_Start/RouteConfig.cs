@@ -15,6 +15,13 @@ namespace Labixa
             routes.MapRoute("Home", "Home", new { controller = "Home", action = "Index", id = UrlParameter.Optional });
             routes.MapRoute("Contact", "Contact", new { controller = "Contact", action = "Index", id = UrlParameter.Optional });
             routes.MapRoute("register-account", "register-account", new { controller = "Account", action = "Register", affiliate = UrlParameter.Optional });
+            routes.MapRoute("faq", "faq", new { controller = "Home", action = "FAQ", id = UrlParameter.Optional });
+            routes.MapRoute("Deal", "Deal", new { controller = "Shop", action = "Deal", id = UrlParameter.Optional });
+            routes.MapRoute("Information", "Information", new { controller = "Shop", action = "Information", id = UrlParameter.Optional });
+
+
+
+
 
             routes.MapRoute("affilites", "affilites", new { controller = "Home", action = "AffiliateProgramming", id = UrlParameter.Optional });
             routes.MapRoute("account-dashboard", "account-dashboard", new { controller = "Home", action = "AccountDashboard", id=UrlParameter.Optional});
@@ -31,10 +38,7 @@ namespace Labixa
             routes.MapRoute("ConfirmForgot-password", "ConfirmForgot-password", new { controller = "EmailFunc", action = "CheckMailTimeout", id = UrlParameter.Optional });
             routes.MapRoute("confirm-deposit", "confirm-deposit", new { controller = "EmailFunc", action = "ConfirmTrasactionDeposit", id = UrlParameter.Optional });
             routes.MapRoute("Blog", "Blog", new { controller = "Home", action = "Blog", id = UrlParameter.Optional });
-            routes.MapRoute("faq", "faq", new { controller = "Home", action = "FAQ", id = UrlParameter.Optional });
             routes.MapRoute("Shop", "Shop", new { controller = "Shop", action = "Index", id = UrlParameter.Optional });
-            routes.MapRoute("Information", "Information", new { controller = "Shop", action = "Information", id = UrlParameter.Optional });
-            routes.MapRoute("Deal", "Deal", new { controller = "Shop", action = "Deal", id = UrlParameter.Optional });
             routes.MapRoute("Service", "Service", new { controller = "Service", action = "Index", id = UrlParameter.Optional });
             routes.MapRoute("Index2", "Index2", new { controller = "Service", action = "Index2", id = UrlParameter.Optional });
             routes.MapRoute("Index3", "Index3", new { controller = "Service", action = "Index3", id = UrlParameter.Optional });

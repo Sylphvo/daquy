@@ -1,15 +1,11 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
-    <title>Gems-Tek</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Archi is best selling interior design website template with responsive stunning design">
-    <meta name="keywords" content="architecture,building,business,bootstrap,creative,exterior design,furniture design,gallery,garden design,house,interior design,landscape design,multipurpose,onepage,portfolio,studio">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- favicon -->
     <link rel='shortcut icon' type='image/x-icon' href='~/Content/stone/Favicon/16.16-01.ico' />
-
     <link rel="stylesheet" href="/Content/stone/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="/Content/stone/css/jpreloader.css" type="text/css">
     <link rel="stylesheet" href="/Content/stone/css/animate.css" type="text/css">
@@ -18,7 +14,6 @@
     <link rel="stylesheet" href="/Content/stone/css/owl.theme.css" type="text/css">
     <link rel="stylesheet" href="/Content/stone/css/owl.transitions.css" type="text/css">
     <link rel="stylesheet" href="/Content/stone/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="/Content/stone/css/style.css" type="text/css">
 
     <!-- custom background -->
     <link rel="stylesheet" href="/Content/stone/css/bg.css" type="text/css">
@@ -30,44 +25,21 @@
     <!-- load fonts -->
     <link rel="stylesheet" href="/Content/stone/fonts/font-awesome/css/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="/Content/stone/fonts/elegant_font/HTML_CSS/style.css" type="text/css">
-    <link rel="stylesheet" href="/Content/stone/fonts/et-line-font/style.css" type="text/css">
 
     <!-- revolution slider -->
     <link rel="stylesheet" href="/Content/stone/rs-plugin/css/settings.css" type="text/css">
     <link rel="stylesheet" href="/Content/stone/css/rev-settings.css" type="text/css">
+    <link rel="stylesheet" href="/Content/author/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="/Content/author/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/Content/author/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Content/author/css/style.css">
+
+    <title>Gems-Tek</title>
 </head>
+<body id="homepage">
 
-<body id="homepage" class="de-navbar-left">
-
-    <div id="wrapper">
-        <div class="container-fluid-fluid">
-            <div class="row no-gutters">
-                @RenderBody()
-                <div id="main" class="col-lg-9 col-md-12 offset-lg-3 offset-md-0">
-
-                    <div id="content" class="no-bottom no-top">
-
-                        <section id="section-welcome-4" class="full-height" data-speed="3" data-type="background">
-                            <div class="center-y text-center">
-                                <div class="spacer-single"></div>
-                                <div id="text-carousel" class="owl-carousel owl-theme text-slider fontsize40 dark border-deco">
-                                    <div class="item">
-                                        Chào Mừng Bạn Đến Gems-Tek <br>
-                                         SANG TRỌNG- CHẤT LƯỢNG UY TÍN
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
+    @RenderBody()
     @RenderSection("scripts", required: false)
-    <!-- Javascript Files
-    ================================================== -->
     <script src="/Content/stone/js/jquery.min.js"></script>
     <script src="/Content/stone/js/jpreLoader.js"></script>
     <script src="/Content/stone/js/bootstrap.min.js"></script>
@@ -84,16 +56,32 @@
     <script src="/Content/stone/js/jquery.magnific-popup.min.js"></script>
     <script src="/Content/stone/js/jquery.stellar.min.js"></script>
     <script src="/Content/stone/js/enquire.min.js"></script>
+    <script src="/Content/stone/js/cookit.js"></script>
     <script src="/Content/stone/js/designesia.js"></script>
+    <script src="/Content/author/js/jquery-3.3.1.min.js"></script>
+    <script src="/Content/author/js/popper.min.js"></script>
+    <script src="/Content/author/js/bootstrap.min.js"></script>
+    <script src="/Content/author/js/main.js"></script>
 
     <!-- SLIDER REVOLUTION SCRIPTS  -->
-    <script src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-
-
+    <script src="/Content/stone/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="/Content/stone/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- COOKIES PLUGIN  -->
+    <script>
+        $(document).ready(function () {
+            $.cookit({
+                backgroundColor: '#1c1c1c',
+                messageColor: '#fff',
+                linkColor: '#fad04c',
+                buttonColor: '#fad04c',
+                messageText: "This website uses <b>cookies</b> to ensure you get the best experience on our website.",
+                linkText: "Learn more",
+                linkUrl: "index.html",
+                buttonText: "I accept",
+            });
+        });
+    </script>
 </body>
 
-
-<!-- Mirrored from www.designesia.com/themes/archi-main/index-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Mar 2021 18:33:17 GMT -->
+<!-- Mirrored from preview.colorlib.com/theme/bootstrap/login-form-06/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Apr 2021 17:35:41 GMT -->
 </html>

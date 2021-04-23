@@ -39,6 +39,12 @@ namespace Labixa.Controllers
             return View();
         }
         #endregion
+        #region FAQ
+        public ActionResult FAQ()
+        {
+            return View();
+        }
+        #endregion
 
        
         //public ActionResult About()
