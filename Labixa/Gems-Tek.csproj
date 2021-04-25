@@ -275,6 +275,7 @@
     <Content Include="Content\author\js\jquery-3.3.1.min.js" />
     <Content Include="Content\author\js\main.js" />
     <Content Include="Content\author\js\popper.min.js" />
+    <Content Include="Content\author\js\ShoppingCart.js" />
     <Content Include="Content\stone\css\animate.css" />
     <Content Include="Content\stone\css\bg.css" />
     <Content Include="Content\stone\css\bootstrap.css" />
@@ -807,6 +808,7 @@
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\customjs\ShoppingCart.js" />
     <Content Include="Scripts\esm\popper-utils.js" />
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />

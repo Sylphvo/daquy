@@ -206,3 +206,21 @@ D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\obj\Debug\Outsourcing.D
 D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\obj\Debug\Outsourcing.Data.csproj.CopyComplete
 D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\obj\Debug\Outsourcing.Data.dll
 D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Data\obj\Debug\Outsourcing.Data.pdb
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\Outsourcing.Data.dll.config
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\Outsourcing.Data.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\Outsourcing.Data.pdb
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\EntityFramework.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\EntityFramework.SqlServer.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\PagedList.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\EntityFramework.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\EntityFramework.SqlServer.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\bin\PagedList.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\obj\Debug\Outsourcing.Data.csprojAssemblyReference.cache
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\obj\Debug\Outsourcing.Data.csproj.CoreCompileInputs.cache
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\obj\Debug\Outsourcing.Data.csproj.CopyComplete
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\obj\Debug\Outsourcing.Data.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Data\obj\Debug\Outsourcing.Data.pdb

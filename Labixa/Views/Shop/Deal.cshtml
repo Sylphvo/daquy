@@ -3,7 +3,14 @@
     ViewBag.Title = "thanhtoan";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<!--srcipt-->
+@section Scripts
+{
+    <script src="~/Content/author/js/ShoppingCart.js"></script>
+}
 
+
+<!--endsrcipt-->
 <!-- subheader -->
 <section id="subheader">
     <div class="container">
@@ -19,48 +26,34 @@
 <div id="content">
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
-                <table class="table table-dark table-cart">
-                    <thead>
-                        <tr>
-                            <th scope="col">Mặt Hàng </th>
-                            <th scope="col">Số Lượng</th>
-                            <th scope="col">Giá Niêm Yết</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="d-cart-item">
-                                    <img src="~/Content/stone/images/stone/2006054_L.jpg" alt="">
-                                    <div class="text">
-                                        Vòng Đá Cẩm Thạch
-                                        <div class="price">$500</div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <span class="f-input-number-decrement">–</span><input class="f-input-number" type="text" value="1" min="0" max="10"><span class="f-input-number-increment">+</span>
-                            </td>
-                            <td>$500</td>
-                        </tr>
+            <div class="col-md-9 ">
+                <div class="product-cart">
+                    <div class="product-cart-header" style="width:100%;max-width:650px;display:flex;justify-content: flex-start;border-bottom: 4px solid #fff;margin: 0 auto">
+                        <div class="product-title" style="width:45%">
+                            Mặt Hàng
+                        </div>
+                        <div class="price" style="width:15%;display:flex;align-items:center">
+                            Giá
+                        </div>
+                        <div class="quanlity" style="width: 20%; display: flex; align-items: center">
+                            Số lượng
+                        </div>
+                        <div class="Total" style="width: 20%; display: flex; align-items: center" >
+                            Giá niêm yết
+                        </div>
+                    </div>
+                    <div class="product-cart-body">
+                        
+                    </div>
 
-                    </tbody>
-                </table>
+                </div>
             </div>
 
             <div id="sidebar" class="col-md-3">
-                <div class="d-summary">
-                    <h3>THÔNG TIN GIỎ HÀNG</h3>
-                    <h4>Vòng Đá Cẩm Thạch</h4>
-                    <div class="de-flex">
-                        <div>Giá</div>
-                        <div class="strong">$500</div>
-                    </div>
+                <div class="d-summary ">
+                    <div class="basket">
+                        <h3>THÔNG TIN GIỎ HÀNG</h3>
 
-                    <div class="de-flex">
-                        <div>Số lượng: </div>
-                        <div class="strong">2</div>
                     </div>
 
 

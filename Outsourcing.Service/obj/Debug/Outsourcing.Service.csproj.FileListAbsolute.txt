@@ -424,3 +424,40 @@ D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcin
 D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
 D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
 D:\SVNN\Web Đá Qúy\fengshuistone_new\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Outsourcing.Service.dll.config
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Outsourcing.Service.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Outsourcing.Service.pdb
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\EntityFramework.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\EntityFramework.SqlServer.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Outsourcing.Core.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Outsourcing.Data.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\System.Web.Mvc.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\System.Web.WebPages.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\PagedList.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\System.Web.Razor.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\System.Web.WebPages.Razor.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Outsourcing.Core.pdb
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Outsourcing.Core.dll.config
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Outsourcing.Data.pdb
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Outsourcing.Data.dll.config
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\EntityFramework.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\EntityFramework.SqlServer.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\System.Web.Mvc.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\System.Web.WebPages.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\PagedList.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\System.Web.Razor.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\System.Web.WebPages.Razor.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\obj\Debug\Outsourcing.Service.csprojAssemblyReference.cache
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\obj\Debug\Outsourcing.Service.Properties.Resources.resources
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.GenerateResource.cache
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CoreCompileInputs.cache
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\obj\Debug\Outsourcing.Service.csproj.CopyComplete
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\obj\Debug\Outsourcing.Service.dll
+C:\Users\tuanm\Source\Repos\daquy\Outsourcing.Service\obj\Debug\Outsourcing.Service.pdb
