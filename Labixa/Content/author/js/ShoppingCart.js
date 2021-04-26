@@ -142,6 +142,7 @@ function totalprice(product) {
 }
 function displayCart() {
     let cartItems = localStorage.getItem('productsInCart');
+    let cartPrice = localStorage.getItem('totalprice');
     cartItems = JSON.parse(cartItems);
     let productTable = document.querySelector(".product-cart-body");
     let basketTable = document.querySelector(".basket")
@@ -150,10 +151,11 @@ function displayCart() {
         basketTable.innerHTML = '';
         Object.values(cartItems).map(item => {
             productTable.innerHTML +=
-                '<div class="product-cart-body" style="width:100%;max-width:650px;display:flex;justify-content: flex-start;margin: 0 auto"><div style="width:45%"><img src="~/Content/stone/images/stone/${item.tag}.jpeg"><span>${item.name}</span></div><div class="price" style="width:15%;display:flex;align-items:center">$${item.price},00 </div><div class="quanlity" style="width: 20%; display: flex; align-items: center">${item.inCart}</div ><div class="Total" style="width: 20%; display: flex; align-items: center" >$(${item.price}*${item.inCart})</div > ';
-            basketTable.innerHTML ='<div><h3>THÔNG TIN GIỎ HÀNG</h3></div><div><h4>Tổng giá trị đơn hàng<h4><h5>$${cartPrice},00<h5></div>'
+                '<div class="product-cart-body" style="width:100%;max-width:650px;display:flex;justify-content: flex-start;margin: 0 auto"><div style="width:45%"><img src="~/Content/stone/images/stone/' + item.tag + '.jpeg"><span>' + item.name + '</span></div><div class="price" style="width:15%;display:flex;align-items:center">$' + item.price + ',00 </div><div class="quanlity" style="width: 20%; display: flex; align-items: center">' + item.inCart + '</div ><div class="Total" style="width: 20%; display: flex; align-items: center" >$' + item.price * item.inCart + '</div > ';
+            basketTable.innerHTML = '<div><h3>THÔNG TIN GIỎ HÀNG</h3></div><div><h4>Tổng giá trị đơn hàng<h4><h5>$' + cartPrice + ',00<h5></div>'
         });
     }
+    
     
 }
 displayCart();
